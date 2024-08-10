@@ -5,6 +5,7 @@ const Team = () => {
     <div className=' flex justify-center items-center h-[90vh]'>
         <div className="grid grid-cols-2">
             <h1 className='text-8xl font-extrabold ml-20 text-gray-800'>OUR MEMBERS</h1>
+            <h1>krishan</h1>
         </div>
     </div>
   )
