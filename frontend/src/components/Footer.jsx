@@ -14,9 +14,9 @@ const Footer = () => {
         </div>
         <button className='bg-black text-white px-8 py-2 rounded-3xl hover:text-black hover:bg-white transition-all hover:border-2 hover:border-black' onClick={() => {window.location.href = "https://github.com"}} >FORM LINK</button>
       </div>
-      <div className="grid grid-cols-5 w-[70%]  mb-10">
+      <div className="grid grid-cols-5 w-[70%]  mb-6">
         <div className="">
-          <h1 className='text-gray-600 font-bold'>PROJECTS</h1>
+          <h1 className='text-gray-600 font-bold mb-4'>PROJECTS</h1>
           <div className="text-sm font-semibold text-gray-500">PROJ1</div>
           <div className="text-sm font-semibold text-gray-500">PROJ1</div>
           <div className="text-sm font-semibold text-gray-500">PROJ1</div>
