@@ -20,7 +20,7 @@ const Team = () => {
 
     <div className='content1'>
       <div className='content2'>
-        <button>Random Text</button>
+        <button>Random </button>
         <h2>Executive Board</h2>
         <p>
           Explore our diverse range of projects that showcase
