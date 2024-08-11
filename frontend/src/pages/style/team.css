@@ -5,3 +5,17 @@
     margin-bottom: 5rem;
     margin-top: 5rem;
 }
+
+.content1 {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+.content2{
+    width: 800px;
+    font-weight: bold;
+}

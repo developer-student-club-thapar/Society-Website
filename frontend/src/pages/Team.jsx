@@ -18,7 +18,7 @@ const Team = () => {
     </div>
 
     <div className='content1'>
-      <div>
+      <div className='content2'>
         <button>Random Text</button>
         <h2>Executive Board</h2>
         <p>
