@@ -9,7 +9,7 @@ const Team = () => {
       <div >
         <p className='para'>About our Past members</p>
         <h1 className='h1'>Team of GDSC Thapar </h1>
-        <button>Meet The team</button>
+        <button className='team-button'>MEET THE TEAM </button>
         
       </div>
     </div>
