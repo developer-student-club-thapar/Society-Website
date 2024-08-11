@@ -16,7 +16,6 @@ const Team = () => {
 
     <div className='content1'>
       <div className='content2'>
-        <button>Random </button>
         <h2>Executive Board</h2>
         <p>
           Explore our diverse range of projects that showcase
@@ -33,6 +32,18 @@ const Team = () => {
         <div>
           <p>Reyan Singh</p>
           <p>Co-Lead</p>
+        </div>
+        <img className="card-image" src="https://via.placeholder.com/30"/*{profilePic}*/ alt="Profile Picture" />
+      </div>
+    </div>
+
+    <h1 className='core'>GDSC thapar core</h1>
+
+    <div className='core-content'>
+      <img className="card-image" src="https://via.placeholder.com/150"/*{profilePic}*/ alt="Profile Picture" />
+      <div>
+        <div>
+          <p>Krishan Malhotra</p>
         </div>
         <img className="card-image" src="https://via.placeholder.com/30"/*{profilePic}*/ alt="Profile Picture" />
       </div>
