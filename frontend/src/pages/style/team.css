@@ -15,7 +15,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 .team-button {
     background-color: #000; /* Black background */
@@ -49,4 +48,14 @@
 .content2{
     width: 800px;
     font-weight: bold;
+}
+
+.core{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold
+}
+
+.core-content{
+    margin-left: 50px;
 }
