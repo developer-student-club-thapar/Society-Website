@@ -33,7 +33,7 @@ const Team = () => {
 
     <div>
       <img className="card-image" src="https://via.placeholder.com/200"/*{profilePic}*/ alt="Profile Picture" />
-      
+      <p>Reyan Singh</p>
     </div>
   </>
   )
