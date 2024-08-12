@@ -37,7 +37,7 @@
 .texteb{
   font-size: 17px;
   font-weight: 350;
-  padding-top: 25gitpx;
+  padding-top: 25px;
 }
 .team-button {
     background-color: #000; /* Black background */
@@ -147,7 +147,9 @@
   color: #666;
   margin-bottom: 10px;
 }
-
+.outer{
+  padding: 50px;
+}
 
 .Associate-container{
     display: flex;
@@ -183,6 +185,16 @@
 
 
 .core-container{
-    margin-left: 50px;
-
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* Adjust the number of columns based on your needs */
+  gap: 15px; /* Space between grid items */
+  padding-top: 5rem;
+}
+.core-member{
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  padding-left: 20px;
+  transition: transform 0.3s ease;
 }

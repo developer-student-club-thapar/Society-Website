@@ -174,10 +174,192 @@ const Team = () => {
           name: 'David Blue',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/davidblue'
+        },
+      
+        {
+          id: 8,
+          name: 'John Doe',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/johndoe'
+        },
+        {
+          id: 9,
+          name: 'Jane Smith',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/janesmith'
+        },
+        
+        {
+          id: 10,
+          name: 'Michael Johnson',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/michaeljohnson'
+        },
+        
+        {
+          id: 11,
+          name: 'Alice Brown',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
+        },
+        {
+          id: 12,
+          name: 'Chris Green',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/chrisgreen'
+        },
+        {
+          id: 13,
+          name: 'Laura White',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
+        },
+        {
+          id: 14,
+          name: 'David Blue',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/davidblue'
+        },
+      
+        {
+          id: 15,
+          name: 'John Doe',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/johndoe'
+        },
+        {
+          id: 16,
+          name: 'Jane Smith',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/janesmith'
+        },
+        
+        {
+          id: 17,
+          name: 'Michael Johnson',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/michaeljohnson'
+        },
+        
+        {
+          id: 17,
+          name: 'Alice Brown',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
+        },
+        {
+          id: 18,
+          name: 'Chris Green',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/chrisgreen'
+        },
+        {
+          id: 19,
+          name: 'Laura White',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
+        },
+        {
+          id: 20,
+          name: 'David Blue',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/davidblue'
+        },
+      
+        {
+          id: 21,
+          name: 'John Doe',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/johndoe'
+        },
+        {
+          id: 22,
+          name: 'Jane Smith',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/janesmith'
+        },
+        
+        {
+          id: 23,
+          name: 'Michael Johnson',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/michaeljohnson'
+        },
+        
+        {
+          id: 24,
+          name: 'Alice Brown',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
+        },
+        {
+          id: 25,
+          name: 'Chris Green',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/chrisgreen'
+        },
+        {
+          id: 26,
+          name: 'Laura White',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
+        },
+        {
+          id: 27,
+          name: 'David Blue',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/davidblue'
+        },
+      
+        {
+          id: 28,
+          name: 'John Doe',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/johndoe'
+        },
+        {
+          id: 29,
+          name: 'Jane Smith',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/janesmith'
+        },
+        
+        {
+          id: 30,
+          name: 'Michael Johnson',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/michaeljohnson'
+        },
+        
+        {
+          id: 31,
+          name: 'Alice Brown',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
+        },
+        {
+          id: 32,
+          name: 'Chris Green',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/chrisgreen'
+        },
+        {
+          id: 33,
+          name: 'Laura White',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
+        },
+        {
+          id: 34,
+          name: 'David Blue',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/davidblue'
         }]
 
   return (
   <>
+
+  
   
   <div  className='content' >
       
@@ -247,13 +429,16 @@ const Team = () => {
       ))}
     </div>
 
-    <div className="Core-container" >
+    <div className='outer'>
+
+    <div className="core-container" >
       {CoreMembers.map(member => (
-        <div key={member.id} className="Core-member" >
-          <img src={member.imageUrl} alt={member.name}  />
-        <div className='Core-info'>
-          <div className='core-name'>
-            <h2>{member.name}</h2>
+        <div key={member.id} className="core-member" >
+          <img src={member.imageUrl} alt={member.name } className='profile-image' />
+        <div className='team-team'>
+          <div className='team-info'>
+            <h2 className='h3'>{member.name}</h2>
+            <p className='p'>{member.designation}</p>
           </div>
           <a href={member.linkedinUrl} target="_blank" rel="noopener noreferrer">
             <img className="linkedin" src={image} alt="Profile Picture" />
@@ -261,6 +446,7 @@ const Team = () => {
         </div>
         </div>
       ))}
+    </div>
     </div>
 
 
