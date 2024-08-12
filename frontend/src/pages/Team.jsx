@@ -3,6 +3,82 @@ import './style/team.css'
 import image from '../assets/LinkedIn_logo_initials.webp'
 
 const Team = () => {
+
+  const ExecutiveMembers = [
+    // Add 15 team members to demonstrate the 5x3 grid
+    {
+      id: 1,
+      name: 'John Doe',
+      designation: 'Software Engineer',
+      imageUrl: 'https://via.placeholder.com/150',
+      linkedinUrl: 'https://www.linkedin.com/in/johndoe'
+    },
+    {
+      id: 2,
+      name: 'Jane Smith',
+      designation: 'Product Manager',
+      imageUrl: 'https://via.placeholder.com/150',
+      linkedinUrl: 'https://www.linkedin.com/in/janesmith'
+    },
+    // Add more members (up to 15 for a 5x3 grid)
+    {
+      id: 3,
+      name: 'Michael Johnson',
+      designation: 'UI/UX Designer',
+      imageUrl: 'https://via.placeholder.com/150',
+      linkedinUrl: 'https://www.linkedin.com/in/michaeljohnson'
+    },
+    // Continue adding members...
+    {
+      id: 4,
+      name: 'Alice Brown',
+      designation: 'Backend Developer',
+      imageUrl: 'https://via.placeholder.com/150',
+      linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
+    },
+    {
+      id: 5,
+      name: 'Chris Green',
+      designation: 'DevOps Engineer',
+      imageUrl: 'https://via.placeholder.com/150',
+      linkedinUrl: 'https://www.linkedin.com/in/chrisgreen'
+    },
+    {
+      id: 6,
+      name: 'Laura White',
+      designation: 'QA Engineer',
+      imageUrl: 'https://via.placeholder.com/150',
+      linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
+    },
+    {
+      id: 7,
+      name: 'David Blue',
+      designation: 'Data Scientist',
+      imageUrl: 'https://via.placeholder.com/150',
+      linkedinUrl: 'https://www.linkedin.com/in/davidblue'
+    },
+    {
+      id: 8,
+      name: 'Sophia Black',
+      designation: 'Machine Learning Engineer',
+      imageUrl: 'https://via.placeholder.com/150',
+      linkedinUrl: 'https://www.linkedin.com/in/sophiablack'
+    },
+    {
+      id: 9,
+      name: 'Daniel Grey',
+      designation: 'Full Stack Developer',
+      imageUrl: 'https://via.placeholder.com/150',
+      linkedinUrl: 'https://www.linkedin.com/in/danielgrey'
+    },
+    {
+      id: 10,
+      name: 'Emily Red',
+      designation: 'Frontend Developer',
+      imageUrl: 'https://via.placeholder.com/150',
+      linkedinUrl: 'https://www.linkedin.com/in/emilyred'
+    }];
+
   return (
   <>
   
@@ -36,17 +112,23 @@ const Team = () => {
       </div>
     </div>
 
-
-    <div>
-      <img className="card-image" src="https://via.placeholder.com/200"/*{profilePic}*/ alt="Profile Picture" />
-      <div>
+    <div className="team-container" >
+      {ExecutiveMembers.map(member => (
+        <div key={member.id} className="team-member" >
+          <img src={member.imageUrl} alt={member.name}  />
         <div>
-          <p>Reyan Singh</p>
-          <p>Co-Lead</p>
+          <div>
+            <h2>{member.name}</h2>
+            <p>{member.designation}</p>
+          </div>
+          <a href={member.linkedinUrl} target="_blank" rel="noopener noreferrer">
+            <img className="linkedin" src={image} alt="Profile Picture" />
+          </a>
         </div>
-        <img className="linkedin" src={image}/*{profilePic}*/ alt="Profile Picture" />
-      </div>
+        </div>
+      ))}
     </div>
+
 
     <h1 className='core'>GDSC thapar core</h1>
 
