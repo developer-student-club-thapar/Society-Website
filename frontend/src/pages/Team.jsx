@@ -208,6 +208,7 @@ const Team = () => {
         </p>
       </div>
     </div>
+    <div className='outer'>
 
     <div className="team-container" >
       {ExecutiveMembers.map(member => (
@@ -224,6 +225,7 @@ const Team = () => {
         </div>
         </div>
       ))}
+    </div>
     </div>
 
 

@@ -148,6 +148,7 @@
   margin-bottom: 10px;
 }
 
+
 .Associate-container{
     display: flex;
     flex-direction: row;
@@ -183,4 +184,5 @@
 
 .core-container{
     margin-left: 50px;
+
 }
