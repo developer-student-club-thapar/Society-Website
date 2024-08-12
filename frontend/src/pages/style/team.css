@@ -98,3 +98,22 @@
     height: 25px;
     width: 25px;
 }
+
+.Associate-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.Associate-member{
+    margin-right: 70px;
+}
+
+.Associate-info{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

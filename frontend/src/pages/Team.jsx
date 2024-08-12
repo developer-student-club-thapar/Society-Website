@@ -5,7 +5,7 @@ import image from '../assets/LinkedIn_logo_initials.webp'
 const Team = () => {
 
   const ExecutiveMembers = [
-    // Add 15 team members to demonstrate the 5x3 grid
+    
     {
       id: 1,
       name: 'John Doe',
@@ -20,7 +20,7 @@ const Team = () => {
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/janesmith'
     },
-    // Add more members (up to 15 for a 5x3 grid)
+    
     {
       id: 3,
       name: 'Michael Johnson',
@@ -28,7 +28,7 @@ const Team = () => {
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/michaeljohnson'
     },
-    // Continue adding members...
+    
     {
       id: 4,
       name: 'Alice Brown',
@@ -78,6 +78,21 @@ const Team = () => {
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/emilyred'
     }];
+
+    const AssociateMembers = [
+    
+      {
+        id: 1,
+        name: 'John Doe',
+        imageUrl: 'https://via.placeholder.com/150',
+        linkedinUrl: 'https://www.linkedin.com/in/johndoe'
+      },
+      {
+        id: 2,
+        name: 'Jane Smith',
+        imageUrl: 'https://via.placeholder.com/150',
+        linkedinUrl: 'https://www.linkedin.com/in/janesmith'
+      },]
 
   return (
   <>
@@ -131,6 +146,20 @@ const Team = () => {
 
 
     <h1 className='core'>GDSC thapar core</h1>
+
+    <div className="Associate-container" >
+      {AssociateMembers.map(member => (
+        <div key={member.id} className="Associate-member" >
+          <img src={member.imageUrl} alt={member.name}  />
+        <div className='Associate-info'>
+          <h2>{member.name}</h2>
+          <a href={member.linkedinUrl} target="_blank" rel="noopener noreferrer">
+            <img className="linkedin" src={image} alt="Profile Picture" />
+          </a>
+        </div>
+        </div>
+      ))}
+    </div>
 
     <div className='core-content'>
       <img className="card-image" src="https://via.placeholder.com/150"/*{profilePic}*/ alt="Profile Picture" />
