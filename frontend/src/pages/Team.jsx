@@ -1,5 +1,6 @@
 import React from 'react'
 import './style/team.css'
+import image from '../assets/LinkedIn_logo_initials.webp'
 
 const Team = () => {
   return (
@@ -43,7 +44,7 @@ const Team = () => {
           <p>Reyan Singh</p>
           <p>Co-Lead</p>
         </div>
-        <img className="card-image" src="https://via.placeholder.com/30"/*{profilePic}*/ alt="Profile Picture" />
+        <img className="linkedin" src={image}/*{profilePic}*/ alt="Profile Picture" />
       </div>
     </div>
 
@@ -55,7 +56,7 @@ const Team = () => {
         <div>
           <p>Krishan Malhotra</p>
         </div>
-        <img className="card-image" src="https://via.placeholder.com/30"/*{profilePic}*/ alt="Profile Picture" />
+        <img className="linkedin" src={image}/*{profilePic}*/ alt="Profile Picture" />
       </div>
     </div>
   </>
