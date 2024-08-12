@@ -9,10 +9,21 @@
    
 
 }
+.but{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+}
 .h1{
     font-size: 100px;
     font-weight: 451;
-
+    font-weight: 550;
+}
+.h2{
+  font-size: 50px;
+  padding-top: 5rem;
 }
 .para{
     display: flex;
@@ -23,11 +34,17 @@
   
     
 }
+.texteb{
+  font-size: 15px;
+  font-weight: 300;
+  padding-top: 6px;
+}
 .team-button {
     background-color: #000; /* Black background */
     color: #fff; /* White text */
     border: none; /* Remove border */
     padding: 10px 40px; /* Add some padding */
+
     
     
     

@@ -5,7 +5,7 @@ const Team = () => {
   return (
   <>
   
-  <div className='content' >
+  <div  className='content' >
       
     <div  class =' w-[80%] justify-center items-center flex flex-col'>
      
@@ -13,7 +13,10 @@ const Team = () => {
       <div>
         <p className='para' class='text-gray-600 font-semibold  justify-center items-center flex '>About our Past members</p>
         <h1 className='h1'>Team of GDSC Thapar </h1>
+        <div className='but'>
         <button className='team-button'>MEET THE TEAM </button>
+        </div>
+        
       </div>
      
       
@@ -22,8 +25,8 @@ const Team = () => {
 
     <div className='content1'>
       <div className='content2'>
-        <h2>Executive Board</h2>
-        <p>
+        <h2 className='h2'>Executive Board</h2>
+        <p className='texteb'>
           Explore our diverse range of projects that showcase
           the creativity and technical prowess of our members.
           From groundbreaking apps to innovate solutions, our
