@@ -4,14 +4,20 @@ import './style/team.css'
 const Team = () => {
   return (
   <>
+  
+  <div className='content' >
       
-    <div className='content'>
-      <div >
-        <p className='para'>About our Past members</p>
+    <div  class =' w-[80%] justify-center items-center flex flex-col'>
+     
+     
+      <div>
+        <p className='para' class='text-gray-600 font-semibold  justify-center items-center flex '>About our Past members</p>
         <h1 className='h1'>Team of GDSC Thapar </h1>
         <button className='team-button'>MEET THE TEAM </button>
-        
       </div>
+     
+      
+    </div>
     </div>
 
     <div className='content1'>
@@ -25,6 +31,7 @@ const Team = () => {
         </p>
       </div>
     </div>
+
 
     <div>
       <img className="card-image" src="https://via.placeholder.com/200"/*{profilePic}*/ alt="Profile Picture" />

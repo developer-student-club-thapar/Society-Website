@@ -2,8 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    align-content: center;
+    
     margin-bottom: 5rem;
-    margin-top: 5rem;
+    margin-top: 10rem;
+   
 
 }
 .h1{
@@ -15,13 +18,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    
+  
+    
 }
 .team-button {
     background-color: #000; /* Black background */
     color: #fff; /* White text */
     border: none; /* Remove border */
     padding: 10px 40px; /* Add some padding */
-    padding-top: 10px;
+    
+    
+    
+    
+
+
     border-radius: 25px; /* Rounded edges */
     font-size: 15px; /* Font size */
     cursor: pointer; /* Pointer cursor on hover */
@@ -30,8 +42,13 @@
   }
   
   .team-button:hover {
-    background-color: #333; /* Slightly lighter black on hover */
-    transform: scale(1.05); /* Slightly increase size on hover */
+    background-color: #ffffff; /* Slightly lighter black on hover */
+    transform: scale(1);
+    color: #000;
+
+    border: 2px solid black;
+     /* Slightly increase size on hover */
+    
   }
   
 
@@ -51,11 +68,12 @@
 }
 
 .core{
-    font-size: 30px;
-    text-align: center;
-    font-weight: bold
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold
 }
 
 .core-content{
-    margin-left: 50px;
+  margin-left: 50px;
 }
+
