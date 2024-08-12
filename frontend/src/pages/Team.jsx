@@ -129,6 +129,53 @@ const Team = () => {
         linkedinUrl: 'https://www.linkedin.com/in/janesmith'
       },]
 
+      const CoreMembers = [
+    
+        {
+          id: 1,
+          name: 'John Doe',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/johndoe'
+        },
+        {
+          id: 2,
+          name: 'Jane Smith',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/janesmith'
+        },
+        
+        {
+          id: 3,
+          name: 'Michael Johnson',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/michaeljohnson'
+        },
+        
+        {
+          id: 4,
+          name: 'Alice Brown',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
+        },
+        {
+          id: 5,
+          name: 'Chris Green',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/chrisgreen'
+        },
+        {
+          id: 6,
+          name: 'Laura White',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
+        },
+        {
+          id: 7,
+          name: 'David Blue',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/davidblue'
+        }]
+
   return (
   <>
   
@@ -167,8 +214,8 @@ const Team = () => {
       {ExecutiveMembers.map(member => (
         <div key={member.id} className="team-member" >
           <img src={member.imageUrl} alt={member.name } className='profile-image' />
-        <div>
-          <div>
+        <div className='team-team'>
+          <div className='team-info'>
             <h2 className='h3'>{member.name}</h2>
             <p className='p'>{member.designation}</p>
           </div>
@@ -189,7 +236,9 @@ const Team = () => {
         <div key={member.id} className="Associate-member" >
           <img src={member.imageUrl} alt={member.name}  />
         <div className='Associate-info'>
-          <h2>{member.name}</h2>
+          <div className='associate-name'>
+              <h2>{member.name}</h2>
+          </div>
           <a href={member.linkedinUrl} target="_blank" rel="noopener noreferrer">
             <img className="linkedin" src={image} alt="Profile Picture" />
           </a>
@@ -198,15 +247,23 @@ const Team = () => {
       ))}
     </div>
 
-    <div className='core-content'>
-      <img className="card-image" src="https://via.placeholder.com/150"/*{profilePic}*/ alt="Profile Picture" />
-      <div>
-        <div>
-          <p>Krishan Malhotra</p>
+    <div className="Core-container" >
+      {CoreMembers.map(member => (
+        <div key={member.id} className="Core-member" >
+          <img src={member.imageUrl} alt={member.name}  />
+        <div className='Core-info'>
+          <div className='core-name'>
+            <h2>{member.name}</h2>
+          </div>
+          <a href={member.linkedinUrl} target="_blank" rel="noopener noreferrer">
+            <img className="linkedin" src={image} alt="Profile Picture" />
+          </a>
         </div>
-        <img className="linkedin" src={image}/*{profilePic}*/ alt="Profile Picture" />
-      </div>
+        </div>
+      ))}
     </div>
+
+
   </>
   )
 }

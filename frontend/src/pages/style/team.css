@@ -91,15 +91,12 @@
   margin-top: 50px;
 }
 
-.core-content{
-  margin-left: 50px;
-}
+
 
 .linkedin{
   width: 20px;
   height: 20px;
-  margin-top: 10px;
-
+  margin-top: 25px;
 }
 .linkedin:hover{
   opacity: 0.7;
@@ -117,12 +114,23 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   padding-left: 20px;
-  text-align: center;
   transition: transform 0.3s ease;
 }
 .team-member:hover{
   transform: translateY(-5px);
 }
+
+.team-team{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.team-info{
+    display: flex;
+    flex-direction: column;
+}
+
 .profile-image {
   width: 100%;
   height: auto;
@@ -140,6 +148,41 @@
   margin-bottom: 10px;
 }
 
-.outer{
-  padding: 100px;
+
+.Associate-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.Associate-member{
+    margin-right: 70px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    padding-left: 20px;
+    transition: transform 0.3s ease;
+}
+
+.Associate-member:hover{
+    transform: translateY(-5px);
+}
+
+.Associate-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.associate-name{
+    margin-top: 20px;
+}
+
+
+.core-container{
+    margin-left: 50px;
+
 }
