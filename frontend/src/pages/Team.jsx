@@ -128,6 +128,10 @@ const Team = () => {
         imageUrl: 'https://via.placeholder.com/150',
         linkedinUrl: 'https://www.linkedin.com/in/janesmith'
       },]
+      const scrollToSection = () => {
+        const section = document.getElementById('target-section');
+        section.scrollIntoView({ behavior: 'smooth' });
+      };
 
       const CoreMembers = [
     
@@ -241,12 +245,7 @@ const Team = () => {
           linkedinUrl: 'https://www.linkedin.com/in/michaeljohnson'
         },
         
-        {
-          id: 17,
-          name: 'Alice Brown',
-          imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
-        },
+        
         {
           id: 18,
           name: 'Chris Green',
@@ -354,13 +353,18 @@ const Team = () => {
           name: 'David Blue',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/davidblue'
-        }]
+        },
+        {
+          id: 35,
+          name: 'Alice Brown',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
+        }
+      ]
 
   return (
   <>
 
-  
-  
   <div  className='content' >
       
     <div  class =' w-[80%] justify-center items-center flex flex-col'>
@@ -370,7 +374,7 @@ const Team = () => {
         <p className='para' class='text-gray-600 font-semibold  justify-center items-center flex '>About our Past members</p>
         <h1 className='h1'>Team of GDSC Thapar </h1>
         <div className='but'>
-        <button className='team-button'>MEET THE TEAM </button>
+        <button onClick={scrollToSection} className='team-button'>MEET THE TEAM </button>
         </div>
         
       </div>
@@ -392,7 +396,7 @@ const Team = () => {
     </div>
     <div className='outer'>
 
-    <div className="team-container" >
+    <div id="target-section" className="team-container" >
       {ExecutiveMembers.map(member => (
         <div key={member.id} className="team-member" >
           <img src={member.imageUrl} alt={member.name } className='profile-image' />
@@ -437,7 +441,7 @@ const Team = () => {
           <img src={member.imageUrl} alt={member.name } className='profile-image' />
         <div className='team-team'>
           <div className='team-info'>
-            <h2 className='h3'>{member.name}</h2>
+            <h2 className='h4'>{member.name}</h2>
             <p className='p'>{member.designation}</p>
           </div>
           <a href={member.linkedinUrl} target="_blank" rel="noopener noreferrer">
