@@ -77,6 +77,41 @@ const Team = () => {
       designation: 'Frontend Developer',
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/emilyred'
+    },
+    {
+      id: 11,
+      name: 'Laura White',
+      designation: 'QA Engineer',
+      imageUrl: 'https://via.placeholder.com/150',
+      linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
+    },
+    {
+      id: 12,
+      name: 'David Blue',
+      designation: 'Data Scientist',
+      imageUrl: 'https://via.placeholder.com/150',
+      linkedinUrl: 'https://www.linkedin.com/in/davidblue'
+    },
+    {
+      id: 13,
+      name: 'Sophia Black',
+      designation: 'Machine Learning Engineer',
+      imageUrl: 'https://via.placeholder.com/150',
+      linkedinUrl: 'https://www.linkedin.com/in/sophiablack'
+    },
+    {
+      id: 14,
+      name: 'Daniel Grey',
+      designation: 'Full Stack Developer',
+      imageUrl: 'https://via.placeholder.com/150',
+      linkedinUrl: 'https://www.linkedin.com/in/danielgrey'
+    },
+    {
+      id: 15,
+      name: 'Emily Red',
+      designation: 'Frontend Developer',
+      imageUrl: 'https://via.placeholder.com/150',
+      linkedinUrl: 'https://www.linkedin.com/in/emilyred'
     }];
 
   return (
@@ -115,11 +150,11 @@ const Team = () => {
     <div className="team-container" >
       {ExecutiveMembers.map(member => (
         <div key={member.id} className="team-member" >
-          <img src={member.imageUrl} alt={member.name}  />
+          <img src={member.imageUrl} alt={member.name } className='profile-image' />
         <div>
           <div>
-            <h2>{member.name}</h2>
-            <p>{member.designation}</p>
+            <h2 className='h3'>{member.name}</h2>
+            <p className='p'>{member.designation}</p>
           </div>
           <a href={member.linkedinUrl} target="_blank" rel="noopener noreferrer">
             <img className="linkedin" src={image} alt="Profile Picture" />
