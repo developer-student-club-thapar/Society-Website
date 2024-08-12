@@ -133,13 +133,13 @@ const Team = () => {
     
         {
           id: 1,
-          name: 'John Doe',
+          name: 'Krishan Malhotra',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/johndoe'
         },
         {
           id: 2,
-          name: 'Jane Smith',
+          name: 'Harsh Gupta',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/janesmith'
         },
