@@ -151,7 +151,6 @@
 .p-core{
   font-size: 0.5rem;
   color: #050505;
- 
 }
 
 .outer{
@@ -197,15 +196,16 @@
 
 
 
-.Core-container{
+.core-container{
   display: grid;
   grid-template-columns: repeat(7, 1fr); /* Adjust the number of columns based on your needs */
   gap: 15px; /* Space between grid items */
   padding-top: 5rem;
-=======
-.Core-container{
+}
+.core-container{
     margin-left: 50px;
-
+    margin-right: 50px;
+    margin-top: 0px;
 }
 .core-member{
  
