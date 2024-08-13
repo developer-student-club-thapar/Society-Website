@@ -434,6 +434,7 @@ const Team = () => {
         </div>
       ))}
     </div>
+    
 
     <div className='outer-core'>
 
