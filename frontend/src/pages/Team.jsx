@@ -415,7 +415,8 @@ const Team = () => {
     </div>
 
 
-    <h1 className='core'>GDSC thapar core</h1>
+    <h1 className='core'>GDSC Thapar Core</h1>
+    
 
     <div className="Associate-container" >
       {AssociateMembers.map(member => (
@@ -424,6 +425,7 @@ const Team = () => {
         <div className='Associate-info'>
           <div className='associate-name'>
               <h2>{member.name}</h2>
+              <p className='p-core'>{member.designation}</p>
           </div>
           <a href={member.linkedinUrl} target="_blank" rel="noopener noreferrer">
             <img className="linkedin" src={image} alt="Profile Picture" />
@@ -433,7 +435,7 @@ const Team = () => {
       ))}
     </div>
 
-    <div className='outer'>
+    <div className='outer-core'>
 
     <div className="core-container" >
       {CoreMembers.map(member => (
@@ -442,7 +444,7 @@ const Team = () => {
         <div className='team-team'>
           <div className='team-info'>
             <h2 className='h4'>{member.name}</h2>
-            <p className='p'>{member.designation}</p>
+            
           </div>
           <a href={member.linkedinUrl} target="_blank" rel="noopener noreferrer">
             <img className="linkedin" src={image} alt="Profile Picture" />
