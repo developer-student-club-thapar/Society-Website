@@ -196,11 +196,15 @@
 }
 
 
-.core-container{
+
+.Core-container{
   display: grid;
   grid-template-columns: repeat(7, 1fr); /* Adjust the number of columns based on your needs */
   gap: 15px; /* Space between grid items */
   padding-top: 5rem;
+=======
+.Core-container{
+    margin-left: 50px;
 
 }
 .core-member{
