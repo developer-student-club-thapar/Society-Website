@@ -363,6 +363,60 @@ const Team = () => {
           linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
         }
       ]
+      const CoreMembersl=[
+        {
+          id: 1,
+          name: 'Krishan Malhotra',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/johndoe'
+        },
+        {
+          id: 2,
+          name: 'Harsh Gupta',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/janesmith'
+        },
+        
+        {
+          id: 3,
+          name: 'Aarushi Garg',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/michaeljohnson'
+        },
+        
+        {
+          id: 4,
+          name: '',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
+        },
+        {
+          id: 5,
+          name: 'Chris Green',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/chrisgreen'
+        },
+        {
+          id: 6,
+          name: 'Laura White',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
+        },
+        {
+          id: 7,
+          name: 'David Blue',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/davidblue'
+        },
+      
+        {
+          id: 8,
+          name: 'John Doe',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/johndoe'
+        }
+
+      ]
 
   return (
   <>
@@ -457,6 +511,7 @@ const Team = () => {
       ))}
     </div>
     </div>
+    
 
 
   </>

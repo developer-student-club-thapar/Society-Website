@@ -205,14 +205,14 @@
   grid-template-columns: repeat(7, 1fr); /* Adjust the number of columns based on your needs */
   gap: 15px; /* Space between grid items */
   padding-top: 5rem;
+
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0px;
 }
 
-.core-container{
 
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 0px;
-}
+
 .core-member{
  
     background-color: #ffffff;
