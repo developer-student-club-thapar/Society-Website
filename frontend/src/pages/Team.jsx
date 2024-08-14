@@ -426,7 +426,7 @@ const Team = () => {
           <img src={member.imageUrl} alt={member.name}  />
         <div className='Associate-info'>
           <div className='associate-name'>
-              <h2>{member.name}</h2>
+              <h2 className='h56'>{member.name}</h2>
               <p className='p-core'>{member.designation}</p>
           </div>
           <a href={member.linkedinUrl} target="_blank" rel="noopener noreferrer">
