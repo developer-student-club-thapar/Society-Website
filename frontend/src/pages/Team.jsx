@@ -159,7 +159,7 @@ const Team = () => {
         
         {
           id: 4,
-          name: '',
+          name: 'Yash Tomar',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
         },
@@ -361,6 +361,72 @@ const Team = () => {
           name: 'Alice Brown',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
+        }
+        ,
+        {
+          id: 36,
+          name: 'David Blue',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/davidblue'
+        },
+      
+        {
+          id: 37,
+          name: 'John Doe',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/johndoe'
+        },
+        {
+          id: 38,
+          name: 'Jane Smith',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/janesmith'
+        },
+        
+        {
+          id: 39,
+          name: 'Michael Johnson',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/michaeljohnson'
+        },
+        
+        {
+          id: 40,
+          name: 'Alice Brown',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
+        },
+        {
+          id: 41,
+          name: 'Chris Green',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/chrisgreen'
+        },
+        {
+          id: 42,
+          name: 'Laura White',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
+        }
+        ,
+        
+        {
+          id: 43,
+          name: 'Alice Brown',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
+        },
+        {
+          id: 44,
+          name: 'Chris Green',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/chrisgreen'
+        },
+        {
+          id: 45,
+          name: 'Laura White',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
         }
       ]
 
