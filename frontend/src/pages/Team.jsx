@@ -8,101 +8,101 @@ const Team = () => {
     
     {
       id: 1,
-      name: 'John Doe',
-      designation: 'Software Engineer',
+      name: 'Ronit Parakh',
+      designation: 'Co-Lead',
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/johndoe'
     },
     {
       id: 2,
-      name: 'Jane Smith',
-      designation: 'Product Manager',
+      name: 'Reyan Singh',
+      designation: 'Co-Lead',
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/janesmith'
     },
     
     {
       id: 3,
-      name: 'Michael Johnson',
-      designation: 'UI/UX Designer',
+      name: 'Manan Sharma',
+      designation: 'Co-Lead',
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/michaeljohnson'
     },
     
     {
       id: 4,
-      name: 'Alice Brown',
-      designation: 'Backend Developer',
+      name: 'Priyanka',
+      designation: 'Design Mentor',
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
     },
     {
       id: 5,
-      name: 'Chris Green',
-      designation: 'DevOps Engineer',
+      name: 'Sakshi Singh',
+      designation: 'UI/UX Mentor',
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/chrisgreen'
     },
     {
       id: 6,
-      name: 'Laura White',
-      designation: 'QA Engineer',
+      name: 'Aarav Mahajan',
+      designation: 'App Dev Mentor',
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
     },
     {
       id: 7,
-      name: 'David Blue',
-      designation: 'Data Scientist',
+      name: 'Pushan Aggarwal',
+      designation: 'CyberSecurity Mentor',
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/davidblue'
     },
     {
       id: 8,
-      name: 'Sophia Black',
-      designation: 'Machine Learning Engineer',
+      name: 'Sharath',
+      designation: 'Web Dev Mentor',
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/sophiablack'
     },
     {
       id: 9,
-      name: 'Daniel Grey',
-      designation: 'Full Stack Developer',
+      name: 'Aryan Panja',
+      designation: 'ML Mentor',
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/danielgrey'
     },
     {
       id: 10,
-      name: 'Emily Red',
-      designation: 'Frontend Developer',
+      name: 'Aamna',
+      designation: 'Product Mentor',
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/emilyred'
     },
     {
       id: 11,
-      name: 'Laura White',
-      designation: 'QA Engineer',
+      name: 'Nimish',
+      designation: 'Finance Mentor',
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
     },
     {
       id: 12,
-      name: 'David Blue',
-      designation: 'Data Scientist',
+      name: 'Dimpi',
+      designation: 'EM Mentor',
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/davidblue'
     },
     {
       id: 13,
-      name: 'Sophia Black',
-      designation: 'Machine Learning Engineer',
+      name: 'Samkit',
+      designation: 'Logistics Mentor',
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/sophiablack'
     },
     {
       id: 14,
-      name: 'Daniel Grey',
-      designation: 'Full Stack Developer',
+      name: 'Yuvraj',
+      designation: 'RIOT(Robotics and IOT) Mentor',
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/danielgrey'
     },
@@ -118,13 +118,15 @@ const Team = () => {
     
       {
         id: 1,
-        name: 'John Doe',
+        name: 'Saksham Bhagat',
+        designation: 'Associate App-dev',
         imageUrl: 'https://via.placeholder.com/150',
         linkedinUrl: 'https://www.linkedin.com/in/johndoe'
       },
       {
         id: 2,
-        name: 'Jane Smith',
+        name: 'Tanmay',
+        designation: 'Associate RIOT',
         imageUrl: 'https://via.placeholder.com/150',
         linkedinUrl: 'https://www.linkedin.com/in/janesmith'
       },]
@@ -448,7 +450,7 @@ const Team = () => {
             
           </div>
           <a href={member.linkedinUrl} target="_blank" rel="noopener noreferrer">
-            <img className="linkedin" src={image} alt="Profile Picture" />
+            <img className="linkedin1" src={image} alt="Profile Picture" />
           </a>
         </div>
         </div>
