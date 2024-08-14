@@ -59,7 +59,7 @@ const Team = () => {
     },
     {
       id: 8,
-      name: 'Sharath',
+      name: 'Sharath Chandra',
       designation: 'Web Dev Mentor',
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/sophiablack'
@@ -73,43 +73,43 @@ const Team = () => {
     },
     {
       id: 10,
-      name: 'Aamna',
-      designation: 'Product Mentor',
+      name: 'Amandeep Singh',
+      designation: 'ML Mentor',
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/emilyred'
     },
     {
       id: 11,
-      name: 'Nimish',
+      name: 'Nimish Duggal',
       designation: 'Finance Mentor',
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
     },
     {
       id: 12,
-      name: 'Dimpi',
+      name: 'Dimpi Jain',
       designation: 'EM Mentor',
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/davidblue'
     },
     {
       id: 13,
-      name: 'Samkit',
+      name: 'Samkit Jaina',
       designation: 'Logistics Mentor',
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/sophiablack'
     },
     {
       id: 14,
-      name: 'Yuvraj',
+      name: 'Yuvraj Singh',
       designation: 'RIOT(Robotics and IOT) Mentor',
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/danielgrey'
     },
     {
       id: 15,
-      name: 'Emily Red',
-      designation: 'Frontend Developer',
+      name: 'Aamna Abdin',
+      designation: 'Product Mentor',
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/emilyred'
     }];
@@ -152,14 +152,14 @@ const Team = () => {
         
         {
           id: 3,
-          name: 'Michael Johnson',
+          name: 'Aarushi Garg',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/michaeljohnson'
         },
         
         {
           id: 4,
-          name: 'Alice Brown',
+          name: '',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
         },

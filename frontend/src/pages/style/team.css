@@ -143,6 +143,7 @@
   font-weight: 700;
 }
 
+
 .p {
   font-size: 0.875rem;
   color: #000000;
@@ -191,7 +192,12 @@
 }
 
 .associate-name{
-    margin-top: 21px;
+    margin-top: 20px;
+    .h2{
+      font-weight: 700;
+    }
+    
+   
 }
 
 
