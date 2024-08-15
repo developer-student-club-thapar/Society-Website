@@ -397,10 +397,7 @@ const Team = () => {
           name: 'Ayush',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
-        }
-
-      ]
-      const CoreMembersend=[
+        },
 
         {
           id: 41,
@@ -422,7 +419,9 @@ const Team = () => {
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
         }
+
       ]
+
      
 
   return (
@@ -502,31 +501,6 @@ const Team = () => {
       ))}
     </div>
     </div>
-    <div className='outer-coreend'>
-
-    <div className="team-containerend" >
-      {CoreMembersend.map(member => (
-        <div key={member.id} className="team-member" >
-        <img src={member.imageUrl} alt={member.name } className='profile-image' />
-        <div className='team-team'>
-          <div className='team-info'>
-            <h2 className='h4'>{member.name}</h2>
-            </div>
-          <a href={member.linkedinUrl} target="_blank" rel="noopener noreferrer">
-            <img className="linkedin1" src={image} alt="Profile Picture" />
-          </a>
-        </div>
-    </div>
-    
-    
-      ))}
-    </div>
-    </div>
-    
-    
-    
-
-
   </>
   )
 }
