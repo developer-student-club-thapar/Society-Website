@@ -265,6 +265,7 @@ const Team = () => {
           name: 'Riya Gupta',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/davidblue'
+          
         },
       
         {
