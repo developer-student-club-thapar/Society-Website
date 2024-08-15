@@ -114,30 +114,32 @@ const Team = () => {
       linkedinUrl: 'https://www.linkedin.com/in/emilyred'
     }];
 
-    const AssociateMembers = [
     
-      {
-        id: 1,
-        name: 'Saksham Bhagat',
-        designation: 'Associate App-dev',
-        imageUrl: 'https://via.placeholder.com/150',
-        linkedinUrl: 'https://www.linkedin.com/in/johndoe'
-      },
-      {
-        id: 2,
-        name: 'Tanmay Kumar',
-        designation: 'Associate RIOT',
-        imageUrl: 'https://via.placeholder.com/150',
-        linkedinUrl: 'https://www.linkedin.com/in/janesmith'
-      },]
+    
+      
       const scrollToSection = () => {
         const section = document.getElementById('target-section');
         section.scrollIntoView({ behavior: 'smooth' });
       };
 
       const CoreMembers = [
+        {
+          id: 1,
+          name: 'Saksham Bhagat',
+          designation: 'Associate App-dev',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/johndoe'
+        },
+        {
+          id: 2,
+          name: 'Tanmay Kumar',
+          designation: 'Associate RIOT',
+          imageUrl: 'https://via.placeholder.com/150',
+          linkedinUrl: 'https://www.linkedin.com/in/janesmith'
+        },
     
         {
+
           id: 1,
           name: 'Krishan Malhotra',
           imageUrl: 'https://via.placeholder.com/150',
@@ -369,11 +371,7 @@ const Team = () => {
           name: 'Ananya Pahwa',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/davidblue'
-        }
-      ]
-      const CoreMembersl=[
-
-      
+        },
         {
           id: 37,
           name: 'Gurkirat Singh',
@@ -399,7 +397,11 @@ const Team = () => {
           name: 'Ayush',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
-        },
+        }
+
+      ]
+      const CoreMembersend=[
+
         {
           id: 41,
           name: 'Krishna Jindal',
@@ -420,9 +422,8 @@ const Team = () => {
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
         }
-
       ]
-      
+     
 
   return (
   <>
@@ -481,25 +482,6 @@ const Team = () => {
 
     <h1 className='core'>GDSC Thapar Core</h1>
     
-
-    <div className="Associate-container" >
-      {AssociateMembers.map(member => (
-        <div key={member.id} className="Associate-member" >
-          <img src={member.imageUrl} alt={member.name}  />
-        <div className='Associate-info'>
-          <div className='associate-name'>
-              <h2 className='h56'>{member.name}</h2>
-              <p className='p-core'>{member.designation}</p>
-          </div>
-          <a href={member.linkedinUrl} target="_blank" rel="noopener noreferrer">
-            <img className="linkedin" src={image} alt="Profile Picture" />
-          </a>
-        </div>
-        </div>
-      ))}
-    </div>
-    
-
     <div className='outer-core'>
 
     <div className="core-container" >
@@ -516,13 +498,15 @@ const Team = () => {
         </div>
     </div>
     
+    
       ))}
     </div>
     </div>
-    <div className='outer-core'>
-    <div className="core-containerl" >
-      {CoreMembersl.map(member => (
-        <div key={member.id} className="core-member" >
+    <div className='outer-coreend'>
+
+    <div className="team-containerend" >
+      {CoreMembersend.map(member => (
+        <div key={member.id} className="team-member" >
         <img src={member.imageUrl} alt={member.name } className='profile-image' />
         <div className='team-team'>
           <div className='team-info'>
@@ -532,11 +516,13 @@ const Team = () => {
             <img className="linkedin1" src={image} alt="Profile Picture" />
           </a>
         </div>
-       </div>
+    </div>
+    
     
       ))}
     </div>
     </div>
+    
     
     
 
