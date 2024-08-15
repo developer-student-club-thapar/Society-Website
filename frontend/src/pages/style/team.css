@@ -190,6 +190,7 @@
   grid-template-columns: repeat(5, 1fr); /* Adjust the number of columns based on your needs */
   gap: 15px; /* Space between grid items */
   padding-left: 424px;
+  padding-bottom:100px ;
   
   
   
@@ -203,6 +204,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   
   padding-left: 20px;
+  
   transition: transform 0.3s ease;}
 
 
