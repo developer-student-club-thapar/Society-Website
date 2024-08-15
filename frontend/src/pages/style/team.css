@@ -111,8 +111,9 @@
   padding-top: 5rem;
 
 }
+
 .team-member{
-  background-color: #f6b206;
+  background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -122,7 +123,7 @@
 
 .team-member:hover{
   transform: translateY(-5px);
-  background-color: #4a882d;
+  background-color: #f6b206;
 }
 
 .team-team{
@@ -161,54 +162,22 @@
 .outer{
   padding: 50px;
 }
+.outer-coreend{
+  
+  padding-top: 15px ;
+}
 .outer-core{
   padding-top: 40px;
   
 }
 
 
-.Associate-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 70px;
-}
-
-.Associate-member{
-    margin-right: 70px;
-    background-color: #4a882d;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    padding-left: 20px;
-    transition: transform 0.3s ease;
-}
-
-.Associate-member:hover{
-    transform: translateY(-5px);background-color: #f6b206;
-
-}
-
-
-.Associate-info{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.associate-name{
-    margin-top: 20px;
-    font-weight: 500;
-    
-   
-}
 
 
 
 .core-container{
   display: grid;
-  grid-template-columns: repeat(6, 1fr); /* Adjust the number of columns based on your needs */
+  grid-template-columns: repeat(7, 1fr); /* Adjust the number of columns based on your needs */
   gap: 15px; /* Space between grid items */
   padding-top: 5rem;
 
@@ -216,22 +185,31 @@
   margin-right: 50px;
   margin-top: 0px;
 }
-.core-containerl{
+.team-containerend{
   display: grid;
-  grid-template-columns: repeat(7, 1fr); /* Adjust the number of columns based on your needs */
+  grid-template-columns: repeat(5, 1fr); /* Adjust the number of columns based on your needs */
   gap: 15px; /* Space between grid items */
-  margin-left: 50px;
-  margin-right: 50px;
-  padding-bottom:100px ;
+  padding-left: 424px;
   
   
+  
+
+  
+
 }
+.team-memberend{
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+  padding-left: 20px;
+  transition: transform 0.3s ease;}
 
 
 
 .core-member{
  
-  background-color: #f6b206;
+  background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -240,7 +218,7 @@
 }
 .core-member:hover{
   transform: translateY(-5px);
-  background-color: #d3192f;
+  background-color: #f6b206;
 }
 .h4{
   font-size: 1rem;
