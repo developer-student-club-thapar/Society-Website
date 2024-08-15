@@ -10,8 +10,8 @@ const Team = () => {
       id: 1,
       name: 'Ronit Parakh',
       designation: 'Co-Lead',
-      imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/johndoe'
+      imageUrl: '/src/img/Screenshot 2024-08-15 at 00.07.03.png',
+      linkedinUrl: 'https://www.linkedin.com/in/ronit-parakh/'
     },
     {
       id: 2,
@@ -125,7 +125,7 @@ const Team = () => {
       },
       {
         id: 2,
-        name: 'Tanmay',
+        name: 'Tanmay Kumar',
         designation: 'Associate RIOT',
         imageUrl: 'https://via.placeholder.com/150',
         linkedinUrl: 'https://www.linkedin.com/in/janesmith'
@@ -165,84 +165,84 @@ const Team = () => {
         },
         {
           id: 5,
-          name: 'Chris Green',
+          name: 'Armaan Jagirdar',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/chrisgreen'
         },
         {
           id: 6,
-          name: 'Laura White',
+          name: 'Rhea Singhal',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
         },
         {
           id: 7,
-          name: 'David Blue',
+          name: 'Sanyam Singh Brar',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/davidblue'
         },
       
         {
           id: 8,
-          name: 'John Doe',
+          name: 'Priyanshu Patel',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/johndoe'
         },
         {
           id: 9,
-          name: 'Jane Smith',
+          name: 'Kapeesh Gupta',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/janesmith'
         },
         
         {
           id: 10,
-          name: 'Michael Johnson',
+          name: 'Yuvansh Pathak',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/michaeljohnson'
         },
         
         {
           id: 11,
-          name: 'Alice Brown',
+          name: 'Navnoor Bawa',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
         },
         {
           id: 12,
-          name: 'Chris Green',
+          name: 'Rehnoor Aulakh',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/chrisgreen'
         },
         {
           id: 13,
-          name: 'Laura White',
+          name: 'Arjun Singh',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
         },
         {
           id: 14,
-          name: 'David Blue',
+          name: 'Prakhar Raj',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/davidblue'
         },
       
         {
           id: 15,
-          name: 'John Doe',
+          name: 'Aayush Goyal',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/johndoe'
         },
         {
           id: 16,
-          name: 'Jane Smith',
+          name: 'Mehar Dua',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/janesmith'
         },
         
         {
           id: 17,
-          name: 'Michael Johnson',
+          name: 'Ritesh Kapoor',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/michaeljohnson'
         },
@@ -250,161 +250,164 @@ const Team = () => {
         
         {
           id: 18,
-          name: 'Chris Green',
+          name: 'Yash Agarwal',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/chrisgreen'
         },
         {
           id: 19,
-          name: 'Laura White',
+          name: 'Marul Bhardwaj',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
         },
         {
           id: 20,
-          name: 'David Blue',
+          name: 'Riya Gupta',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/davidblue'
         },
       
         {
           id: 21,
-          name: 'John Doe',
+          name: 'Armaan Gogoi',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/johndoe'
         },
         {
           id: 22,
-          name: 'Jane Smith',
+          name: 'Adhya Koul',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/janesmith'
         },
         
         {
           id: 23,
-          name: 'Michael Johnson',
+          name: 'Avneet Singh',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/michaeljohnson'
         },
         
         {
           id: 24,
-          name: 'Alice Brown',
+          name: 'Agrim Verma',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
         },
         {
           id: 25,
-          name: 'Chris Green',
+          name: 'Pradyumna Singh',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/chrisgreen'
         },
         {
           id: 26,
-          name: 'Laura White',
+          name: 'Naman Khosla',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
         },
         {
           id: 27,
-          name: 'David Blue',
+          name: 'Riddhi Jain',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/davidblue'
         },
       
         {
           id: 28,
-          name: 'John Doe',
+          name: 'Guransh Chugh',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/johndoe'
         },
         {
           id: 29,
-          name: 'Jane Smith',
+          name: 'Pulkit Jhamb',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/janesmith'
         },
         
         {
           id: 30,
-          name: 'Michael Johnson',
+          name: 'Vidhu Sarwal',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/michaeljohnson'
         },
         
         {
           id: 31,
-          name: 'Alice Brown',
+          name: 'Harshit Arora',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
         },
         {
           id: 32,
-          name: 'Chris Green',
+          name: 'Parth Katiyar',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/chrisgreen'
         },
         {
           id: 33,
-          name: 'Laura White',
+          name: 'Pranjal Satti',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
         },
         {
           id: 34,
-          name: 'David Blue',
+          name: 'Naman Singh',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/davidblue'
         },
         {
           id: 35,
-          name: 'Alice Brown',
+          name: 'Periza Arora',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
         }
         ,
         {
           id: 36,
-          name: 'David Blue',
+          name: 'Ananya Pahwa',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/davidblue'
-        },
+        }
+      ]
+      const CoreMembersl=[
+
       
         {
           id: 37,
-          name: 'John Doe',
+          name: 'Gurkirat Singh',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/johndoe'
         },
         {
           id: 38,
-          name: 'Jane Smith',
+          name: 'Ashmit',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/janesmith'
         },
         
         {
           id: 39,
-          name: 'Michael Johnson',
+          name: 'Sachin Goyal',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/michaeljohnson'
         },
         
         {
           id: 40,
-          name: 'Alice Brown',
+          name: 'Ayush',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
         },
         {
           id: 41,
-          name: 'Chris Green',
+          name: 'Krishna Jindal',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/chrisgreen'
         },
         {
           id: 42,
-          name: 'Laura White',
+          name: 'Parth Kapoor',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
         }
@@ -412,87 +415,24 @@ const Team = () => {
         
         {
           id: 43,
-          name: 'Alice Brown',
+          name: 'Gurkirat Singh',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
-        },
-        {
-          id: 44,
-          name: 'Chris Green',
-          imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/chrisgreen'
-        },
-        {
-          id: 45,
-          name: 'Laura White',
-          imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
-        }
-      ]
-      const CoreMembersl=[
-        {
-          id: 1,
-          name: 'Krishan Malhotra',
-          imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/johndoe'
-        },
-        {
-          id: 2,
-          name: 'Harsh Gupta',
-          imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/janesmith'
-        },
-        
-        {
-          id: 3,
-          name: 'Aarushi Garg',
-          imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/michaeljohnson'
-        },
-        
-        {
-          id: 4,
-          name: '',
-          imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
-        },
-        {
-          id: 5,
-          name: 'Chris Green',
-          imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/chrisgreen'
-        },
-        {
-          id: 6,
-          name: 'Laura White',
-          imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
-        },
-        {
-          id: 7,
-          name: 'David Blue',
-          imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/davidblue'
-        },
-      
-        {
-          id: 8,
-          name: 'John Doe',
-          imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/johndoe'
         }
 
       ]
+      
 
   return (
   <>
 
-  <div  className='content' >
+  <div  className= 'content' >
       
     <div  class =' w-[80%] justify-center items-center flex flex-col'>
      
      
-      <div>
+      <div >
+      
         <p className='para' class='text-gray-600 font-semibold  justify-center items-center flex '>About our Past members</p>
         <h1 className='h1'>Team of GDSC Thapar </h1>
         <div className='but'>
@@ -516,9 +456,10 @@ const Team = () => {
         </p>
       </div>
     </div>
-    <div className='outer'>
+    
+    <div className='outer' id="target-section">
 
-    <div id="target-section" className="team-container" >
+    <div  className="team-container" >
       {ExecutiveMembers.map(member => (
         <div key={member.id} className="team-member" >
           <img src={member.imageUrl} alt={member.name } className='profile-image' />
@@ -563,20 +504,39 @@ const Team = () => {
     <div className="core-container" >
       {CoreMembers.map(member => (
         <div key={member.id} className="core-member" >
-          <img src={member.imageUrl} alt={member.name } className='profile-image' />
+        <img src={member.imageUrl} alt={member.name } className='profile-image' />
         <div className='team-team'>
           <div className='team-info'>
             <h2 className='h4'>{member.name}</h2>
-            
-          </div>
+            </div>
           <a href={member.linkedinUrl} target="_blank" rel="noopener noreferrer">
             <img className="linkedin1" src={image} alt="Profile Picture" />
           </a>
         </div>
-        </div>
+    </div>
+    
       ))}
     </div>
     </div>
+    <div className='outer-core'>
+    <div className="core-containerl" >
+      {CoreMembersl.map(member => (
+        <div key={member.id} className="core-member" >
+        <img src={member.imageUrl} alt={member.name } className='profile-image' />
+        <div className='team-team'>
+          <div className='team-info'>
+            <h2 className='h4'>{member.name}</h2>
+            </div>
+          <a href={member.linkedinUrl} target="_blank" rel="noopener noreferrer">
+            <img className="linkedin1" src={image} alt="Profile Picture" />
+          </a>
+        </div>
+       </div>
+    
+      ))}
+    </div>
+    </div>
+    
     
 
 
