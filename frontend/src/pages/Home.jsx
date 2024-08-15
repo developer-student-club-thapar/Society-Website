@@ -3,6 +3,7 @@ import HeroSection from '../components/HomeComponents/HeroSection'
 import AboutUs from '../components/HomeComponents/AboutUs'
 import OurProjects from '../components/HomeComponents/OurProjects'
 import OurTeam from '../components/HomeComponents/OurTeam'
+import Form from '../components/HomeComponents/Form'
 
 
 const Home = () => {
@@ -19,6 +20,9 @@ const Home = () => {
         </div>
         <div className=" mt-40 h-[90vh]">
             <OurTeam/>
+        </div>
+        <div className=" mt-40 h-[100vh]">
+            <Form />
         </div>
     </div>
   )

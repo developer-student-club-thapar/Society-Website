@@ -1,5 +1,5 @@
 import React from 'react'
-
+import AboutImage from '../../assets/About_Image.png'
 const AboutUs = () => {
   return (
     <div className='w-full flex justify-center'>
@@ -26,7 +26,7 @@ const AboutUs = () => {
                     </div>
 
                     <div className="col-span-2">
-                        IMAGE TO BE PLACED
+                        <img src={AboutImage} alt="" />
                     </div>
                 </div>
             </div>
