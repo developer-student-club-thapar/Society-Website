@@ -1,3 +1,25 @@
+@font-face {
+  font-family: 'googleBold';
+  src: url("../fonts/Product Sans Bold.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'googleBoldItalic';
+  src: url("../fonts/Product Sans Bold Italic.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'googleItalic';
+  src: url("../fonts/Product Sans Italic.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'googleRegular';
+  src: url("../fonts/Product Sans Regular.ttf") format('truetype');
+}
+
+
+
 .content{
     display: flex;
     align-items: center;
@@ -14,15 +36,18 @@
 
 }
 .h1{
-    font-size: 100px;
-    font-weight: 451;
-    font-weight: 550;
+  font-family:  googleBold ;
+  font-size: 100px;
 }
 .h2{
+  font-weight: bold;
+  font-family: googleRegular;
   font-size: 50px;
   padding-top: 5rem;
 }
 .para{
+  font-family: sans-serif;
+
     display: flex;
     align-items: center;
     justify-content: center;
