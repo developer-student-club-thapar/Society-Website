@@ -11,7 +11,8 @@ import Alumni from "./pages/Alumni";
 
 const App = () => {
   const location = useLocation();
-  const hideNavbarFooter = location.pathname === "/projects";
+  const hideNavbarFooter =
+    location.pathname === "/projects" || location.pathname === "/events";
 
   return (
     <div className="w-full min-h-screen">
