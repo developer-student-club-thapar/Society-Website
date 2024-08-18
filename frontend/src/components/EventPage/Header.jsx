@@ -23,26 +23,20 @@ function EventsAndGallery() {
   );
 }
 
-export default EventsAndGallery;
-
 function EventCategory({ category }) {
   return <div className="self-stretch my-auto">{category}</div>;
 }
 
 function SubscribeButton() {
   return (
-    <form className="flex overflow-hidden gap-5 justify-center items-center py-4 pr-10 pl-10 mt-4 text-base uppercase rounded-3xl border-2 border-black border-solid max-md:px-5">
+    <form className="flex overflow-hidden gap-5 w-fit justify-center items-center py-4 pr-10 pl-10 mt-4 text-base uppercase rounded-3xl border-2 border-black border-solid max-md:px-5">
       <label htmlFor="subscribeInput" className="sr-only">
         Subscribe for future events
       </label>
-      <input
-        id="subscribeInput"
-        type="email"
-        placeholder="SUBSCRIBE FOR FUTURE EVENTS"
-        className="self-stretch my-auto bg-transparent border-none outline-none"
-        aria-label="Subscribe for future events"
-      />
-      <button type="submit" aria-label="Submit subscription">
+      <p className="self-stretch my-auto bg-transparent border-none outline-none w-[250px] font-bold text-black">
+        SUBSCRIBE FOR FUTURE EVENTS
+      </p>
+      <button type="submit" aria-label="Submit subscription" className="w-fit">
         <img
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/acf5aa2ac1635fa3f786a568c3aea5ae8ab2c8f7061b24f58f01153734f85554?placeholderIfAbsent=true&apiKey=1e94dac72461470eb67aa910a2fb5ecf"
@@ -53,3 +47,5 @@ function SubscribeButton() {
     </form>
   );
 }
+
+export default EventsAndGallery;
