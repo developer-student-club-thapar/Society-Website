@@ -31,7 +31,7 @@ const Alumni = () => {
     
     {
       id: 4,
-      name: 'Priyanka',
+      name: 'Priyanka Malik',
       designation: 'Design Mentor',
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
@@ -117,7 +117,7 @@ const Alumni = () => {
   return (
   <>
     <div className="content">
-      <h1 className='h1'>Our Alumni</h1>
+      <h1 className='h1'>our Alumni</h1>
     </div>
 
     <div  className="alumni-container" >
