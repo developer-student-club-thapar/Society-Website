@@ -12,13 +12,13 @@
   "dependencies": {
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
-    
     "@mui/material": "^5.16.6",
     "gsap": "^3.12.5",
     "mui": "^0.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.0",
+    "react-scroll-motion": "^0.3.3",
     "styled-components": "^6.1.12"
   },
   "devDependencies": {

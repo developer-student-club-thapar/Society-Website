@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Departments from "./pages/Departments";
 import Alumni from "./pages/Alumni";
 import { useState } from "react";
+import "./Css/animation.css"
 
 const App = () => {
   const [renderFirst, setRenderFirst] = useState(false);
