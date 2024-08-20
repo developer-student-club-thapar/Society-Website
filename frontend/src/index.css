@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.proj{
+    text-align: center;
+    font-weight: bold;
+}
