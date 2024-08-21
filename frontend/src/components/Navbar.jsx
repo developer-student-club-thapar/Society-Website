@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <div className="flex w-full justify-center mt-10 sticky top-6 z-50">
-      <div className="flex justify-between w-[80%] rounded-3xl border-2 px-10 py-4 h-[10vh] items-center bg-white">
+      <div className="flex justify-between w-[80%] rounded-full border-2 px-10 py-4 h-[10vh] items-center bg-white">
         <div
           className="flex gap-4 "
           onClick={() => {
