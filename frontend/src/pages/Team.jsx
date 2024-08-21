@@ -34,7 +34,7 @@ const Team = () => {
       name: 'Priyanka Malik',
       designation: 'Design Mentor',
       imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
+      linkedinUrl: 'https://www.linkedin.com/in/priyanka-malik-252a77265/'
     },
     {
       id: 5,
