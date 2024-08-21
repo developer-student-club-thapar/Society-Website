@@ -8,11 +8,23 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Departments from "./pages/Departments";
 import Alumni from "./pages/Alumni";
+import { useState } from "react";
 
 const App = () => {
+  const [renderFirst, setRenderFirst] = useState(false);
+  const [renderSecond, setRenderSecond] = useState(false);
   const location = useLocation();
   const hideNavbarFooter =
     location.pathname === "/projects" || location.pathname === "/events";
+  React.useEffect(() => {
+    setTimeout(() => {
+      setRenderFirst(true);
+    }, 2000);
+
+    setTimeout(() => {
+      setRenderSecond(true);
+    }, 3000);
+  }, []);
 
   return (
     <div className="w-full min-h-screen">
@@ -20,7 +32,12 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/departments" element={<Departments />} />
-        <Route path="/events" element={<Events />} />
+        <Route
+          path="/events"
+          element={
+            <Events renderFirst={renderFirst} renderSecond={renderSecond} />
+          }
+        />
         <Route path="/alumni" element={<Alumni />} />
         <Route path="/team" element={<Team />} />
         <Route path="/projects" element={<Projects />} />

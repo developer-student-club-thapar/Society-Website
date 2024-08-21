@@ -4,7 +4,8 @@ import Footer from "../components/Footer";
 import backgroundImage from "/src/assets/eventbg.svg";
 import EventsAndGallery from "../components/EventPage/Header";
 import { current, previous } from "/src/TeamData/EventData.js";
-
+import Infi from "../components/EventPage/Infi";
+import { useState } from "react";
 function EventHeading({ title, data }) {
   return (
     <div id="heading-cont" className="mt-7">
@@ -26,7 +27,7 @@ function EventHeading({ title, data }) {
           No {title}! Come Back Later
         </h3>
       ) : null}
-      <div className="flex flex-wrap justify-center items-center gap-x-10 gap-y-8">
+      <div className="flex flex-wrap  w-auto justify-center items-center gap-x-10 gap-y-8">
         {data.map((one, index) => (
           <Card
             key={index}
@@ -40,40 +41,60 @@ function EventHeading({ title, data }) {
     </div>
   );
 }
-const Events = () => {
+const Events = ({ renderFirst, renderSecond }) => {
   const divStyle = {
     backgroundImage: `url(${backgroundImage})`,
     backgroundSize: "cover",
-    // backgroundPosition: "center",
+    backgroundPosition: "center",
     height: "90vh",
-    // width: "100%",
+    width: "100vw",
   };
+
   return (
     <>
-      <div id="main">
-        {/* <Navbar /> */}
-        <div style={divStyle} className="flex justify-center items-center">
-          <div className="flex justify-center items-center">
+      <Navbar />
+      <div id="main" className="h-fit overflow-y-hidden">
+        <div
+          style={divStyle}
+          className="flex justify-center items-center flex-col"
+        >
+          <div className="flex justify-center items-center mb-14">
             <EventsAndGallery />
           </div>
         </div>
-        <section id="events" className=" h-[600px] w-[80%] m-auto mt-5">
+
+        {/* project section */}
+        <section id="events" className="h-fit w-[80%] m-auto mt-5">
           <EventHeading title="Current Events" data={current} />
           <EventHeading title="Past Events" data={previous} />
         </section>
+
+        {/* gallary section */}
+
+        <section
+          className="h-fit
+         bg-[#f5f5f5] w-[100%] m-auto mt-5 "
+        >
+          <div className="w-[80%] m-auto p-6 relative">
+            <div className="text-[70px] absolute z-10 bg-[#f5f5f5] h-[240px] text-center flex justify-center items-center w-[400px] top-[36%] left-[34%] font-semibold">
+              Gallery
+            </div>
+            <Infi />
+            {renderFirst && <Infi />}
+            {renderSecond && <Infi />}
+          </div>
+        </section>
+        <Footer />
       </div>
-      {/* <Footer /> */}
     </>
   );
 };
-
-export default Events;
 
 function Card({ type, name, date, desc }) {
   return (
     <div
       id="box-flex"
-      className="flex w-[427px] flex-col gap-[20px] rounded-2xl bg-[#f5f5f5] p-[25px]"
+      className="flex w-[400px] flex-col gap-[10px] rounded-2xl bg-[#f5f5f5] p-[25px]"
     >
       <div id="Box1" className="h-[225px] rounded-2xl bg-white"></div>
       <div className="flex items-start">
@@ -87,3 +108,5 @@ function Card({ type, name, date, desc }) {
     </div>
   );
 }
+
+export default Events;
