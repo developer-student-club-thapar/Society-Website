@@ -17,9 +17,9 @@ const Footer = () => {
       <div className="grid grid-cols-5 w-[70%]  mb-6">
         <div className="">
           <h1 className='text-gray-600 font-bold mb-4'>PROJECTS</h1>
-          <div className="text-sm font-semibold text-gray-500">PROJ1</div>
-          <div className="text-sm font-semibold text-gray-500">PROJ1</div>
-          <div className="text-sm font-semibold text-gray-500">PROJ1</div>
+          <div className="text-sm font-semibold text-gray-500"><a href="">PROJ1</a></div>
+          <div className="text-sm font-semibold text-gray-500"><a href="">PROJ2</a></div>
+          <div className="text-sm font-semibold text-gray-500"><a href="">PROJ3</a></div>
         </div>
         <div className="">
           <h1 className='text-gray-600 font-bold'>DEPARTMENTS</h1>

@@ -1,3 +1,4 @@
+
 import React, { useState, useRef, useEffect } from "react";
 import styles from "/src/Css/page.module.css";
 import cross from "/src/assets/cross.svg";
@@ -32,8 +33,11 @@ function Project() {
     setnum(nextIndex);
     setcolor(googlecolor[nextIndex]);
   };
+ 
+
 
   return (
+
     <>
       <div className={styles.main} style={getUpdatedStyles(color)}>
         {/* <Navbar /> */}
@@ -60,6 +64,10 @@ function Project() {
       </div>
     </>
   );
+
+    <h1 className="proj">Projects</h1>  
+
+
 }
 
 export default Project;
