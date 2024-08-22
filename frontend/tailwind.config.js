@@ -6,7 +6,7 @@ export default {
       colors: {
         "gdsc-blue": "#4884ed",
         "gdsc-red": "#db3236",
-        "gdsc-green": "#3dba54",
+        "gdsc-green": "#0F9D58",
         "gdsc-yellow": "#f4c20c",
       },
       keyframes: {
