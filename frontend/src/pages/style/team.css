@@ -18,8 +18,6 @@
   src: url("../fonts/Product Sans Regular.ttf") format('truetype');
 }
 
-
-
 .content{
     display: flex;
     align-items: center;
@@ -96,6 +94,24 @@
   font-weight: bold;
   margin-top: 50px;
 }
+@media (max-width: 430px) {
+  .team-container{
+    
+    grid-template-columns: repeat(2, 1fr) !important; 
+    
+  }
+  .core-container{
+    grid-template-columns: repeat(3, 1fr) !important; 
+  }
+  .h1{
+    font-size: 30px !important;
+
+  }
+}
+.outer{
+  display: flex;
+
+}
 
 .linkedin{
   width: 20px;
@@ -107,43 +123,14 @@
 }
 .team-container{
   width: 1320px;
+  
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr); 
-  gap: 15px; 
+  gap: 2px; 
+  
   padding-top: 5rem;
 }
-
-
-
-/* .team-member{
-  background: linear-gradient(to bottom, #ffffff 50%, #f5ba1a 50%);
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  padding-left: 20px;
-  transition: transform 0.3s ease;
-  background-size: 100% 200%;
-  background-position: top;
-  transition: background-position 0.5s ease-in-out, transform 0.3s ease;
-}
-
-
-.team-member:hover{
-  transform: translateY(-5px);
-  background-position: bottom;
-}
-
-@keyframes colorChange {
-  from {
-    background-position: top;
-  }
-  to {
-    background-position: bottom;
-  }
-} */
-
-
 
 .team-member {
   background-color: rgb(243 244 246); 
@@ -233,9 +220,7 @@ h2, p {
   color: #050505;
 }
 
-.outer{
-  padding: 50px;
-}
+
 .outer-coreend{
   
   padding-top: 15px ;
@@ -246,12 +231,15 @@ h2, p {
 }
 
 .core-container{
-  width: 1320px;
+  max-width: 1320px;
+  
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(6, 1fr); 
   gap: 15px; 
   padding-top: 5rem;
+  
+  
 }
 
 
