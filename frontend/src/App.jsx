@@ -29,6 +29,7 @@ const App = () => {
 
   return (
     <div className="w-full min-h-screen">
+      
       {!hideNavbarFooter && <Navbar />}
       <Routes>
         <Route path="/" element={<Home />} />
