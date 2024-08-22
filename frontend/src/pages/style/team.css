@@ -103,6 +103,10 @@
   .core-container{
     grid-template-columns: repeat(3, 1fr) !important; 
   }
+  .h1{
+    font-size: 30px !important;
+
+  }
 }
 .outer{
   display: flex;
