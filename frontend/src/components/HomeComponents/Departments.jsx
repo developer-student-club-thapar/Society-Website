@@ -7,7 +7,7 @@ const Departments = () => {
     <div className='flex w-full flex-col justify-center items-center text-left bg-gray-100 py-20'>
         <div className="w-[80%] flex flex-col">
         <button className='px-10 py-2 w-fit bg-gdsc-green text-white rounded-3xl cursor-default projectsAnim'>Departments</button>
-        <h1 className='text-6xl font-semibold mt-10 projectsAnim flex'>Departments</h1>
+        <h1 className=' text-3xl lg:text-6xl font-semibold mt-10 projectsAnim flex'>Departments</h1>
         <p className=' text-gray-500 mt-5 mb-10 projectsAnim  text-[15px] '> Welcome to the Google Developer Student Club (GDSC) at Thapar University – a community where innovation meets opportunity. We are a student-led organization committed to fostering a vibrant tech ecosystem on campus. Our mission is to bridge the gap between theoretical knowledge and real-world application, empowering students to develop and refine their technical skills.</p>
 
             <div className="grid grid-cols-3 gap-3 projectsAnim">
