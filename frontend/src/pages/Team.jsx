@@ -487,7 +487,7 @@ const Team = () => {
     <div className="core-container" >
       {CoreMembers.map(member => (
         <div key={member.id} className="core-member" >
-        <img src={member.imageUrl} alt={member.name } className='profile-image' />
+  
         <div className='team-team'>
           <div className='team-info'>
             <h2 className='h4'>{member.name}</h2>
