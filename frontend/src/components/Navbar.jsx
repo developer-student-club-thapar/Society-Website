@@ -62,7 +62,7 @@ const Navbar = () => {
           <button
             className="bg-black text-white px-8 py-2 rounded-3xl hover:text-black hover:bg-white transition-all hover:border-2 hover:border-black"
             onClick={() => {
-              window.location.href = "https://github.com";
+              document.querySelector("#form").scrollIntoView({ behavior: "smooth" });
             }}
           >
             FORM LINK

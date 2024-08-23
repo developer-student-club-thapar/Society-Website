@@ -12,7 +12,12 @@ const Footer = () => {
             <img src={logo} onClick={() => {navigate('/')}} alt="asd" className='h-6 cursor-pointer' />
             <h2 className='font-bold text-gray-800'>GDSC Thapar</h2>
         </div>
-        <button className='bg-black text-white px-8 py-2 rounded-3xl hover:text-black hover:bg-white transition-all hover:border-2 hover:border-black' onClick={() => {window.location.href = "https://github.com"}} >FORM LINK</button>
+        <button
+            className="bg-black text-white px-8 py-2 rounded-3xl hover:text-black hover:bg-white transition-all hover:border-2 hover:border-black"
+            onClick={() => {
+              document.querySelector("#form").scrollIntoView({ behavior: "smooth" });
+            }}
+          >FORM LINK</button>
       </div>
       <div className="grid grid-cols-5 w-[70%]  mb-6">
         <div className="">
