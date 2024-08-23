@@ -6,6 +6,7 @@ import EventsAndGallery from "../components/EventPage/Header";
 import { current, previous } from "/src/TeamData/EventData.js";
 import Infi from "../components/EventPage/Infi";
 import { useState } from "react";
+import MidInfi from "../components/EventPage/MidInfi";
 function EventHeading({ title, data }) {
   return (
     <div id="heading-cont" className="mt-7">
@@ -75,13 +76,13 @@ const Events = ({ renderFirst, renderSecond }) => {
           className="h-fit
          bg-[#f5f5f5] w-[100%] m-auto mt-5 "
         >
-          <div className="w-[80%] m-auto p-6 relative">
+          <div className="w-[100%] m-auto p-6 relative">
             <div className="text-[70px] absolute z-10 bg-[#f5f5f5] h-[240px] text-center flex justify-center items-center w-[400px] top-[36%] left-[34%] font-semibold">
               Gallery
             </div>
             <Infi />
-            {renderFirst && <Infi />}
-            {renderSecond && <Infi />}
+            <MidInfi />
+            <Infi />
           </div>
         </section>
         <Footer />

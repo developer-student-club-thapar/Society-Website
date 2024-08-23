@@ -29,26 +29,32 @@ section {
 .marquee {
   position: relative;
   display: flex;
-  gap: 22px;
+  justify-content: space-evenly;
   overflow: hidden;
+  user-select: none;
+  gap: var(1rem);
+  /* border: 2px solid lightgray; */
   height: 240px;
 }
 
 .marqueeContent {
+  flex-shrink: 0;
   display: flex;
+  /* background-color: red; */
   gap: 22px;
   min-width: 100%;
 }
+
 
 .marqueeContent img {
   max-width: 2rem;
   width: 100%;
   object-fit: contain;
-  
 }
 
 .marqueeContent > * {
   flex: 0 0 auto;
+  transform: translateX(-1320px);
   color: white;
   background-color: white;
   margin: 2px;
@@ -61,9 +67,9 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  
   border-radius: 15px;
   width: 450px;
+  
 }
 
 ul {
@@ -75,7 +81,7 @@ ul {
     transform: translateX(0);
   }
   to {
-    transform: translateX(calc(-100% - 1rem));
+    transform: translateX(calc(100% - 1rem));
   }
 }
 
@@ -87,8 +93,4 @@ ul {
 .enablea {
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-#row-flex{
-  background-color: rgb(0, 5, 5) !important;
 }

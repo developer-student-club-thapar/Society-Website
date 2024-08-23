@@ -2,8 +2,8 @@ import React from "react";
 import AndroidLogo from "/src/assets/Projectcard.svg";
 import BehanceLogo from "/src/assets/project.svg";
 import GoogleLogo from "/src/assets/About_Image.png";
-import styles from "/src/Css/Infi.module.css";
-function Infi() {
+import styles from "/src/Css/MidInfi.module.css";
+function MidInfi() {
   return (
     <div className={styles.mainContainer}>
       <section className={styles.enablea}>
@@ -18,6 +18,9 @@ function Infi() {
             <li className={styles.marqueeItem}>
               <img src={GoogleLogo} alt="Google Logo" />
             </li>
+          </ul>
+
+          <ul aria-hidden="true" className={styles.marqueeContent}>
             <li className={styles.marqueeItem}>
               <img src={AndroidLogo} alt="Android Logo" />
             </li>
@@ -28,11 +31,10 @@ function Infi() {
               <img src={GoogleLogo} alt="Google Logo" />
             </li>
           </ul>
-            
         </div>
       </section>
     </div>
   );
 }
 
-export default Infi;
+export default MidInfi;
