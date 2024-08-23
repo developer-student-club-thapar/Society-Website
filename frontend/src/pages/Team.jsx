@@ -470,7 +470,7 @@ const Team = () => {
             <h2 className='h3'>{member.name}</h2>
             <p className='p'>{member.designation}</p>
           </div>
-          <a href={member.linkedinUrl} target="_blank" rel="noopener noreferrer">
+          <a className ='hide' href={member.linkedinUrl} target="_blank" rel="noopener noreferrer">
             <img className="linkedin" src={image} alt="Profile Picture" />
           </a>
         </div>
@@ -491,9 +491,8 @@ const Team = () => {
         <div className='team-team'>
           <div className='team-info'>
             <h2 className='h4'>{member.name}</h2>
-            
             </div>
-          <a href={member.linkedinUrl} target="_blank" rel="noopener noreferrer">
+          <a class='hide' href={member.linkedinUrl} target="_blank" rel="noopener noreferrer">
             <img className="linkedin1" src={image} alt="Profile Picture" />
           </a>
         </div>
