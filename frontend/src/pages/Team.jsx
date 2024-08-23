@@ -18,7 +18,7 @@ const Team = () => {
       name: 'Reyan Singh',
       designation: 'Co-Lead',
       imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/janesmith'
+      linkedinUrl: 'https://www.linkedin.com/in/reyan-singh-0558ba25b/'
     },
     
     {
@@ -26,7 +26,7 @@ const Team = () => {
       name: 'Manan Sharma',
       designation: 'Co-Lead',
       imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/michaeljohnson'
+      linkedinUrl: 'https://www.linkedin.com/in/mash-sharma/'
     },
     
     {
@@ -34,84 +34,84 @@ const Team = () => {
       name: 'Priyanka Malik',
       designation: 'Design Mentor',
       imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
+      linkedinUrl: 'https://www.linkedin.com/in/priyanka-malik-252a77265/'
     },
     {
       id: 5,
       name: 'Sakshi Singh',
       designation: 'UI/UX Mentor',
       imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/chrisgreen'
+      linkedinUrl: 'https://www.linkedin.com/in/sakshi-singh-88683024a/'
     },
     {
       id: 6,
       name: 'Aarav Mahajan',
       designation: 'App Dev Mentor',
       imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
+      linkedinUrl: 'https://www.linkedin.com/in/aarav-mahajan-5160a6263/'
     },
     {
       id: 7,
       name: 'Pushan Aggarwal',
       designation: 'CyberSecurity Mentor',
       imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/davidblue'
+      linkedinUrl: 'https://www.linkedin.com/in/pushan-agrawal-93362919b/'
     },
     {
       id: 8,
       name: 'Sharath Chandra',
       designation: 'Web Dev Mentor',
       imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/sophiablack'
+      linkedinUrl: 'https://www.linkedin.com/in/csharath-chandra/'
     },
     {
       id: 9,
       name: 'Aryan Panja',
       designation: 'ML Mentor',
       imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/danielgrey'
+      linkedinUrl: 'https://www.linkedin.com/in/aryan-panja/'
     },
     {
       id: 10,
       name: 'Amandeep Singh',
       designation: 'ML Mentor',
       imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/emilyred'
+      linkedinUrl: 'https://www.linkedin.com/in/amandeep-singh-69a68b26b/'
     },
     {
       id: 11,
       name: 'Nimish Duggal',
       designation: 'Finance Mentor',
       imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
+      linkedinUrl: 'https://www.linkedin.com/in/nimish-duggal-8a93a625b/'
     },
     {
       id: 12,
       name: 'Dimpi Jain',
       designation: 'EM Mentor',
       imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/davidblue'
+      linkedinUrl: 'https://www.linkedin.com/in/dimpi-jain-784246214/'
     },
     {
       id: 13,
       name: 'Samkit Jaina',
       designation: 'Logistics Mentor',
       imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/sophiablack'
+      linkedinUrl: 'https://www.linkedin.com/in/samkit-jaina-51b109258/'
     },
     {
       id: 14,
       name: 'Yuvraj Singh',
       designation: 'RIOT(Robotics and IOT) Mentor',
       imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/danielgrey'
+      linkedinUrl: 'https://www.linkedin.com/in/yuvraj-singh-3aa067263/'
     },
     {
       id: 15,
       name: 'Aamna Abdin',
       designation: 'Product Mentor',
       imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/emilyred'
+      linkedinUrl: 'https://www.linkedin.com/in/aamnaabdin/'
     }];
 
     
@@ -143,33 +143,33 @@ const Team = () => {
           id: 1,
           name: 'Krishan Malhotra',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/johndoe'
+          linkedinUrl: 'https://www.linkedin.com/in/krishan-malhotra-349082299/'
         },
         {
           id: 2,
           name: 'Harsh Gupta',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/janesmith'
+          linkedinUrl: 'https://www.linkedin.com/in/harsh-gupta-200a47272/'
         },
         
         {
           id: 3,
           name: 'Aarushi Garg',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/michaeljohnson'
+          linkedinUrl: 'https://www.linkedin.com/in/aarushi-garg-50b476288/'
         },
         
         {
           id: 4,
           name: 'Yash Tomar',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
+          linkedinUrl: 'https://www.linkedin.com/in/yash-tomar-9243311b7/'
         },
         {
           id: 5,
           name: 'Armaan Jagirdar',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/chrisgreen'
+          linkedinUrl: 'https://www.linkedin.com/in/armaan-jagirdar-183b47285/'
         },
         {
           id: 6,
@@ -188,7 +188,7 @@ const Team = () => {
           id: 8,
           name: 'Priyanshu Patel',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/johndoe'
+          linkedinUrl: 'https://www.linkedin.com/in/priyanshu-patel-ab2866276'
         },
         {
           id: 9,
@@ -201,45 +201,45 @@ const Team = () => {
           id: 10,
           name: 'Yuvansh Pathak',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/michaeljohnson'
+          linkedinUrl: 'http://www.linkedin.com/in/yuvansh-pathak'
         },
         
         {
           id: 11,
           name: 'Navnoor Bawa',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
+          linkedinUrl: 'https://www.linkedin.com/in/navnoorbawa/'
         },
         {
           id: 12,
           name: 'Rehnoor Aulakh',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/chrisgreen'
+          linkedinUrl: 'https://www.linkedin.com/in/rehnoor-aulakh-41b2b727b/'
         },
         {
           id: 13,
           name: 'Arjun Singh',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
+          linkedinUrl: 'https://www.linkedin.com/in/arjun-s-6089a4265/'
         },
         {
           id: 14,
           name: 'Prakhar Raj',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/davidblue'
+          linkedinUrl: 'https://www.linkedin.com/in/prakharraj11/'
         },
       
         {
           id: 15,
           name: 'Aayush Goyal',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/johndoe'
+          linkedinUrl: 'https://www.linkedin.com/in/aayush-goyal-653015271/'
         },
         {
           id: 16,
           name: 'Mehar Dua',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/janesmith'
+          linkedinUrl: 'https://www.linkedin.com/in/mehar-dua-26b3691ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
         },
         
         {
@@ -260,13 +260,13 @@ const Team = () => {
           id: 19,
           name: 'Marul Bhardwaj',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
+          linkedinUrl: 'https://www.linkedin.com/in/marul-bhardwaj-1465271bb/'
         },
         {
           id: 20,
           name: 'Riya Gupta',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/davidblue'
+          linkedinUrl: 'https://www.linkedin.com/in/riya-gupta-4671a5291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
           
         },
       
@@ -280,7 +280,7 @@ const Team = () => {
           id: 22,
           name: 'Adhya Koul',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/janesmith'
+          linkedinUrl: 'https://in.linkedin.com/in/adhya-koul-a84b6b21'
         },
         
         {
@@ -300,19 +300,19 @@ const Team = () => {
           id: 25,
           name: 'Pradyumna Singh',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/chrisgreen'
+          linkedinUrl: 'https://www.linkedin.com/in/pradyumna-singh-a14885206/'
         },
         {
           id: 26,
           name: 'Naman Khosla',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
+          linkedinUrl: 'https://www.linkedin.com/in/naman-khosla-1420ab296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
         },
         {
           id: 27,
           name: 'Riddhi Jain',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/davidblue'
+          linkedinUrl: 'https://www.linkedin.com/in/riddhi-jain-02a41129a/'
         },
       
         {
@@ -332,20 +332,20 @@ const Team = () => {
           id: 30,
           name: 'Vidhu Sarwal',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/michaeljohnson'
+          linkedinUrl: 'https://www.linkedin.com/in/vidhusarwal/'
         },
         
         {
           id: 31,
           name: 'Harshit Arora',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
+          linkedinUrl: 'https://www.linkedin.com/in/harshit-arora-here/'
         },
         {
           id: 32,
           name: 'Parth Katiyar',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/chrisgreen'
+          linkedinUrl: 'https://www.linkedin.com/in/parthkatiyar'
         },
         {
           id: 33,
@@ -363,26 +363,26 @@ const Team = () => {
           id: 35,
           name: 'Periza Arora',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
+          linkedinUrl: 'https://www.linkedin.com/in/periza-arora/'
         }
         ,
         {
           id: 36,
           name: 'Ananya Pahwa',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/davidblue'
+          linkedinUrl: 'https://www.linkedin.com/in/ananya-pahwa/'
         },
         {
           id: 37,
           name: 'Gurkirat Singh',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/johndoe'
+          linkedinUrl: 'http://linkedin.com/in/gurkirat-singh-29773628b'
         },
         {
           id: 38,
           name: 'Ashmit',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/janesmith'
+          linkedinUrl: 'https://www.linkedin.com/in/ashmitcajla/'
         },
         
         {
@@ -409,7 +409,7 @@ const Team = () => {
           id: 42,
           name: 'Parth Kapoor',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
+          linkedinUrl: 'https://www.linkedin.com/in/parthkapoor08/'
         }
         ,
         
@@ -417,7 +417,7 @@ const Team = () => {
           id: 43,
           name: 'Gurkirat Singh',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
+          linkedinUrl: 'https://www.linkedin.com/in/gurkirat-singh-915192266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
         }
 
       ]
@@ -491,6 +491,7 @@ const Team = () => {
         <div className='team-team'>
           <div className='team-info'>
             <h2 className='h4'>{member.name}</h2>
+            
             </div>
           <a href={member.linkedinUrl} target="_blank" rel="noopener noreferrer">
             <img className="linkedin1" src={image} alt="Profile Picture" />
