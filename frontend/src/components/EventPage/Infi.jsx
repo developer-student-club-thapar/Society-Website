@@ -27,8 +27,67 @@ function Infi() {
             <li className={styles.marqueeItem}>
               <img src={GoogleLogo} alt="Google Logo" />
             </li>
+            <li className={styles.marqueeItem}>
+              <img src={BehanceLogo} alt="Behance Logo" />
+            </li>
+            <li className={styles.marqueeItem}>
+              <img src={GoogleLogo} alt="Google Logo" />
+            </li>
+            <li className={styles.marqueeItem}>
+              <img src={AndroidLogo} alt="Android Logo" />
+            </li>
+            <li className={styles.marqueeItem}>
+              <img src={BehanceLogo} alt="Behance Logo" />
+            </li>
+            <li className={styles.marqueeItem}>
+              <img src={GoogleLogo} alt="Google Logo" />
+            </li>
+            <li className={styles.marqueeItem}>
+              <img src={BehanceLogo} alt="Behance Logo" />
+            </li>
+            <li className={styles.marqueeItem}>
+              <img src={GoogleLogo} alt="Google Logo" />
+            </li>
+            <li className={styles.marqueeItem}>
+              <img src={AndroidLogo} alt="Android Logo" />
+            </li>
+            <li className={styles.marqueeItem}>
+              <img src={BehanceLogo} alt="Behance Logo" />
+            </li>
+            <li className={styles.marqueeItem}>
+              <img src={GoogleLogo} alt="Google Logo" />
+            </li>
+            <li className={styles.marqueeItem}>
+              <img src={BehanceLogo} alt="Behance Logo" />
+            </li>
+            <li className={styles.marqueeItem}>
+              <img src={GoogleLogo} alt="Google Logo" />
+            </li>
+            <li className={styles.marqueeItem}>
+              <img src={AndroidLogo} alt="Android Logo" />
+            </li>
+            <li className={styles.marqueeItem}>
+              <img src={BehanceLogo} alt="Behance Logo" />
+            </li>
+            <li className={styles.marqueeItem}>
+              <img src={GoogleLogo} alt="Google Logo" />
+            </li>
+            <li className={styles.marqueeItem}>
+              <img src={BehanceLogo} alt="Behance Logo" />
+            </li>
+            <li className={styles.marqueeItem}>
+              <img src={GoogleLogo} alt="Google Logo" />
+            </li>
+            <li className={styles.marqueeItem}>
+              <img src={AndroidLogo} alt="Android Logo" />
+            </li>
+            <li className={styles.marqueeItem}>
+              <img src={BehanceLogo} alt="Behance Logo" />
+            </li>
+            <li className={styles.marqueeItem}>
+              <img src={GoogleLogo} alt="Google Logo" />
+            </li>
           </ul>
-            
         </div>
       </section>
     </div>

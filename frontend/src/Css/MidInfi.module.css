@@ -22,7 +22,7 @@ section {
 }
 
 .mainContainer {
-  width:100%;
+  width: 100%;
 }
 
 /* Marquee styles */
@@ -45,7 +45,6 @@ section {
   min-width: 100%;
 }
 
-
 .marqueeContent img {
   max-width: 2rem;
   width: 100%;
@@ -54,7 +53,7 @@ section {
 
 .marqueeContent > * {
   flex: 0 0 auto;
-  transform: translateX(-1320px);
+  transform: translateX(-10000px);
   color: white;
   background-color: white;
   margin: 2px;
@@ -69,7 +68,6 @@ section {
   align-items: center;
   border-radius: 15px;
   width: 450px;
-  
 }
 
 ul {
@@ -87,7 +85,7 @@ ul {
 
 /* Enable animation */
 .enablea .marqueeContent {
-  animation: scroll 10s linear infinite;
+  animation: scroll 80s linear infinite;
 }
 
 .enablea {

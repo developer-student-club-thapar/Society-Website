@@ -22,7 +22,7 @@ section {
 }
 
 .mainContainer {
-  width:100%;
+  width: 100%;
 }
 
 /* Marquee styles */
@@ -30,6 +30,7 @@ section {
   position: relative;
   display: flex;
   gap: 22px;
+  justify-content: space-around;
   overflow: hidden;
   height: 240px;
 }
@@ -38,13 +39,13 @@ section {
   display: flex;
   gap: 22px;
   min-width: 100%;
+  margin-left: 3rem;
 }
 
 .marqueeContent img {
   max-width: 2rem;
   width: 100%;
   object-fit: contain;
-  
 }
 
 .marqueeContent > * {
@@ -61,7 +62,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   border-radius: 15px;
   width: 450px;
 }
@@ -89,6 +90,6 @@ ul {
   margin-bottom: 20px;
 }
 
-#row-flex{
+#row-flex {
   background-color: rgb(0, 5, 5) !important;
 }
