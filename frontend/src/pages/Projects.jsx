@@ -40,7 +40,7 @@ function Project() {
 
     <>
       <div className={styles.main} style={getUpdatedStyles(color)}>
-        <Navbar />
+        {/* <Navbar /> */}
         {!display ? (
           <Card
             setdisplay={setdisplay}
@@ -60,7 +60,7 @@ function Project() {
             getUpdatedStyles={getUpdatedStyles}
           />
         ) : null}
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );
@@ -74,18 +74,24 @@ export default Project;
 
 function Stats({ stats }) {
   return (
-    <div className="flex gap-x-[45px] mt-[28px]">
+    <div className="flex gap-x-[15px] mt-[28px]">
       <div>
-        <h3 className="font-bold text-[50px]">{stats.Members}</h3>
-        <p className="font-semibold text-[20px]">Members</p>
+        <h3 className="font-bold text-[20px] lg:text-[45px]">
+          {stats.Members}
+        </h3>
+        <p className="font-semibold text-[15px] lg:text-[25px]">Members</p>
       </div>
       <div>
-        <h3 className="font-bold text-[50px]">{stats.Projects}</h3>
-        <p className="font-semibold text-[20px]">Projects</p>
+        <h3 className="font-bold text-[20px] lg:text-[45px]">
+          {stats.Projects}
+        </h3>
+        <p className="font-semibold text-[15px] lg:text-[25px]">Projects</p>
       </div>
       <div>
-        <h3 className="font-bold text-[50px]">{stats.Departments}</h3>
-        <p className="font-semibold text-[20px]">Departments</p>
+        <h3 className="font-bold text-[20px] lg:text-[45px]">
+          {stats.Departments}
+        </h3>
+        <p className="font-semibold text-[15px] lg:text-[25px]">Departments</p>
       </div>
     </div>
   );
@@ -99,12 +105,16 @@ function ProjectDesc({ setdisplay, desc1, desc2, name, stats, color }) {
   return (
     <div id="container1" className={styles.container1}>
       <div className={styles.crossf}>
-        <img
-          src={cross}
-          alt=""
-          className="p-3 bg-[#f5f5f5] rounded-full mt-[20px] self-start"
-          onClick={() => setdisplay(false)}
-        />
+        <div className="flex justify-end">
+          <img
+            src={cross}
+            alt=""
+            className="lg:p-3 p-2 bg-[#f5f5f5] rounded-full  mt-[20px] self-start
+          h-[30px] lg:h-[40px] "
+            onClick={() => setdisplay(false)}
+          />
+        </div>
+
         <div className={styles.full}>
           <div className="flex items-start bg-slate-700 w-fit">
             <img src={img} alt="" className={styles.photo} />
@@ -117,20 +127,22 @@ function ProjectDesc({ setdisplay, desc1, desc2, name, stats, color }) {
             <p>{desc1}</p>
             <p>{desc2}</p>
           </div>
-          <p className="mt-4 font-bold text-[20px]">Project Stats</p>
+          <p className="mt-4 font-bold text-[20px] lg:text-[40px]">
+            Project Stats
+          </p>
           <Stats stats={stats} />
         </div>
       </div>
 
       <div className="w-[90%]">
-        <p className="bg-black text-white w-fit rounded-full px-7 py-3 text-[18px] font-semibold">
+        <p className="bg-black text-white w-fit rounded-full lg:px-7 lg:py-3 lg:text-[18px] text-[14px] px-5 py-1 mt-7 font-semibold">
           More
         </p>
         <Title content={"More Projects"} />
         <p className={styles.more}>
           Have a look at other projects made by GDSC Thapar
         </p>
-        <div className="flex justify-between">
+        <div className="flex justify-between lg:flex-row flex-col">
           <MorProjects color={color} getUpdatedStyles={getUpdatedStyles} />
           <MorProjects color={color} getUpdatedStyles={getUpdatedStyles} />
           <MorProjects color={color} getUpdatedStyles={getUpdatedStyles} />
@@ -166,23 +178,28 @@ function ProejctCard({ onNextCard, color, datan, setdisplay }) {
       <div className="relative">
         <div
           id="card"
-          className="relative z-20 flex h-[417px] w-[290px] rotate-0 flex-col justify-center gap-[20px] rounded-2xl bg-[#f5f5f5] p-[20px] border-[1px]"
+          className="relative z-20 flex h-[350px] w-[220px] rotate-0 flex-col justify-center gap-[20px] rounded-2xl bg-[#f5f5f5] p-[10px]
+          pr-4 border-[1px] lg:w-[290px] lg:h-[410px] lg:p-[20px]"
         >
           <button
-            className="bg-[#ea4335] h-[30px] w-[90px] rounded-full text-white text-[15px] font-semibold"
+            className="bg-[#ea4335] h-[30px] w-[90px] rounded-full mt-6 text-white text-[15px] font-semibold"
             style={getUpdatedStyles(color)}
           >
             TL;DR
           </button>
-          <h1 className="text-xl font-bold">
+          <h1 className="text-normal font-bold lg:text-xl">
             Lorem ipsum dolor sit amet consectetur.
           </h1>
-          <div className="flex h-[250px] w-[250px] items-center justify-center">
-            <img className="rounded-lg " src={pc} alt="" />
+          <div className="flex h-[250px] w-[250px]  ">
+            <img
+              className="rounded-lg h-[130px]  lg:h-[230px]"
+              src={pc}
+              alt=""
+            />
           </div>
         </div>
-        <div className="absolute left-[10px] top-[10px] z-10 h-[417px] w-[290px] rotate-[10deg] rounded-2xl bg-[#f5f5f5] border-[1px]"></div>
-        <div className="absolute left-[20px] top-[20px] z-0 h-[417px] w-[290px] rotate-[20deg] rounded-2xl bg-[#f5f5f5] border-[1px]"></div>
+        <div className="absolute left-[10px] top-[10px] z-10 h-[350px] w-[220px] rotate-[10deg] rounded-2xl bg-[#f5f5f5] border-[1px] lg:w-[290px] lg:h-[410px] lg:p-[20px]"></div>
+        <div className="absolute left-[20px] top-[20px] z-0 h-[350px] w-[220px] rotate-[20deg] rounded-2xl bg-[#f5f5f5] border-[1px] lg:w-[290px] lg:h-[410px] lg:p-[20px]"></div>
       </div>
       <button
         className="border-b-[3px] border-b-black text-2xl font-semibold"

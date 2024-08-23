@@ -22,7 +22,7 @@ function EventHeading({ title, data }) {
       </div>
 
       {data.length === 0 ? (
-        <h3 className="bg-[#F5F5F5] p-4 text-center text-[18px]">
+        <h3 className="bg-[#F5F5F5] p-4 text-center text-[18px] rounded-full">
           {" "}
           No {title}! Come Back Later
         </h3>

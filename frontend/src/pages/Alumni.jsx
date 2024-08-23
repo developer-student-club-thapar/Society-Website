@@ -117,7 +117,7 @@ const Alumni = () => {
   return (
   <>
     <div className="content">
-      <h1 className='h1'>our Alumni</h1>
+      <h1 className='h1'>Alumnis of GDSC Thapar</h1>
     </div>
 
     <div  className="alumni-container" >
