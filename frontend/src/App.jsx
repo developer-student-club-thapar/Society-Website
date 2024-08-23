@@ -16,15 +16,6 @@ const App = () => {
   const location = useLocation();
   const hideNavbarFooter =
     location.pathname === "/projects" || location.pathname === "/events";
-  React.useEffect(() => {
-    setTimeout(() => {
-      setRenderFirst(true);
-    }, 2000);
-
-    setTimeout(() => {
-      setRenderSecond(true);
-    }, 3000);
-  }, []);
 
   return (
     <div className="w-full min-h-screen">

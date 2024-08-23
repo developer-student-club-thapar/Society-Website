@@ -29,11 +29,11 @@ function EventCategory({ category }) {
 
 function SubscribeButton() {
   return (
-    <form className="flex overflow-hidden gap-5 w-fit justify-center items-center py-4 pr-10 pl-10 mt-4 text-base uppercase rounded-3xl border-2 border-black border-solid max-md:px-5">
+    <form className="flex overflow-hidden gap-5 w-fit justify-center items-center py-4 pr-10 pl-10 mt-4 text-base uppercase rounded-full border-2 border-black border-solid max-md:px-5">
       <label htmlFor="subscribeInput" className="sr-only">
         Subscribe for future events
       </label>
-      <p className="self-stretch my-auto bg-transparent border-none outline-none w-[250px] font-bold text-black">
+      <p className=" text-nowrap self-stretch my-auto bg-transparent border-none outline-none w-[250px] font-bold text-black">
         SUBSCRIBE FOR FUTURE EVENTS
       </p>
       <button type="submit" aria-label="Submit subscription" className="w-fit">

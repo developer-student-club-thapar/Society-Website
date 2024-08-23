@@ -2,8 +2,8 @@ import React from "react";
 import AndroidLogo from "/src/assets/Projectcard.svg";
 import BehanceLogo from "/src/assets/project.svg";
 import GoogleLogo from "/src/assets/About_Image.png";
-import styles from "/src/Css/Infi.module.css";
-function Infi() {
+import styles from "/src/Css/MidInfi.module.css";
+function MidInfi() {
   return (
     <div className={styles.mainContainer}>
       <section className={styles.enablea}>
@@ -94,4 +94,4 @@ function Infi() {
   );
 }
 
-export default Infi;
+export default MidInfi;
