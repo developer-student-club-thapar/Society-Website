@@ -422,7 +422,14 @@ const Team = () => {
 
       ]
 
-     
+      const handleCardClick = (url) => {
+        
+        if (window.innerWidth <= 768) {
+          window.open(url, '_blank');
+        }
+      };
+
+  
 
   return (
   <>
@@ -432,7 +439,7 @@ const Team = () => {
     <div  class =' w-[80%] justify-center items-center flex flex-col'>
      
      
-      <div >
+      <div className='title' >
       
       
         <p className='para' class='text-gray-600 font-semibold  justify-center items-center flex '>About our Past members</p>
@@ -463,7 +470,7 @@ const Team = () => {
 
     <div  className="team-container" >
       {ExecutiveMembers.map(member => (
-        <div key={member.id} className="team-member" >
+        <div key={member.id} className="team-member" onClick={() => handleCardClick(member.linkedinUrl)}>
           <img src={member.imageUrl} alt={member.name } className='profile-image' />
         <div className='team-team'>
           <div className='team-info'>
