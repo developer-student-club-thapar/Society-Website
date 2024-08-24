@@ -95,30 +95,46 @@
   margin-top: 50px;
 }
 @media (max-width: 430px) {
+
+  .title{
+    margin-top: -6em;
+  }
+
   .team-container{
-    
     grid-template-columns: repeat(2, 1fr) !important; 
     padding: 5px;
-    
   }
-  
   .core-container{
     grid-template-columns: repeat(4, 1fr) !important;
     padding: 5px; 
   
   }
+
   .team-team {
     justify-content: center !important;
   }
-  
+
   .hide{
     display: none !important;
   }
   .h1{
     font-size: 35px !important;
     padding-top: 50px;
-    
-
+  }
+  .h2{
+    font-size: 35px;
+  }
+  .texteb{
+    font-size: small;
+  }
+  .content1{
+    margin-top: -8em;
+  }
+  .outer{
+    margin-top: -5em;
+  }
+  .outer-core{
+    margin-top: -5em;
   }
   .h3{
     font-size: 1.2rem !important;

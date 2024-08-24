@@ -132,7 +132,11 @@ const Alumni = () => {
             <h2 className='h3'>{AlumniMembers.name}</h2>
             <p className='p'>{AlumniMembers.designation}</p>
           </div>
+
           <a className ='hide' href={AlumniMembers.linkedinUrl} target="_blank" rel="noopener noreferrer">
+
+          <a className ='hide' href={member.linkedinUrl} target="_blank" rel="noopener noreferrer">
+
             <img className="linkedin" src={image} alt="Profile Picture" />
           </a>
         </div>
