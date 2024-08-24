@@ -114,3 +114,72 @@
     font-size: 14px;
   }
 }
+
+
+/*ProjectDesc Animation*/
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slideUp {
+  animation: slideUp 0.5s ease-out;
+}
+
+
+@keyframes slideDown {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
+
+
+.slideDown {
+  animation: slideDown 0.5s ease-out;
+}
+
+
+
+/*Open and close card Animation*/
+@keyframes scaleUp {
+  from {
+    transform: scale(0%);
+    opacity: 0;
+  }
+  to {
+    transform: scale(100%);
+    opacity: 1;
+  }
+}
+
+
+@keyframes scaleDown {
+  from {
+    transform: scale(100%);
+    opacity: 1;
+  }
+  to {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+.scaleUp {
+  animation: scaleUp 0.5s ease-out forwards;
+}
+
+.scaleDown {
+  animation: scaleDown 0.5s ease-out forwards;
+}
+
