@@ -82,7 +82,7 @@ const Alumni = () => {
       id: 11,
       name: 'Tushar Chopra',
       designation: 'Ex Software Engineer @subconscious.ai',
-      imageUrl: '/src/img/alumni/Tushar.jpg',
+      imageUrl: '/src/img/alumni/tushar.png',
       linkedinUrl: 'https://www.linkedin.com/in/tushar-chopra-960532215/'
     },
     {
