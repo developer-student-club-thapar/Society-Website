@@ -96,10 +96,8 @@
 }
 @media (max-width: 430px) {
   .team-container{
-    
     grid-template-columns: repeat(2, 1fr) !important; 
     padding: 5px;
-    
   }
   
   .core-container{
