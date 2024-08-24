@@ -107,6 +107,9 @@
     padding: 5px; 
   
   }
+  .team-team {
+    justify-content: center !important;
+  }
   
   .hide{
     display: none !important;
@@ -129,13 +132,15 @@
   .but{
     padding:50px ;
   }
+  
  
 }
+
 .outer{
   display: flex;
   padding-top: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 
 }
 
@@ -143,6 +148,7 @@
   width: 20px;
   height: 20px;
   margin-top: 25px;
+  
 }
 .linkedin:hover{
   opacity: 0.7;
@@ -209,7 +215,7 @@ h2, p {
 .team-team{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .team-info{
