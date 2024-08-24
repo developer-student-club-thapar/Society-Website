@@ -1,8 +1,7 @@
-
 import React, { useState, useRef, useEffect } from "react";
-import styles from "/src/Css/page.module.css";
+import styles from "../../src/Css/page.module.css";
 import cross from "/src/assets/cross.svg";
-import { googlecolor, data } from "/src/TeamData/ProjectData.js";
+import { googlecolor, data } from "../../src/TeamData/ProjectData.js";
 import MorProjects from "../components/ProjectPageComponents/MorProjects";
 import pc from "/src/assets/Projectcard.svg";
 import img from "/src/assets/project.svg";
@@ -11,6 +10,7 @@ import Footer from "../components/Footer";
 
 const getUpdatedStyles = (color) => ({
   backgroundColor: color,
+  transition: "background-color 0.5s ease-in-out",
 });
 
 function Project() {
@@ -19,6 +19,9 @@ function Project() {
   const [datan, setdatan] = useState(0);
   const [color, setcolor] = useState(googlecolor[num]);
   const desc = useRef();
+
+  const [animationClass, setAnimationClass] = useState("");
+
   const [projectdata, setdata] = useState(data[num]);
   useEffect(() => {
     //do something
@@ -35,6 +38,23 @@ function Project() {
   };
  
 
+  const handleOpenCard = () => {
+    setAnimationClass(styles.scaleDown);
+    setTimeout(() => {
+      setdisplay(true);
+      setAnimationClass(styles.slideUp);
+    }, 200); // Match the duration of the scale-down animation
+  };
+  
+
+  const handleCloseDesc = () => {
+    setAnimationClass(styles.slideDown);
+    setTimeout(() => {
+      setdisplay(false);
+      setAnimationClass(styles.scaleUp);
+    }, 200); // Match the duration of the slide-down animation
+  };
+
 
   return (
 
@@ -43,21 +63,23 @@ function Project() {
         {/* <Navbar /> */}
         {!display ? (
           <Card
-            setdisplay={setdisplay}
+            setdisplay={handleOpenCard}
             onNextCard={handleNextCard}
             color={color}
             datan={datan}
+            animationClass={animationClass}
           />
         ) : null}
         {display ? (
           <ProjectDesc
-            setdisplay={setdisplay}
+            setdisplay={handleCloseDesc}
             desc1={projectdata.desc1}
             desc2={projectdata.desc2}
             name={projectdata.Name}
             stats={projectdata.ProjectStat[0]}
             color={color}
             getUpdatedStyles={getUpdatedStyles}
+            animationClass={animationClass}
           />
         ) : null}
         {/* <Footer /> */}
@@ -101,17 +123,18 @@ function Title({ content }) {
   return <h2 className={styles.name}>{content}</h2>;
 }
 
-function ProjectDesc({ setdisplay, desc1, desc2, name, stats, color }) {
+function ProjectDesc({ setdisplay, desc1, desc2, name, stats, color, animationClass}) {
+
   return (
-    <div id="container1" className={styles.container1}>
+    <div id="container1" className={`${styles.container1} ${animationClass}`}>
       <div className={styles.crossf}>
         <div className="flex justify-end">
           <img
             src={cross}
             alt=""
-            className="lg:p-3 p-2 bg-[#f5f5f5] rounded-full  mt-[20px] self-start
-          h-[30px] lg:h-[40px] "
-            onClick={() => setdisplay(false)}
+            className={`lg:p-3 p-2 bg-[#f5f5f5] rounded-full  mt-[20px] self-start
+          h-[30px] lg:h-[40px]`}
+            onClick={setdisplay}
           />
         </div>
 
@@ -152,26 +175,27 @@ function ProjectDesc({ setdisplay, desc1, desc2, name, stats, color }) {
   );
 }
 
-function Card({ setdisplay, onNextCard, color, datan }) {
+function Card({ setdisplay, onNextCard, color, datan, animationClass }) {
   return (
     <ProejctCard
       onNextCard={onNextCard}
       color={color}
       datan={datan}
       setdisplay={setdisplay}
+      animationClass={animationClass}
     />
   );
 }
 
-function ProejctCard({ onNextCard, color, datan, setdisplay }) {
+function ProejctCard({ onNextCard, color, datan, setdisplay, animationClass }) {
   return (
     <div
       id="box-card"
-      className="flex w-full flex-col items-center justify-center gap-32 p-8 mt-10 mb-[40px] md:flex-row "
+      className={`flex w-full flex-col items-center justify-center gap-32 p-8 mt-10 mb-[40px] md:flex-row ${animationClass}`}
     >
       <button
         className="border-b-[3px] border-b-black text-2xl font-semibold"
-        onClick={() => setdisplay(true)}
+        onClick={setdisplay}
       >
         Open Card!
       </button>
