@@ -489,9 +489,9 @@ const Team = () => {
         <div key={member.id} className="core-member" >
   
         <div className='team-team'>
-          <div className='team-info'>
+         
             <h2 className='h4'>{member.name}</h2>
-            </div>
+           
           <a class='hide' href={member.linkedinUrl} target="_blank" rel="noopener noreferrer">
             <img className="linkedin1" src={image} alt="Profile Picture" />
           </a>

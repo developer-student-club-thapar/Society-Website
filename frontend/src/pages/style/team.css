@@ -134,6 +134,8 @@
 .outer{
   display: flex;
   padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 
 }
 
@@ -207,7 +209,7 @@ h2, p {
 .team-team{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .team-info{
@@ -269,7 +271,7 @@ h2, p {
 
   background-color: rgb(243 244 246); 
 
-  background-color:  rgb(243 244 246);
+  
   border: 0.5px solid black; 
 
   border-radius: 8px;
