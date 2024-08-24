@@ -18,6 +18,7 @@
     src: url("../fonts/Product Sans Regular.ttf") format('truetype');
 }
 
+
 .content{
     display: flex;
     align-items: center;
