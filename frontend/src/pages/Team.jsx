@@ -435,7 +435,7 @@ const Team = () => {
       <div >
       
       
-        <p className='para' class='text-gray-600 font-semibold  justify-center items-center flex '>About our Past members</p>
+        <p className='para' class='text-gray-600 font-semibold  justify-center items-center flex '>About our members</p>
         <h1 className='h1'>Team of GDSC Thapar </h1>
         <div className='but'>
         <button onClick={scrollToSection} className='team-button'>MEET THE TEAM </button>
