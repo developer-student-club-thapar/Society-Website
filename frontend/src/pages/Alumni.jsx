@@ -100,6 +100,13 @@ const Alumni = () => {
       linkedinUrl: 'https://www.linkedin.com/in/aniket-biswas-59394b191/'
     }];
 
+    const handleCardClick = (url) => {
+        
+      if (window.innerWidth <= 768) {
+        window.open(url, '_blank');
+      }
+    };
+
   return (
   <>
     <div  className= 'content' >
@@ -125,7 +132,7 @@ const Alumni = () => {
 
     <div  className="alumni-container" >
       {AlumniMembers.map(AlumniMembers => (
-        <div key={AlumniMembers.id} className="alumni-member" >
+        <div key={AlumniMembers.id} className="alumni-member" onClick={() => handleCardClick(AlumniMembers.linkedinUrl)}>
           <img src={AlumniMembers.imageUrl} alt={AlumniMembers.name } className='profile-image' />
         <div className='team-team'>
           <div className='alumni-info'>
