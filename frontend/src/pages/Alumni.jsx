@@ -68,28 +68,28 @@ const Alumni = () => {
       id: 9,
       name: 'Nikhil Bakshi',
       designation: 'SWE @JPMC',
-      imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/danielgrey'
+      imageUrl: '/src/img/alumni/nikhilbakshi.jpeg',
+      linkedinUrl: 'https://www.linkedin.com/in/nikhilbksi/'
     },
     {
       id: 10,
       name: 'Deepanshi Sharma',
       designation: 'SWE Intern @Salesforce',
-      imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/emilyred'
+      imageUrl: '/src/img/alumni/deepanshisharma.jpeg',
+      linkedinUrl: 'https://www.linkedin.com/in/deepanshi-sharma05/'
     },
     {
       id: 11,
       name: 'Tushar Chopra',
       designation: 'Ex Software Engineer @subconscious.ai',
-      imageUrl: '/src/img/alumni/Tushar.jpg',
+      imageUrl: '/src/img/alumni/Tushar.png',
       linkedinUrl: 'https://www.linkedin.com/in/tushar-chopra-960532215/'
     },
     {
       id: 12,
       name: 'Harishankar Kumar',
       designation: 'Building @AlthireAI',
-      imageUrl: 'https://via.placeholder.com/150',
+      imageUrl: '/src/img/alumni/harishankark.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/hsk4link/'
     },
     {
