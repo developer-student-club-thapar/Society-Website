@@ -223,7 +223,7 @@ h2, p {
 .team-team{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .team-info{
