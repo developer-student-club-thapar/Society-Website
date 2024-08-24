@@ -493,7 +493,7 @@ const Team = () => {
 
     <div className="core-container" >
       {CoreMembers.map(member => (
-        <div key={member.id} className="core-member" >
+        <div key={member.id} className="core-member" onClick={() => handleCardClick(member.linkedinUrl)}>
   
         <div className='team-team'>
          
