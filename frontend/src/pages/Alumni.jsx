@@ -135,7 +135,7 @@ const Alumni = () => {
 
           <a className ='hide' href={AlumniMembers.linkedinUrl} target="_blank" rel="noopener noreferrer">
 
-          <a className ='hide' href={member.linkedinUrl} target="_blank" rel="noopener noreferrer">
+         
 
             <img className="linkedin" src={image} alt="Profile Picture" />
           </a>
