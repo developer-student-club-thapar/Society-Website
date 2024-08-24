@@ -110,14 +110,10 @@
     display: none !important;
   }
   .h1{
-<<<<<<< HEAD
-    font-size: 30px !important;
-=======
     font-size: 35px !important;
     padding-top: 50px;
     
 
->>>>>>> 2e8d0fc19828421e1ebf60e2a0c746bac33436d5
   }
   .h3{
     font-size: 1.2rem !important;
