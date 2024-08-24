@@ -8,7 +8,7 @@ const Alumni = () => {
     
     {
       id: 1,
-      name: 'Jay Parmani',
+      name: 'Jay Parmani', 
       designation: 'Software Engineer @Apple',
       imageUrl: '/src/img/alumni/1657200096415.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/jsparmani/'
