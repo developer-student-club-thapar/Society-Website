@@ -10,14 +10,14 @@ const Alumni = () => {
       id: 1,
       name: 'Jay Parmani',
       designation: 'Software Engineer @Apple',
-      imageUrl: '/src/img/1657200096415.jpeg',
+      imageUrl: '/src/img/alumni/1657200096415.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/jsparmani/'
     },
     {
       id: 2,
       name: 'Deepak Jain',
       designation: 'Former R&D Intern @Maruti Suzuki',
-      imageUrl: 'https://via.placeholder.com/150',
+      imageUrl: '/src/img/alumni/1640551961514.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/deepak-jain-18227b198/'
     },
     
@@ -25,7 +25,7 @@ const Alumni = () => {
       id: 3,
       name: 'Ujjwal Singh',
       designation: 'Private Equity Analyst @Bain & Company',
-      imageUrl: 'https://via.placeholder.com/150',
+      imageUrl: '/src/img/alumni/UjjwalSingh.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/thee-ujjwal/'
     },
     
@@ -33,35 +33,35 @@ const Alumni = () => {
       id: 4,
       name: 'Aarushi Abrol',
       designation: 'YTL @Airtel Digital',
-      imageUrl: 'https://via.placeholder.com/150',
+      imageUrl: '/src/img/alumni/AarushiAbrol.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/aarushiabrol/'
     },
     {
       id: 5,
       name: 'Harsh Jain',
       designation: 'Ex- Digital Technical Specialist Intern @IBM',
-      imageUrl: 'https://via.placeholder.com/150',
+      imageUrl: '/src/img/alumni/HarshJain.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/harsh--jain/'
     },
     {
       id: 6,
       name: 'Shreeya Chatterji',
       designation: 'Summer Intern @JPMC',
-      imageUrl: 'https://via.placeholder.com/150',
+      imageUrl: '/src/img/alumni/Shreeya.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/shreeyachatterji/'
     },
     {
       id: 7,
       name: 'Sidharth Bahl',
       designation: 'SWE 1 @JPMC',
-      imageUrl: 'https://via.placeholder.com/150',
+      imageUrl: '/src/img/alumni/Sidharth Bahl.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/sidharthbahl/'
     },
     {
       id: 8,
       name: 'Jayati Mishra',
       designation: 'SWE @JPMC',
-      imageUrl: 'https://via.placeholder.com/150',
+      imageUrl: '/src/img/alumni/Jayati Mishra.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/jayati-mishra-b1084a1bb/'
     },
     {
@@ -82,7 +82,7 @@ const Alumni = () => {
       id: 11,
       name: 'Tushar Chopra',
       designation: 'Ex Software Engineer @subconscious.ai',
-      imageUrl: 'https://via.placeholder.com/150',
+      imageUrl: '/src/img/alumni/Tushar.jpg',
       linkedinUrl: 'https://www.linkedin.com/in/tushar-chopra-960532215/'
     },
     {
@@ -96,9 +96,16 @@ const Alumni = () => {
       id: 13,
       name: 'Aniket Biswas',
       designation: 'SWE(Web) @Headout',
-      imageUrl: 'https://via.placeholder.com/150',
+      imageUrl: '/src/img/alumni/Aniket Biswas.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/aniket-biswas-59394b191/'
     }];
+
+    const handleCardClick = (url) => {
+        
+      if (window.innerWidth <= 768) {
+        window.open(url, '_blank');
+      }
+    };
 
   return (
   <>
@@ -125,7 +132,7 @@ const Alumni = () => {
 
     <div  className="alumni-container" >
       {AlumniMembers.map(AlumniMembers => (
-        <div key={AlumniMembers.id} className="alumni-member" >
+        <div key={AlumniMembers.id} className="alumni-member" onClick={() => handleCardClick(AlumniMembers.linkedinUrl)}>
           <img src={AlumniMembers.imageUrl} alt={AlumniMembers.name } className='profile-image' />
         <div className='team-team'>
           <div className='alumni-info'>
@@ -134,9 +141,6 @@ const Alumni = () => {
           </div>
 
           <a className ='hide' href={AlumniMembers.linkedinUrl} target="_blank" rel="noopener noreferrer">
-
-         
-
             <img className="linkedin" src={image} alt="Profile Picture" />
           </a>
         </div>
