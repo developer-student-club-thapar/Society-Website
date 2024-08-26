@@ -126,7 +126,8 @@ h2, p {
   
 .profile-image {
     width: 100%;
-    height: auto;
+    min-height: 300px;
+  
     border-radius: 8px;
     filter: grayscale(100%);
 }
