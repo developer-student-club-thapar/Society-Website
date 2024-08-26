@@ -29,20 +29,17 @@ section {
 .marquee {
   position: relative;
   display: flex;
-  justify-content: space-evenly;
+  gap: 22px;
+  justify-content: space-around;
   overflow: hidden;
-  user-select: none;
-  gap: var(1rem);
-  /* border: 2px solid lightgray; */
   height: 240px;
 }
 
 .marqueeContent {
-  flex-shrink: 0;
   display: flex;
-  /* background-color: red; */
   gap: 22px;
   min-width: 100%;
+  margin-left: 3rem;
 }
 
 .marqueeContent img {
@@ -53,19 +50,20 @@ section {
 
 .marqueeContent > * {
   flex: 0 0 auto;
-  transform: translateX(-10000px);
   color: white;
   background-color: white;
   margin: 2px;
   padding: 1rem 2rem;
   border-radius: 0.25rem;
   text-align: center;
+  transform: translateX(-10000px);
 }
 
 .marqueeItem {
   display: flex;
   justify-content: center;
   align-items: center;
+
   border-radius: 15px;
   width: 450px;
 }
@@ -74,6 +72,21 @@ ul {
   padding-left: 0;
 }
 
+@media screen and (max-width: 390px) {
+  .marqueeItem {
+    width: 200px;
+    height: 100px;
+  }
+  .enablea .marqueeContent {
+    animation: scroll 5s linear infinite !important;
+  }
+  .marquee {
+    height: fit-content;
+  }
+  .marqueeContent > * {
+    transform: translateX(-5500px);
+  }
+}
 @keyframes scroll {
   from {
     transform: translateX(0);
@@ -85,13 +98,14 @@ ul {
 
 /* Enable animation */
 .enablea .marqueeContent {
-  animation: scroll 80s linear infinite;
-}
-.enablea .marqueeContent {
-  animation: scroll 80s linear infinite;
+  animation: scroll 10s linear infinite;
 }
 
 .enablea {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+#row-flex {
+  background-color: rgb(0, 5, 5) !important;
 }
