@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import styles from "../../src/Css/page.module.css";
 import cross from "/src/assets/cross.svg";
-import {  data } from "../../src/TeamData/ProjectData.js";
+import { data } from "../../src/TeamData/ProjectData.js";
 import MorProjects from "../components/ProjectPageComponents/MorProjects";
 import pc from "/src/assets/Projectcard.svg";
 import img from "/src/assets/project.svg";
@@ -9,17 +9,18 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 const getUpdatedStyles = (color) => ({
-  backoundColor: color,
-  transition: "background-color 0.5s ease-in-out",
+  backgroundColor: color,
+  transition: "all 0.5s ease-in-out",
 });
 
 const googlecolor = ["#ea4335", "#0f9d58", "#4285f4", "#fbbc04"];
+console.log(googlecolor[0]);
 
 function Project() {
   const [display, setdisplay] = useState(false);
   const [num, setnum] = useState(0);
   const [datan, setdatan] = useState(0);
-  const [color, setcolor] = useState(googlecolor[num]);
+  const [color, setcolor] = useState(googlecolor[1]);
   const desc = useRef();
 
   const [animationClass, setAnimationClass] = useState("");
@@ -38,7 +39,6 @@ function Project() {
     setnum(nextIndex);
     setcolor(googlecolor[nextIndex]);
   };
- 
 
   const handleOpenCard = () => {
     setAnimationClass(styles.scaleDown);
@@ -47,7 +47,6 @@ function Project() {
       setAnimationClass(styles.slideUp);
     }, 200); // Match the duration of the scale-down animation
   };
-  
 
   const handleCloseDesc = () => {
     setAnimationClass(styles.slideDown);
@@ -57,11 +56,14 @@ function Project() {
     }, 200); // Match the duration of the slide-down animation
   };
 
-
   return (
-
     <>
-      <div className={styles.main} style={getUpdatedStyles(color)}>
+      <div
+        className={styles.main}
+        style={
+          getUpdatedStyles(color)
+      }
+      >
         <Navbar />
         {!display ? (
           <Card
@@ -89,9 +91,7 @@ function Project() {
     </>
   );
 
-    <h1 className="proj">Projects</h1>  
-
-
+  <h1 className="proj">Projects</h1>;
 }
 
 export default Project;
@@ -125,8 +125,15 @@ function Title({ content }) {
   return <h2 className={styles.name}>{content}</h2>;
 }
 
-function ProjectDesc({ setdisplay, desc1, desc2, name, stats, color, animationClass}) {
-
+function ProjectDesc({
+  setdisplay,
+  desc1,
+  desc2,
+  name,
+  stats,
+  color,
+  animationClass,
+}) {
   return (
     <div id="container1" className={`${styles.container1} ${animationClass}`}>
       <div className={styles.crossf}>
