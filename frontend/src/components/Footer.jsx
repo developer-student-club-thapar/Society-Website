@@ -6,7 +6,7 @@ const Footer = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="flex justify-center w-full mb-10">
+    <div className="flex justify-center w-full mb-10 lg:mt-0 mt-16">
       <footer className="bg-white text-black pt-10 pb-6 border-2 border-gray-300 rounded-3xl w-[90%] md:w-[80%] mt-10 p-6 md:p-10">
         <div className="flex flex-col md:flex-row w-full justify-between items-center mb-10 md:mb-20">
           <div className="flex gap-4 mb-6 md:mb-0">
