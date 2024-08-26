@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import styles from "../../src/Css/page.module.css";
 import cross from "/src/assets/cross.svg";
-import { googlecolor, data } from "../../src/TeamData/ProjectData.js";
+import {  data } from "../../src/TeamData/ProjectData.js";
 import MorProjects from "../components/ProjectPageComponents/MorProjects";
 import pc from "/src/assets/Projectcard.svg";
 import img from "/src/assets/project.svg";
@@ -12,6 +12,8 @@ const getUpdatedStyles = (color) => ({
   backoundColor: color,
   transition: "background-color 0.5s ease-in-out",
 });
+
+const googlecolor = ["#ea4335", "#0f9d58", "#4285f4", "#fbbc04"];
 
 function Project() {
   const [display, setdisplay] = useState(false);
