@@ -4,7 +4,7 @@ import im from '../../assets/About_Image.png'
 
 const Departments = () => {
   return (
-    <div className='flex w-full flex-col justify-center items-center text-left bg-gray-100 py-20'>
+    <div id='depart' className='flex w-full flex-col justify-center items-center text-left bg-gray-100 py-20'>
         <div className="w-[80%] flex flex-col">
         <button className='px-10 py-2 w-fit bg-gdsc-green text-white rounded-3xl cursor-default projectsAnim'>Departments</button>
         <h1 className=' text-3xl lg:text-6xl font-semibold mt-10 projectsAnim flex'>Departments</h1>
