@@ -82,7 +82,7 @@ const Alumni = () => {
       id: 11,
       name: 'Tushar Chopra',
       designation: 'Ex Software Engineer @subconscious.ai',
-      imageUrl: '/src/img/alumni/Tushar.png',
+      imageUrl: '/src/img/alumni/tushar.png',
       linkedinUrl: 'https://www.linkedin.com/in/tushar-chopra-960532215/'
     },
     {
@@ -109,7 +109,7 @@ const Alumni = () => {
 
   return (
   <>
-    <div  className= 'content' >
+    <div  className= 'contentT' >
       
       <div  class =' w-[80%] justify-center items-center flex flex-col'>
        
@@ -128,7 +128,7 @@ const Alumni = () => {
 
     
 
-    <div className='outer' id="target-section">
+  <div className='outer' id="target-section">
 
     <div  className="alumni-container" >
       {AlumniMembers.map(AlumniMembers => (
@@ -147,7 +147,7 @@ const Alumni = () => {
         </div>
       ))}
     </div>
-    </div>
+  </div>
    
     
 
