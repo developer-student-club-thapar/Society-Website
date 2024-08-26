@@ -15,7 +15,7 @@ function EventHeading({ title, data }) {
         className="flex flex-col items-center justify-center gap-[20px] p-4"
       >
         <div>
-          <button className="rounded-3xl bg-[#e37401] px-4 py-2 text-center text-[14px] font-bold text-white">
+          <button className="rounded-3xl bg-[#e37401] px-6 py-3 text-center text-[14px] font-bold text-white">
             Random Text
           </button>
         </div>
@@ -23,12 +23,12 @@ function EventHeading({ title, data }) {
       </div>
 
       {data.length === 0 ? (
-        <h3 className="bg-[#F5F5F5] p-4 text-center text-[18px] rounded-full">
+        <h3 className="bg-[#F5F5F5] p-4 text-center text-[15px] sm:text-[18px] rounded-xl font-medium">
           {" "}
           No {title}! Come Back Later
         </h3>
       ) : null}
-      <div className="flex flex-wrap  w-auto justify-center items-center gap-x-10 gap-y-8">
+      <div className="flex flex-col lg:flex-row w-auto justify-center items-center gap-x-10 gap-y-8 md:scale-100">
         {data.map((one, index) => (
           <Card
             key={index}
@@ -77,7 +77,7 @@ const Events = ({ renderFirst, renderSecond }) => {
          bg-[#f5f5f5] w-[100%] m-auto mt-5 "
         >
           <div className="w-[100%] m-auto p-6 relative">
-            <div className="text-[70px] absolute z-10 bg-[#f5f5f5] h-[240px] text-center flex justify-center items-center w-[400px] top-[36%] left-[40%] font-semibold">
+            <div className="text-[70px] absolute z-10 bg-[#f5f5f5] h-[240px] text-center flex justify-center items-center w-[400px] top-[36%] left-[38%] font-semibold">
               Gallery
             </div>
             <Infi />
@@ -95,7 +95,7 @@ function Card({ type, name, date, desc }) {
   return (
     <div
       id="box-flex"
-      className="flex w-[400px] flex-col gap-[10px] rounded-2xl bg-[#f5f5f5] p-[25px]"
+      className="flex w-[400px] h-[535px] flex-col gap-[10px] rounded-2xl bg-[#f5f5f5] p-[25px]"
     >
       <div id="Box1" className="h-[225px] rounded-2xl bg-white"></div>
       <div className="flex items-start">
