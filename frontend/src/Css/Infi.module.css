@@ -71,18 +71,6 @@ ul {
   padding-left: 0;
 }
 
-@media screen and (max-width: 390px) {
-  .marqueeItem {
-    width: 200px;
-    height: 100px;
-  }
-  .enablea .marqueeContent {
-    animation: scroll 3s linear infinite !important;
-  }
-  .marquee {
-    height: fit-content;
-  }
-}
 @keyframes scroll {
   from {
     transform: translateX(0);

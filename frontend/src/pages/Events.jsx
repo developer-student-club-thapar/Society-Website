@@ -77,7 +77,7 @@ const Events = ({ renderFirst, renderSecond }) => {
          bg-[#f5f5f5] w-[100%] m-auto mt-5 "
         >
           <div className="w-[100%] m-auto p-6 relative">
-            <div className="lg:text-[70px] text-[40px] absolute z-10 bg-[#f5f5f5] lg:h-[240px] h-[120px]  text-center flex justify-center items-center lg:w-[400px] top-[36%] left-[33%] lg:left-[40%] font-semibold">
+            <div className="text-[70px] absolute z-10 bg-[#f5f5f5] h-[240px] text-center flex justify-center items-center w-[400px] top-[36%] left-[40%] font-semibold">
               Gallery
             </div>
             <Infi />
