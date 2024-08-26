@@ -89,7 +89,7 @@ const Alumni = () => {
       id: 12,
       name: 'Harishankar Kumar',
       designation: 'Building @AlthireAI',
-      imageUrl: '/src/img/alumni/harishankark.jpeg',
+      imageUrl: '/src/img/alumni/123.png',
       linkedinUrl: 'https://www.linkedin.com/in/hsk4link/'
     },
     {
