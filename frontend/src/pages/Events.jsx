@@ -81,7 +81,7 @@ const Events = ({ renderFirst, renderSecond }) => {
               </div>
               <h1 className="text-[64px] font-bold lead">Past Events</h1>
             </div>
-            <div className="flex flex-wrap  w-auto justify-center items-center gap-x-10 gap-y-8">
+            <div className=" flex flex-col lg:flex-row  w-auto justify-center items-center gap-x-10 gap-y-8">
               {/* card */}
               <div
                 id="box-flex"
