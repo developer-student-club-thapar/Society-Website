@@ -8,134 +8,148 @@ const Alumni = () => {
     
     {
       id: 1,
-      name: 'Ronit Parakh',
-      designation: 'Co-Lead',
-      imageUrl: '/src/img/Screenshot 2024-08-15 at 00.07.03.png',
-      linkedinUrl: 'https://www.linkedin.com/in/ronit-parakh/'
+      name: 'Jay Parmani', 
+      designation: 'Software Engineer @Apple',
+      imageUrl: '/src/img/alumni/1657200096415.jpeg',
+      linkedinUrl: 'https://www.linkedin.com/in/jsparmani/'
     },
     {
       id: 2,
-      name: 'Reyan Singh',
-      designation: 'Co-Lead',
-      imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/janesmith'
+      name: 'Deepak Jain',
+      designation: 'Former R&D Intern @Maruti Suzuki',
+      imageUrl: '/src/img/alumni/1640551961514.jpeg',
+      linkedinUrl: 'https://www.linkedin.com/in/deepak-jain-18227b198/'
     },
     
     {
       id: 3,
-      name: 'Manan Sharma',
-      designation: 'Co-Lead',
-      imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/michaeljohnson'
+      name: 'Ujjwal Singh',
+      designation: 'Private Equity Analyst @Bain & Company',
+      imageUrl: '/src/img/alumni/UjjwalSingh.jpeg',
+      linkedinUrl: 'https://www.linkedin.com/in/thee-ujjwal/'
     },
     
     {
       id: 4,
-      name: 'Priyanka',
-      designation: 'Design Mentor',
-      imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
+      name: 'Aarushi Abrol',
+      designation: 'YTL @Airtel Digital',
+      imageUrl: '/src/img/alumni/AarushiAbrol.jpeg',
+      linkedinUrl: 'https://www.linkedin.com/in/aarushiabrol/'
     },
     {
       id: 5,
-      name: 'Sakshi Singh',
-      designation: 'UI/UX Mentor',
-      imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/chrisgreen'
+      name: 'Harsh Jain',
+      designation: 'Ex- Digital Technical Specialist Intern @IBM',
+      imageUrl: '/src/img/alumni/HarshJain.jpeg',
+      linkedinUrl: 'https://www.linkedin.com/in/harsh--jain/'
     },
     {
       id: 6,
-      name: 'Aarav Mahajan',
-      designation: 'App Dev Mentor',
-      imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
+      name: 'Shreeya Chatterji',
+      designation: 'Summer Intern @JPMC',
+      imageUrl: '/src/img/alumni/Shreeya.jpeg',
+      linkedinUrl: 'https://www.linkedin.com/in/shreeyachatterji/'
     },
     {
       id: 7,
-      name: 'Pushan Aggarwal',
-      designation: 'CyberSecurity Mentor',
-      imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/davidblue'
+      name: 'Sidharth Bahl',
+      designation: 'SWE 1 @JPMC',
+      imageUrl: '/src/img/alumni/Sidharth Bahl.jpeg',
+      linkedinUrl: 'https://www.linkedin.com/in/sidharthbahl/'
     },
     {
       id: 8,
-      name: 'Sharath Chandra',
-      designation: 'Web Dev Mentor',
-      imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/sophiablack'
+      name: 'Jayati Mishra',
+      designation: 'SWE @JPMC',
+      imageUrl: '/src/img/alumni/Jayati Mishra.jpeg',
+      linkedinUrl: 'https://www.linkedin.com/in/jayati-mishra-b1084a1bb/'
     },
     {
       id: 9,
-      name: 'Aryan Panja',
-      designation: 'ML Mentor',
-      imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/danielgrey'
+      name: 'Nikhil Bakshi',
+      designation: 'SWE @JPMC',
+      imageUrl: '/src/img/alumni/nikhilbakshi.jpeg',
+      linkedinUrl: 'https://www.linkedin.com/in/nikhilbksi/'
     },
     {
       id: 10,
-      name: 'Amandeep Singh',
-      designation: 'ML Mentor',
-      imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/emilyred'
+      name: 'Deepanshi Sharma',
+      designation: 'SWE Intern @Salesforce',
+      imageUrl: '/src/img/alumni/deepanshisharma.jpeg',
+      linkedinUrl: 'https://www.linkedin.com/in/deepanshi-sharma05/'
     },
     {
       id: 11,
-      name: 'Nimish Duggal',
-      designation: 'Finance Mentor',
-      imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
+      name: 'Tushar Chopra',
+      designation: 'Ex Software Engineer @subconscious.ai',
+      imageUrl: '/src/img/alumni/tushar.png',
+      linkedinUrl: 'https://www.linkedin.com/in/tushar-chopra-960532215/'
     },
     {
       id: 12,
-      name: 'Dimpi Jain',
-      designation: 'EM Mentor',
-      imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/davidblue'
+      name: 'Harishankar Kumar',
+      designation: 'Building @AlthireAI',
+      imageUrl: '/src/img/alumni/harishankark.jpeg',
+      linkedinUrl: 'https://www.linkedin.com/in/hsk4link/'
     },
     {
       id: 13,
-      name: 'Samkit Jaina',
-      designation: 'Logistics Mentor',
-      imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/sophiablack'
-    },
-    {
-      id: 14,
-      name: 'Yuvraj Singh',
-      designation: 'RIOT(Robotics and IOT) Mentor',
-      imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/danielgrey'
-    },
-    {
-      id: 15,
-      name: 'Aamna Abdin',
-      designation: 'Product Mentor',
-      imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/emilyred'
+      name: 'Aniket Biswas',
+      designation: 'SWE(Web) @Headout',
+      imageUrl: '/src/img/alumni/Aniket Biswas.jpeg',
+      linkedinUrl: 'https://www.linkedin.com/in/aniket-biswas-59394b191/'
     }];
+
+    const handleCardClick = (url) => {
+        
+      if (window.innerWidth <= 768) {
+        window.open(url, '_blank');
+      }
+    };
 
   return (
   <>
-    <div className="content">
-      <h1 className='h1'>Our Alumni</h1>
+    <div  className= 'content' >
+      
+      <div  class =' w-[80%] justify-center items-center flex flex-col'>
+       
+       
+        <div >
+        
+        
+          <p className='para' class='text-gray-600 font-semibold  justify-center items-center flex '>About our Past members</p>
+          <h1 className='h1'>Alumni of GDSC Thapar </h1>
+          
+        </div>
+       
+        
+      </div>
     </div>
 
+    
+
+    <div className='outer' id="target-section">
+
     <div  className="alumni-container" >
-      {AlumniMembers.map(member => (
-        <div key={member.id} className="alumni-member" >
-          <img src={member.imageUrl} alt={member.name } className='profile-image' />
-        <div className='alumni-team'>
+      {AlumniMembers.map(AlumniMembers => (
+        <div key={AlumniMembers.id} className="alumni-member" onClick={() => handleCardClick(AlumniMembers.linkedinUrl)}>
+          <img src={AlumniMembers.imageUrl} alt={AlumniMembers.name } className='profile-image' />
+        <div className='team-team'>
           <div className='alumni-info'>
-            <h2 className='h3'>{member.name}</h2>
-            <p className='p'>{member.designation}</p>
+            <h2 className='h3'>{AlumniMembers.name}</h2>
+            <p className='p'>{AlumniMembers.designation}</p>
           </div>
-          <a href={member.linkedinUrl} target="_blank" rel="noopener noreferrer">
+
+          <a className ='hide' href={AlumniMembers.linkedinUrl} target="_blank" rel="noopener noreferrer">
             <img className="linkedin" src={image} alt="Profile Picture" />
           </a>
         </div>
         </div>
       ))}
     </div>
+    </div>
+   
+    
 
   </>
   )

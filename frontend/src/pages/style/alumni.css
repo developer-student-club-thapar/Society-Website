@@ -17,6 +17,18 @@
     font-family: 'googleRegular';
     src: url("../fonts/Product Sans Regular.ttf") format('truetype');
 }
+@media (max-width: 430px) {
+    .alumni-container{
+      
+      grid-template-columns: repeat(2, 1fr) !important; 
+      padding: 5px;
+      
+    }
+    .hide{
+        display: none !important;
+      }
+
+}
 
 .content{
     display: flex;
@@ -49,8 +61,12 @@
     gap: 15px; 
     padding-top: 5rem;
 }
+
+
+
 .alumni-member {
     background-color: rgb(243 244 246); 
+    border: 0.5px solid black; 
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -68,7 +84,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #1a9af5;
+    background-color: #ea4335;
     z-index: 0;
     transform: scaleX(0) scaleY(0); 
     transform-origin: center; 
@@ -112,6 +128,7 @@ h2, p {
     width: 100%;
     height: auto;
     border-radius: 8px;
+    filter: grayscale(100%);
 }
 .h3 {
     font-size: 1.25rem;
