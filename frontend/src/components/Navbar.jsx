@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { FaBars, FaTimes } from "react-icons/fa";
+//import { FaBars, FaTimes } from "react-icons/fa";
 import logo from "../assets/logo.png";
 
 const Navbar = () => {
@@ -13,15 +13,15 @@ const Navbar = () => {
 
   return (
     <div className="flex w-full justify-center mt-10 sticky top-6 z-50">
-      <div className="flex justify-between w-[90%] md:w-[80%] items-center rounded-full border-2 px-6 md:px-10 py-3 md:py-4 h-[8vh] md:h-[10vh] items-center bg-white">
+      <div className="flex justify-between w-[90%] md:w-[80%] rounded-full border-2 px-6 md:px-10 py-3 md:py-4 h-[8vh] md:h-[10vh] items-center bg-white">
         <div
           className="flex items-center gap-2 md:gap-4"
           onClick={() => {
             navigate("/");
           }}
         >
-          <img src={logo} alt="logo" className=" h-4 lg:h-6 cursor-pointer" />
-          <h2 className="font-bold text-gray-800 cursor-pointer lg:text-sm text-xs">
+          <img src={logo} alt="logo" className="h-6 cursor-pointer" />
+          <h2 className="font-bold text-gray-800 cursor-pointer">
             GDSC Thapar
           </h2>
         </div>
@@ -70,7 +70,9 @@ const Navbar = () => {
           <button
             className="bg-black text-white px-8 py-2 rounded-3xl hover:text-black hover:bg-white transition-all hover:border-2 hover:border-black"
             onClick={() => {
-              document.querySelector("#form").scrollIntoView({ behavior: "smooth" });
+              document
+                .querySelector("#form")
+                .scrollIntoView({ behavior: "smooth" });
             }}
           >
             FORM LINK
@@ -79,7 +81,7 @@ const Navbar = () => {
 
         <div className="md:hidden">
           <button onClick={toggleMenu}>
-            {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+            {/* {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />} */}
           </button>
         </div>
       </div>
@@ -135,7 +137,9 @@ const Navbar = () => {
           <button
             className="bg-black text-white px-8 py-2 rounded-3xl hover:text-black hover:bg-white transition-all hover:border-2 hover:border-black"
             onClick={() => {
-              document.querySelector("#form").scrollIntoView({ behavior: "smooth" });
+              document
+                .querySelector("#form")
+                .scrollIntoView({ behavior: "smooth" });
               toggleMenu();
             }}
           >
