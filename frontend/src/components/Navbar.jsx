@@ -38,7 +38,7 @@ const Navbar = () => {
           <div
             className="cursor-pointer text-gray-600 font-bold text-sm"
             onClick={() => {
-              navigate("/departments");
+              document.querySelector("#depart").scrollIntoView({ behavior: "smooth" });
             }}
           >
             DEPARTMENTS

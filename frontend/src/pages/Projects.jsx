@@ -9,7 +9,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 const getUpdatedStyles = (color) => ({
-  backgroundColor: color,
+  backoundColor: color,
   transition: "background-color 0.5s ease-in-out",
 });
 
@@ -60,7 +60,7 @@ function Project() {
 
     <>
       <div className={styles.main} style={getUpdatedStyles(color)}>
-        {/* <Navbar /> */}
+        <Navbar />
         {!display ? (
           <Card
             setdisplay={handleOpenCard}
@@ -82,7 +82,7 @@ function Project() {
             animationClass={animationClass}
           />
         ) : null}
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );
