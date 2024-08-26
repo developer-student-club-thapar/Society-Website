@@ -20,7 +20,7 @@ function Project() {
   const [display, setdisplay] = useState(false);
   const [num, setnum] = useState(0);
   const [datan, setdatan] = useState(0);
-  const [color, setcolor] = useState(googlecolor[1]);
+  const [color, setcolor] = useState(googlecolor[0]);
   const desc = useRef();
 
   const [animationClass, setAnimationClass] = useState("");
