@@ -34,7 +34,7 @@ const OurProjects = () => {
             </div>
             
             </div>
-            <div className=" underline underline-offset-4 text-gdsc-blue cursor-pointer">
+            <div className=" lg:hidden block underline underline-offset-4 text-gdsc-blue cursor-pointer">
                 See All -
             </div>
         </div>
