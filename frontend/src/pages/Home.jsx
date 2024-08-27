@@ -16,13 +16,13 @@ const Home = () => {
         <div className="flex w-full justify-center ">
             <AboutUs/>
         </div>
-        <div className=" mt-20 h-[80vh]">
+        <div className=" mt-20 h-[33vh] lg:h-[80vh]">
             <OurProjects/>
         </div>
         <div className=" mt-28 h-[100vh]">
             <Departments />
         </div>
-        <div className="mt-10 h-[90vh]">
+        <div className="mt-10 h-[55vh] lg:h-[70vh]">
             <OurTeam/>
         </div>
         <div className=" mt-40 h-[100vh] form" id='form'>
