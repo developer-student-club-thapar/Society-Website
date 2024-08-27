@@ -19,22 +19,22 @@ export const previous = [
     date: "June 12, 2023",
     desc: "Exploring the advancements in artificial intelligence and its impact on future technologies. Join tech leaders in this insightful discussion.",
   },
-  {
-    type: "Competition",
-    name: "AlgoWarriors",
-    date: "August 5, 2023",
-    desc: "Challenge your problem-solving skills in this competitive algorithm battle. Prizes and accolades for top coders.",
-  },
-  {
-    type: "Meetup",
-    name: "Tech Innovators Meetup",
-    date: "October 20, 2023",
-    desc: "Network with fellow tech enthusiasts and innovators. Share ideas, collaborate on projects, and build your tech community.",
-  },
-  {
-    type: "Conference",
-    name: "NextGen Web Dev",
-    date: "December 1, 2023",
-    desc: "A conference focused on the latest trends in web development. Topics include Web3, performance optimization, and serverless architecture.",
-  },
+  // {
+  //   type: "Competition",
+  //   name: "AlgoWarriors",
+  //   date: "August 5, 2023",
+  //   desc: "Challenge your problem-solving skills in this competitive algorithm battle. Prizes and accolades for top coders.",
+  // },
+  // {
+  //   type: "Meetup",
+  //   name: "Tech Innovators Meetup",
+  //   date: "October 20, 2023",
+  //   desc: "Network with fellow tech enthusiasts and innovators. Share ideas, collaborate on projects, and build your tech community.",
+  // },
+  // {
+  //   type: "Conference",
+  //   name: "NextGen Web Dev",
+  //   date: "December 1, 2023",
+  //   desc: "A conference focused on the latest trends in web development. Topics include Web3, performance optimization, and serverless architecture.",
+  // },
 ];
