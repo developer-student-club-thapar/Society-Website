@@ -16,22 +16,20 @@ const Team = () => {
     },
     {
       id: 1,
-      name: 'Reyan Singh',
+      name: 'Ronit Parakh',
       designation: 'Co-Lead',
       imageUrl: '/src/img/alumni/jay.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/reyan-singh-0558ba25b/'
     },
-<<<<<<< HEAD
+
     {
       id: 2,
-      name: 'Ronit Parakh',
+      name: 'Reyan Singh',
       designation: 'Co-Lead',
       imageUrl: 'https://via.placeholder.com/150',
       linkedinUrl: 'https://www.linkedin.com/in/ronit-parakh/'
     },
-=======
-    
->>>>>>> 27698a8ce67c5775ff9aa13bb685e4141fd2cc29
+
     {
       id: 3,
       name: 'Manan Sharma',
