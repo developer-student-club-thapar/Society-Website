@@ -87,9 +87,6 @@ ul {
 .enablea .marqueeContent {
   animation: scroll 80s linear infinite;
 }
-.enablea .marqueeContent {
-  animation: scroll 80s linear infinite;
-}
 
 .enablea {
   margin-top: 20px;

@@ -29,17 +29,20 @@ section {
 .marquee {
   position: relative;
   display: flex;
-  gap: 22px;
-  justify-content: space-around;
+  justify-content: space-evenly;
   overflow: hidden;
+  user-select: none;
+  gap: var(1rem);
+  /* border: 2px solid lightgray; */
   height: 240px;
 }
 
 .marqueeContent {
+  flex-shrink: 0;
   display: flex;
+  /* background-color: red; */
   gap: 22px;
   min-width: 100%;
-  margin-left: 3rem;
 }
 
 .marqueeContent img {
@@ -62,7 +65,6 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-
   border-radius: 15px;
   width: 450px;
 }
@@ -82,14 +84,10 @@ ul {
 
 /* Enable animation */
 .enablea .marqueeContent {
-  animation: scroll 10s linear infinite;
+  animation: scroll 80s linear infinite;
 }
 
 .enablea {
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-#row-flex {
-  background-color: rgb(0, 5, 5) !important;
 }

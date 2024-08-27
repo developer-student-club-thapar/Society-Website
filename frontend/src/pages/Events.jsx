@@ -87,8 +87,8 @@ const Events = ({ renderFirst, renderSecond }) => {
                 id="box-flex"
                 className="flex w-[400px] flex-col gap-[10px] rounded-2xl bg-[#03070e] p-[25px]"
               >
-                <div id="Box1" className="h-[225px] rounded-2xl bg-white">
-                  <img src={rapid} alt="" />
+                <div id="Box1" className="h-[225px] rounded-2xl bg-black">
+                  <img src={rapid} alt=""/>
                 </div>
                 <div className="flex items-start">
                   <button className="rounded-2xl bg-[#e2c539] px-5 py-1 font-bold text-white text-[14px]">
@@ -114,7 +114,7 @@ const Events = ({ renderFirst, renderSecond }) => {
                 id="box-flex"
                 className="flex w-[400px] flex-col gap-[10px] rounded-2xl bg-[#f5f5f5] p-[25px]"
               >
-                <div className="h-[225px] rounded-2xl bg-white"></div>
+                <div className="h-[225px] rounded-2xl bg-[#f5f5f5]"></div>
                 <div className="flex items-start">
                   <button className="rounded-2xl bg-[#e37401] px-5 py-1 font-bold text-white text-[14px]">
                     Speaker Interaction
@@ -135,7 +135,7 @@ const Events = ({ renderFirst, renderSecond }) => {
                 id="box-flex"
                 className="flex w-[400px] flex-col gap-[10px] rounded-2xl bg-[#f5f5f5] p-[25px]"
               >
-                <div className="h-[225px] rounded-2xl bg-white">
+                <div className="h-[225px] rounded-2xl bg-[#f5f5f5]">
                   <img src={watch} alt="" />
                 </div>
                 <div className="flex items-start">

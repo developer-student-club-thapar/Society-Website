@@ -174,7 +174,7 @@ function ProjectDesc({
         <p className={styles.more}>
           Have a look at other projects made by GDSC Thapar
         </p>
-        <div className="flex justify-between lg:flex-row flex-col">
+        <div className="flex justify-between lg:flex-row flex-col gap-8">
           <MorProjects color={color} getUpdatedStyles={getUpdatedStyles} />
           <MorProjects color={color} getUpdatedStyles={getUpdatedStyles} />
           <MorProjects color={color} getUpdatedStyles={getUpdatedStyles} />
