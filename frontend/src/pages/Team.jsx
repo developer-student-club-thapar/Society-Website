@@ -352,7 +352,7 @@ const Team = () => {
           id: 33,
           name: 'Pranjal Satti',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: ''
+          linkedinUrl: 'https://www.linkedin.com/in/pranjal-satti-147631325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
         },
         {
           id: 34,
