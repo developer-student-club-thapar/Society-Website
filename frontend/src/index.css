@@ -14,3 +14,9 @@
 .animate-scroll {
   animation: scroll 10s linear infinite;
 }
+
+
+.fade-out{
+  transition: opacity 1s ease-out;
+  opacity: 0
+}

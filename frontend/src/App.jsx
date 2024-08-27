@@ -6,7 +6,6 @@ import Projects from "./pages/Projects";
 import Events from "./pages/Events";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Departments from "./pages/Departments";
 import Alumni from "./pages/Alumni";
 import { useState } from "react";
 
@@ -23,7 +22,6 @@ const App = () => {
       {!hideNavbarFooter && <Navbar />}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/departments" element={<Departments />} />
         <Route
           path="/events"
           element={
