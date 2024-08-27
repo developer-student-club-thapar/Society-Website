@@ -6,27 +6,18 @@ const Team = () => {
 
   const ExecutiveMembers = [
     {
-      id: 2,
+      id: 1,
       name: 'Ronit Parakh',
       designation: 'Co-Lead',
-
       imageUrl: '/src/img/alumni/jay.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/ronit-parakh/'
 
     },
     {
-      id: 1,
-      name: 'Ronit Parakh',
-      designation: 'Co-Lead',
-      imageUrl: '/src/img/alumni/jay.jpeg',
-      linkedinUrl: 'https://www.linkedin.com/in/reyan-singh-0558ba25b/'
-    },
-
-    {
       id: 2,
       name: 'Reyan Singh',
       designation: 'Co-Lead',
-      imageUrl: 'https://via.placeholder.com/150',
+      imageUrl: '/src/img/alumni/jay.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/ronit-parakh/'
     },
 

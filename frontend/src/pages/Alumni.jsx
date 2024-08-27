@@ -78,13 +78,7 @@ const Alumni = () => {
       imageUrl: '/src/img/alumni/deepanshi.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/deepanshi-sharma05/'
     },
-    {
-      id: 11,
-      name: 'Tushar Chopra',
-      designation: 'Ex Software Engineer @subconscious.ai',
-      imageUrl: '/src/img/alumni/tushar.jpeg',
-      linkedinUrl: 'https://www.linkedin.com/in/tushar-chopra-960532215/'
-    },
+    
     
     {
       id: 12,
@@ -92,6 +86,14 @@ const Alumni = () => {
       designation: 'SWE(Web) @Headout',
       imageUrl: '/src/img/alumni/aniket.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/aniket-biswas-59394b191/'
+    // },
+    // {
+    //   id: 11,
+    //   name: 'Tushar Chopra',
+    //   designation: 'Ex Software Engineer @subconscious.ai',
+    //   imageUrl: '/src/img/alumni/tushar.jpeg',
+    //   linkedinUrl: 'https://www.linkedin.com/in/tushar-chopra-960532215/'
+    // 
     }]
     const scrollToSection = () => {
       const section = document.getElementById('target-section');
