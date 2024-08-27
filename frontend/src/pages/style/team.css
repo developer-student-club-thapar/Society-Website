@@ -100,12 +100,13 @@
     margin-top: -6em;
   }
 
+
   .team-container{
     grid-template-columns: repeat(2, 1fr) !important; 
     padding: 5px;
   }
   .core-container{
-    grid-template-columns: repeat(4, 1fr) !important;
+    grid-template-columns: repeat(3, 1fr) !important;
     padding: 5px; 
   
   }
