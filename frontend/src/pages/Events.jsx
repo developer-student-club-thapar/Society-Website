@@ -168,8 +168,8 @@ const Events = ({ renderFirst, renderSecond }) => {
           className="h-fit
          bg-[#f5f5f5] w-[100%] m-auto mt-5 "
         >
-          <div className="w-[100%] m-auto p-6 relative flex flex-col gap-y-9">
-            <div className="lg:text-[70px] md:text-[70px] text-[30px] absolute z-10 bg-[#f5f5f5]   lg:h-[240px]  md:h-[240px] h-[70px] text-center flex justify-center items-center lg:w-[400px] md:w-[400px] w-[150px] lg:top-[36%] md:top-[36%] top-[39%] lg:left-[38%] md:left-[38%] left-[30%] font-semibold ">
+          <div className="w-[100%] m-auto p-6 relative flex flex-col gap-y-[22px]">
+            <div className="lg:text-[70px] md:text-[70px] text-[30px] absolute z-10 bg-[#f5f5f5]   lg:h-[240px]  md:h-[240px] h-[70px] text-center xsm:flex justify-center items-center lg:w-[400px] md:w-[400px] w-[150px] lg:top-[35%] hidden md:top-[35%] top-[38%] lg:left-[38%] md:left-[38%] left-[30%] font-semibold ">
               Gallery
             </div>
             <Infi />

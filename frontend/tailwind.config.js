@@ -21,6 +21,9 @@ export default {
       spacing: {
         gap: "2rem",
       },
+      screens: {
+        'xsm': '890px', // Define 'xsm' as 650px or wider
+      },
     },
   },
   plugins: [],
