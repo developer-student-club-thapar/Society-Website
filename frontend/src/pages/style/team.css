@@ -180,10 +180,9 @@
 }
 
 .team-member {
-  background-color: rgb(243 244 246); 
-  border: 0.5px solid black;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff; 
+  
+  
   padding: 20px;
   padding-left: 20px;
   position: relative;
@@ -193,7 +192,7 @@
 }
 
 .team-member::before {
-  content: '';
+  /* content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -205,17 +204,13 @@
   transform-origin: center; 
   transition: transform 0.3s ease-in-out;
   border-radius: 8px;
-  opacity: 1; 
+  opacity: 1;  */
 }
 
 .team-member:hover::before {
   transform: scaleX(1) scaleY(1); 
 }
 
-.team-member:hover h2, 
-.team-member:hover p {
-  color: #ffffff; 
-}
 
 
 h2, p {
@@ -246,6 +241,12 @@ h2, p {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  
+}
+
+
+.profile-image:hover{
+  background-color: #1c9d5f;
 }
 .h3 {
   font-size: 1.25rem;

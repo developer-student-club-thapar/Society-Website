@@ -10,7 +10,7 @@ const Team = () => {
       id: 1,
       name: 'Ronit Parakh',
       designation: 'Co-Lead',
-      imageUrl: '/src/img/Screenshot 2024-08-15 at 00.07.03.png',
+      imageUrl: '/src/removed bg alu/Unknown.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/ronit-parakh/'
     },
     {
@@ -487,7 +487,14 @@ const Team = () => {
     </div>
 
 
-    <h1 className='core'>GDSC Thapar Core</h1>
+    <div className='content1'>
+      <div className='content2'>
+        <h2 className='h2'>GDSC Core</h2>
+        <p className='texteb'>
+          likhnaa hai kuch tohhhhh
+        </p>
+      </div>
+    </div>
     
     <div className='outer-core'>
 
