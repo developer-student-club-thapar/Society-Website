@@ -99,6 +99,11 @@
   .title{
     margin-top: -6em;
   }
+  .h2{
+  
+    font-size: 30px;
+    padding-top: 10rem;
+  }
 
 
   .team-container{
@@ -146,6 +151,18 @@
     margin: 0rem;
   
   }
+  .texteb{
+    font-size: 17px;
+    font-weight: 350;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .p {
+    font-size: 0.7rem;
+    
+  }
+  
   .but{
     padding:50px ;
   }
