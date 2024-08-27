@@ -124,6 +124,18 @@ const Alumni = () => {
           <div className='but'>
         <button onClick={scrollToSection} className='team-button'>MEET THE ALUMNI </button>
         </div>
+        
+        <div className='content1'>
+      <div className='content2'>
+        
+        <p className='texteb'>
+        Our alumni are trailblazers in various fields, embodying the values and skills cultivated during 
+        their time in our society.They continue to inspire and support current members through mentorship, 
+        networking, and shared experiences.
+        </p>
+      </div>
+    </div>
+     
           
         </div>
        
