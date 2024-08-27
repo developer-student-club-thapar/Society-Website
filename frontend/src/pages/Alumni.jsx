@@ -134,7 +134,9 @@ const Alumni = () => {
     <div  className="alumni-container" >
       {AlumniMembers.map(AlumniMembers => (
         <div key={AlumniMembers.id} className="alumni-member" onClick={() => handleCardClick(AlumniMembers.linkedinUrl)}>
-          <img src={AlumniMembers.imageUrl} alt={AlumniMembers.name } className='profile-image' />
+          <div className="Profile-image-wrapper">
+            <img src={AlumniMembers.imageUrl} alt={AlumniMembers.name} className="Profile-image" />
+          </div>
         <div className='team-team'>
           <div className='alumni-info'>
             <h2 className='h3'>{AlumniMembers.name}</h2>
