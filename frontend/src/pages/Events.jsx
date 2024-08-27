@@ -85,10 +85,10 @@ const Events = ({ renderFirst, renderSecond }) => {
               {/* card */}
               <div
                 id="box-flex"
-                className="flex w-[400px] flex-col gap-[10px] rounded-2xl bg-[#03070e] p-[25px]"
+                className="flex lg:w-[400px] w-[350px] flex-col gap-[10px] rounded-2xl bg-[#03070e] p-[25px]"
               >
                 <div id="Box1" className="h-[225px] rounded-2xl bg-black">
-                  <img src={rapid} alt=""/>
+                  <img src={rapid} alt="" />
                 </div>
                 <div className="flex items-start">
                   <button className="rounded-2xl bg-[#e2c539] px-5 py-1 font-bold text-white text-[14px]">
@@ -112,7 +112,7 @@ const Events = ({ renderFirst, renderSecond }) => {
               </div>
               <div
                 id="box-flex"
-                className="flex w-[400px] flex-col gap-[10px] rounded-2xl bg-[#f5f5f5] p-[25px]"
+                className="flex lg:w-[400px] flex-col w-[350px] gap-[10px] rounded-2xl bg-[#f5f5f5] p-[25px]"
               >
                 <div className="h-[225px] rounded-2xl bg-[#f5f5f5]"></div>
                 <div className="flex items-start">
@@ -133,7 +133,7 @@ const Events = ({ renderFirst, renderSecond }) => {
               </div>
               <div
                 id="box-flex"
-                className="flex w-[400px] flex-col gap-[10px] rounded-2xl bg-[#f5f5f5] p-[25px]"
+                className="flex lg:w-[400px] w-[350px] flex-col gap-[10px] rounded-2xl bg-[#f5f5f5] p-[25px]"
               >
                 <div className="h-[225px] rounded-2xl bg-[#f5f5f5]">
                   <img src={watch} alt="" />
