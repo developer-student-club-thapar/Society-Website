@@ -10,7 +10,7 @@ const Team = () => {
       id: 1,
       name: 'Ronit Parakh',
       designation: 'Co-Lead',
-      imageUrl: '/src/removed bg alu/Unknown.jpeg',
+      imageUrl: '/src/img/alumni/jay.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/ronit-parakh/'
     },
     {
