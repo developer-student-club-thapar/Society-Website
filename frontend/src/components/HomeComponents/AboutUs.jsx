@@ -11,22 +11,22 @@ const AboutUs = () => {
             <button className='bg-red-500 px-4 py-2 rounded-3xl text-white mb-6'>
               TL:DR
             </button>
-            <h1 className='text-4xl md:text-6xl text-left font-bold mb-4'>About</h1>
-            <p className='text-gray-500 text-[8px] lg:text-sm'>
+            <h1 className='text-4xl text-left md:text-6xl font-bold mb-4'>About</h1>
+            <p className='text-gray-500 text-xs lg:text-sm'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos odio hic delectus nemo blanditiis repudiandae. Vel distinctio ducimus blanditiis quos minima provident hic obcaecati sequi voluptate quas, sed nam nostrum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, quia natus? Nulla, veniam vero inventore fugiat distinctio consequatur quas eveniet maiores, sunt nisi vel? Dolore, rem minima! Id, deleniti veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe corporis recusandae nihil beatae ut id dolores. Culpa deserunt ullam quam eius tempore hic quibusdam expedita ad fuga. Ipsum, a quam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis suscipit, neque voluptate expedita odio doloremque ullam dolores et. Quam ad beatae pariatur expedita voluptates sunt delectus debitis itaque, natus voluptas?
             </p>
             <div className="COUNTER mt-10 flex w-full gap-4 md:gap-8">
               <div className="flex flex-col">
-                <h1 className='text-3xl md:text-4xl font-bold'>60</h1>
-                <p className='font-semibold text-gray-700'>Members</p>
+                <h1 className=' text-2xl lg:text-3xl md:text-4xl font-bold'>60</h1>
+                <p className='font-semibold lg:text-md text-sm text-gray-700'>Members</p>
               </div>
               <div className="flex flex-col">
-                <h1 className='text-3xl md:text-4xl font-bold'>8+</h1>
-                <p className='font-semibold text-gray-700'>Projects</p>
+                <h1 className='text-2xl lg:text-3xl md:text-4xl font-bold'>8+</h1>
+                <p className='font-semibold lg:text-md text-sm text-gray-700'>Projects</p>
               </div>
               <div className="flex flex-col">
-                <h1 className='text-3xl md:text-4xl font-bold'>12+</h1>
-                <p className='font-semibold text-gray-700'>Departments</p>
+                <h1 className='text-2xl lg:text-3xl md:text-4xl font-bold'>12+</h1>
+                <p className='font-semibold lg:text-md text-sm text-gray-700'>Departments</p>
               </div>
             </div>
           </div>
