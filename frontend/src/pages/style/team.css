@@ -199,9 +199,7 @@
 
 
 
-h2, p {
-  transition: color 0.3s ease;
-}
+
 
 
 .team-member > * {
@@ -233,6 +231,8 @@ h2, p {
 
 .profile-image:hover{
   background-color: #1c9d5f;
+  
+  z-index: 1;
 }
 .h3 {
   font-size: 1.25rem;
