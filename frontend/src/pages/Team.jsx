@@ -128,14 +128,14 @@ const Team = () => {
           name: 'Saksham Bhagat',
           designation: 'Associate App-dev',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/johndoe'
+          linkedinUrl: 'https://www.linkedin.com/in/sakshhamthecoder'
         },
         {
           id: 2,
           name: 'Tanmay Kumar',
           designation: 'Associate RIOT',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/janesmith'
+          linkedinUrl: 'https://www.linkedin.com/in/tanmay-k-68a964239/'
         },
     
         {
@@ -194,7 +194,7 @@ const Team = () => {
           id: 9,
           name: 'Kapeesh Gupta',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/janesmith'
+          linkedinUrl: 'https://www.linkedin.com/in/kapeeshgupta?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
         },
         
         {
@@ -246,7 +246,7 @@ const Team = () => {
           id: 17,
           name: 'Ritesh Kapoor',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/michaeljohnson'
+          linkedinUrl: 'https://www.linkedin.com/in/ritesh-kapoor-8691921b4/'
         },
         
         
@@ -254,7 +254,7 @@ const Team = () => {
           id: 18,
           name: 'Yash Agarwal',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/chrisgreen'
+          linkedinUrl: 'http://linkedin.com/in/yash-agarwal-385557275'
         },
         {
           id: 19,
@@ -274,7 +274,7 @@ const Team = () => {
           id: 21,
           name: 'Armaan Gogoi',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/johndoe'
+          linkedinUrl: 'https://www.linkedin.com/in/armaan-gogoi'
         },
         {
           id: 22,
@@ -287,14 +287,14 @@ const Team = () => {
           id: 23,
           name: 'Avneet Singh',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/michaeljohnson'
+          linkedinUrl: 'https://www.linkedin.com/in/avneet-singh-202069287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
         },
         
         {
           id: 24,
           name: 'Agrim Verma',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
+          linkedinUrl: 'https://www.linkedin.com/in/agrim-verma-104413323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
         },
         {
           id: 25,
@@ -319,13 +319,13 @@ const Team = () => {
           id: 28,
           name: 'Guransh Chugh',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/johndoe'
+          linkedinUrl: 'https://www.linkedin.com/in/guransh-chugh-b59437261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
         },
         {
           id: 29,
           name: 'Pulkit Jhamb',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/janesmith'
+          linkedinUrl: 'https://www.linkedin.com/in/pulkit-jhamb-7766ab2b3/'
         },
         
         {
@@ -351,13 +351,13 @@ const Team = () => {
           id: 33,
           name: 'Pranjal Satti',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/laurawhite'
+          linkedinUrl: ''
         },
         {
           id: 34,
           name: 'Naman Singh',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/davidblue'
+          linkedinUrl: 'https://www.linkedin.com/in/naman-singh-164478296/'
         },
         {
           id: 35,
@@ -394,16 +394,16 @@ const Team = () => {
         
         {
           id: 40,
-          name: 'Ayush',
+          name: 'Ayush Agarwal',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/alicebrown'
+          linkedinUrl: 'https://www.linkedin.com/in/ayush-agarwal-a53a60308/'
         },
 
         {
           id: 41,
           name: 'Krishna Jindal',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/chrisgreen'
+          linkedinUrl: 'https://www.linkedin.com/in/krishna-jindal-672839274/'
         },
         {
           id: 42,
