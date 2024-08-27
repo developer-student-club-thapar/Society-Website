@@ -85,20 +85,18 @@ const Alumni = () => {
       imageUrl: '/src/img/alumni/tushar.png',
       linkedinUrl: 'https://www.linkedin.com/in/tushar-chopra-960532215/'
     },
-    {
-      id: 12,
-      name: 'Harishankar Kumar',
-      designation: 'Building @AlthireAI',
-      imageUrl: '/src/img/alumni/123.png',
-      linkedinUrl: 'https://www.linkedin.com/in/hsk4link/'
-    },
+    
     {
       id: 13,
       name: 'Aniket Biswas',
       designation: 'SWE(Web) @Headout',
       imageUrl: '/src/img/alumni/Aniket Biswas.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/aniket-biswas-59394b191/'
-    }];
+    }]
+    const scrollToSection = () => {
+      const section = document.getElementById('target-section');
+      section.scrollIntoView({ behavior: 'smooth' });
+    };
 
     const handleCardClick = (url) => {
         
@@ -119,6 +117,9 @@ const Alumni = () => {
         
           <p className='para' class='text-gray-600 font-semibold  justify-center items-center flex '>About our Past members</p>
           <h1 className='h1'>Alumni of GDSC Thapar </h1>
+          <div className='but'>
+        <button onClick={scrollToSection} className='team-button'>MEET THE ALUMNI </button>
+        </div>
           
         </div>
        

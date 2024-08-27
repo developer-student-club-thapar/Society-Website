@@ -9,8 +9,11 @@ const Team = () => {
       id: 1,
       name: 'Reyan Singh',
       designation: 'Co-Lead',
+
+
       imageUrl: '/src/img/Screenshot 2024-08-15 at 00.07.03.png',
       linkedinUrl: 'https://www.linkedin.com/in/reyan-singh-0558ba25b/'
+
     },
     {
       id: 2,
@@ -485,7 +488,14 @@ const Team = () => {
     </div>
 
 
-    <h1 className='core'>GDSC Thapar Core</h1>
+    <div className='content1'>
+      <div className='content2'>
+        <h2 className='h2'>GDSC Core</h2>
+        <p className='texteb'>
+          likhnaa hai kuch tohhhhh
+        </p>
+      </div>
+    </div>
     
     <div className='outer-core'>
 

@@ -67,6 +67,13 @@
     gap: 15px; 
     padding-top: 5rem;
 }
+.but{
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+  
+  }
 
 
 
@@ -135,7 +142,7 @@ h2, p {
     min-height: 300px;
   
     border-radius: 8px;
-    filter: grayscale(100%);
+    
 }
 .h3 {
     font-size: 1.25rem;
