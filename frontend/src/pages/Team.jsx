@@ -6,23 +6,26 @@ const Team = () => {
 
   const ExecutiveMembers = [
     {
-      id: 1,
-      name: 'Reyan Singh',
-      designation: 'Co-Lead',
-
-      imageUrl: '/src/img/alumni/jay.jpeg',
-      linkedinUrl: 'https://www.linkedin.com/in/reyan-singh-0558ba25b/'
-
-    },
-    {
       id: 2,
       name: 'Ronit Parakh',
       designation: 'Co-Lead',
 
-      imageUrl: 'https://via.placeholder.com/150',
+      imageUrl: '/src/img/alumni/jay.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/ronit-parakh/'
 
     },
+    {
+      id: 1,
+      name: 'Reyan Singh',
+      designation: 'Co-Lead',
+
+
+
+      imageUrl: '/src/img/alumni/jay.jpeg',
+
+      linkedinUrl: 'https://www.linkedin.com/in/reyan-singh-0558ba25b/'
+    },
+    
     {
       id: 3,
       name: 'Manan Sharma',
@@ -473,7 +476,9 @@ const Team = () => {
     <div  className="team-container" >
       {ExecutiveMembers.map(member => (
         <div key={member.id} className="team-member" onClick={() => handleCardClick(member.linkedinUrl)}>
-          <img src={member.imageUrl} alt={member.name } className='profile-image' />
+          <div className="profile-image-wrapper">
+            <img src={member.imageUrl} alt={member.name} className="profile-image" />
+          </div>
         <div className='team-team'>
           <div className='team-info'>
             <h2 className='h3'>{member.name}</h2>
