@@ -274,7 +274,7 @@ const Team = () => {
           id: 21,
           name: 'Armaan Gogoi',
           imageUrl: 'https://via.placeholder.com/150',
-          linkedinUrl: 'https://www.linkedin.com/in/johndoe'
+          linkedinUrl: 'https://www.linkedin.com/in/armaan-gogoi-a97161250'
         },
         {
           id: 22,
