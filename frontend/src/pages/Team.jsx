@@ -5,22 +5,20 @@ import image from '../assets/LinkedIn_logo_initials.webp'
 const Team = () => {
 
   const ExecutiveMembers = [
-    
     {
       id: 1,
-      name: 'Ronit Parakh',
+      name: 'Reyan Singh',
       designation: 'Co-Lead',
       imageUrl: '/src/img/Screenshot 2024-08-15 at 00.07.03.png',
-      linkedinUrl: 'https://www.linkedin.com/in/ronit-parakh/'
+      linkedinUrl: 'https://www.linkedin.com/in/reyan-singh-0558ba25b/'
     },
     {
       id: 2,
-      name: 'Reyan Singh',
+      name: 'Ronit Parakh',
       designation: 'Co-Lead',
       imageUrl: 'https://via.placeholder.com/150',
-      linkedinUrl: 'https://www.linkedin.com/in/reyan-singh-0558ba25b/'
+      linkedinUrl: 'https://www.linkedin.com/in/ronit-parakh/'
     },
-    
     {
       id: 3,
       name: 'Manan Sharma',
