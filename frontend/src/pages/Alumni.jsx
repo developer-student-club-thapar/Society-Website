@@ -10,14 +10,14 @@ const Alumni = () => {
       id: 1,
       name: 'Jay Parmani', 
       designation: 'Software Engineer @Apple',
-      imageUrl: '/src/img/alumni/1657200096415.jpeg',
+      imageUrl: '/src/img/alumni/jay.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/jsparmani/'
     },
     {
       id: 2,
       name: 'Deepak Jain',
       designation: 'Former R&D Intern @Maruti Suzuki',
-      imageUrl: '/src/img/alumni/1640551961514.jpeg',
+      imageUrl: '/src/img/alumni/deepak.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/deepak-jain-18227b198/'
     },
     
@@ -25,7 +25,7 @@ const Alumni = () => {
       id: 3,
       name: 'Ujjwal Singh',
       designation: 'Private Equity Analyst @Bain & Company',
-      imageUrl: '/src/img/alumni/UjjwalSingh.jpeg',
+      imageUrl: '/src/img/alumni/ujjwal.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/thee-ujjwal/'
     },
     
@@ -33,14 +33,14 @@ const Alumni = () => {
       id: 4,
       name: 'Aarushi Abrol',
       designation: 'YTL @Airtel Digital',
-      imageUrl: '/src/img/alumni/AarushiAbrol.jpeg',
+      imageUrl: '/src/img/alumni/aarushi.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/aarushiabrol/'
     },
     {
       id: 5,
       name: 'Harsh Jain',
       designation: 'Ex- Digital Technical Specialist Intern @IBM',
-      imageUrl: '/src/img/alumni/HarshJain.jpeg',
+      imageUrl: '/src/img/alumni/harsh.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/harsh--jain/'
     },
     {
@@ -54,51 +54,51 @@ const Alumni = () => {
       id: 7,
       name: 'Sidharth Bahl',
       designation: 'SWE 1 @JPMC',
-      imageUrl: '/src/img/alumni/Sidharth Bahl.jpeg',
+      imageUrl: '/src/img/alumni/sb.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/sidharthbahl/'
     },
     {
       id: 8,
       name: 'Jayati Mishra',
       designation: 'SWE @JPMC',
-      imageUrl: '/src/img/alumni/Jayati Mishra.jpeg',
+      imageUrl: '/src/img/alumni/jayati.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/jayati-mishra-b1084a1bb/'
     },
     {
       id: 9,
       name: 'Nikhil Bakshi',
       designation: 'SWE @JPMC',
-      imageUrl: '/src/img/alumni/nikhilbakshi.jpeg',
+      imageUrl: '/src/img/alumni/nikhil.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/nikhilbksi/'
     },
     {
       id: 10,
       name: 'Deepanshi Sharma',
       designation: 'SWE Intern @Salesforce',
-      imageUrl: '/src/img/alumni/deepanshisharma.jpeg',
+      imageUrl: '/src/img/alumni/deepanshi.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/deepanshi-sharma05/'
     },
-    {
-      id: 11,
-      name: 'Tushar Chopra',
-      designation: 'Ex Software Engineer @subconscious.ai',
-      imageUrl: '/src/img/alumni/tushar.png',
-      linkedinUrl: 'https://www.linkedin.com/in/tushar-chopra-960532215/'
-    },
+    
+    
     {
       id: 12,
-      name: 'Harishankar Kumar',
-      designation: 'Building @AlthireAI',
-      imageUrl: '/src/img/alumni/harishankark.jpeg',
-      linkedinUrl: 'https://www.linkedin.com/in/hsk4link/'
-    },
-    {
-      id: 13,
       name: 'Aniket Biswas',
       designation: 'SWE(Web) @Headout',
-      imageUrl: '/src/img/alumni/Aniket Biswas.jpeg',
+      imageUrl: '/src/img/alumni/aniket.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/aniket-biswas-59394b191/'
-    }];
+    // },
+    // {
+    //   id: 11,
+    //   name: 'Tushar Chopra',
+    //   designation: 'Ex Software Engineer @subconscious.ai',
+    //   imageUrl: '/src/img/alumni/tushar.jpeg',
+    //   linkedinUrl: 'https://www.linkedin.com/in/tushar-chopra-960532215/'
+    // 
+    }]
+    const scrollToSection = () => {
+      const section = document.getElementById('target-section');
+      section.scrollIntoView({ behavior: 'smooth' });
+    };
 
     const handleCardClick = (url) => {
         
@@ -109,7 +109,7 @@ const Alumni = () => {
 
   return (
   <>
-    <div  className= 'content' >
+    <div  className= 'contentT' >
       
       <div  class =' w-[80%] justify-center items-center flex flex-col'>
        
@@ -119,6 +119,9 @@ const Alumni = () => {
         
           <p className='para' class='text-gray-600 font-semibold  justify-center items-center flex '>About our Past members</p>
           <h1 className='h1'>Alumni of GDSC Thapar </h1>
+          <div className='but'>
+        <button onClick={scrollToSection} className='team-button'>MEET THE ALUMNI </button>
+        </div>
           
         </div>
        
@@ -128,12 +131,14 @@ const Alumni = () => {
 
     
 
-    <div className='outer' id="target-section">
+  <div className='outer' id="target-section">
 
     <div  className="alumni-container" >
       {AlumniMembers.map(AlumniMembers => (
         <div key={AlumniMembers.id} className="alumni-member" onClick={() => handleCardClick(AlumniMembers.linkedinUrl)}>
-          <img src={AlumniMembers.imageUrl} alt={AlumniMembers.name } className='profile-image' />
+          <div className="Profile-image-wrapper">
+            <img src={AlumniMembers.imageUrl} alt={AlumniMembers.name} className="Profile-image" />
+          </div>
         <div className='team-team'>
           <div className='alumni-info'>
             <h2 className='h3'>{AlumniMembers.name}</h2>
@@ -147,7 +152,7 @@ const Alumni = () => {
         </div>
       ))}
     </div>
-    </div>
+  </div>
    
     
 
