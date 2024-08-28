@@ -237,6 +237,8 @@
 }
 
 .profile-image-wrapper {
+  background-color: #eeeeee;
+  border-radius: 10px;
   position: relative; 
   width: 100%; 
   height: auto;
@@ -319,10 +321,10 @@
 
 .core-member {
 
-  background-color: rgb(243 244 246); 
+  background-color: #eeeeee;; 
 
   
-  border: 0.5px solid black; 
+  
 
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
