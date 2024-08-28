@@ -10,12 +10,12 @@ const eventCategories = [
 function EventsAndGallery() {
   return (
     <main className="flex flex-col items-center gap-1 mt-14 font-medium leading-none text-black ">
-      <nav className="flex flex-wrap gap-4 justify-center items-center text-[2.2vw] lg:text-[1.5vw] text-center text-black text-opacity-60 max-md:max-w-full">
+      <nav className="flex flex-wrap gap-4 justify-center items-center text-[3vw] md:text-[2vw] lg:text-[1.3vw] text-center text-black text-opacity-60 max-md:max-w-full">
         {eventCategories.map((category, index) => (
           <EventCategory key={index} category={category} />
         ))}
       </nav>
-      <h1 className="mt-4 text-[6vw] max-md:max-w-full font-bold">
+      <h1 className="mt-4 lg:text-[6vw] text-[9vw] max-md:max-w-full font-bold">
         Events and Gallery
       </h1>
       <SubscribeButton />
@@ -29,7 +29,7 @@ function EventCategory({ category }) {
 
 function SubscribeButton() {
   return (
-    <form className="scale-[58%] sm:scale-75 md:scale-100 flex overflow-hidden gap-5 w-fit justify-center items-center py-3 pr-10 pl-10 sm:mt-2  text-base uppercase rounded-full border-2 border-black border-solid max-md:px-5">
+    <form className="scale-[70%] sm:scale-75 md:scale-100 flex overflow-hidden gap-5 w-fit justify-center items-center py-3 pr-10 pl-10 sm:mt-2  text-base uppercase rounded-full border-2 border-black border-solid max-md:px-5">
       <label htmlFor="subscribeInput" className="sr-only">
         Subscribe for future events
       </label>

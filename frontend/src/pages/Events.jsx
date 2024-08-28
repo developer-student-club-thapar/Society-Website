@@ -21,7 +21,7 @@ function EventHeading({ title, data }) {
             Random Text
           </button>
         </div>
-        <h1 className="text-[64px] font-bold lead">{title}</h1>
+        <h1 className="lg:text-[64px] text-[30px] font-bold lead">{title}</h1>
       </div>
 
       {data.length === 0 ? (
@@ -79,13 +79,15 @@ const Events = ({ renderFirst, renderSecond }) => {
                   Random Text
                 </button>
               </div>
-              <h1 className="text-[64px] font-bold lead">Past Events</h1>
+              <h1 className="lg:text-[64px] text-[40px] font-bold lead">
+                Past Events
+              </h1>
             </div>
-            <div className=" flex flex-col lg:flex-row  w-auto justify-center items-center gap-x-10 gap-y-8">
+            <div className=" flex flex-col lg:flex-row  w-auto justify-center items-center gap-x-10 gap-y-[75px] ">
               {/* card */}
               <div
                 id="box-flex"
-                className="flex lg:w-[400px] w-[350px] flex-col gap-[10px] rounded-2xl bg-[#03070e] p-[25px]"
+                className="flex lg:w-[400px] w-[300px] md:w-[300px] flex-col gap-[10px] rounded-2xl bg-[#03070e] p-[25px] "
               >
                 <div id="Box1" className="h-[225px] rounded-2xl bg-black">
                   <img src={rapid} alt="" />
@@ -112,7 +114,7 @@ const Events = ({ renderFirst, renderSecond }) => {
               </div>
               <div
                 id="box-flex"
-                className="flex lg:w-[400px] flex-col w-[350px] gap-[10px] rounded-2xl bg-[#f5f5f5] p-[25px]"
+                className="flex  flex-col lg:w-[400px] w-[300px] md:w-[300px]  gap-[10px] rounded-2xl bg-[#f5f5f5] p-[25px]"
               >
                 <div className="h-[225px] rounded-2xl bg-[#f5f5f5]"></div>
                 <div className="flex items-start">
@@ -133,7 +135,8 @@ const Events = ({ renderFirst, renderSecond }) => {
               </div>
               <div
                 id="box-flex"
-                className="flex lg:w-[400px] w-[350px] flex-col gap-[10px] rounded-2xl bg-[#f5f5f5] p-[25px]"
+                className="flex flex-col 
+                 rounded-2xl bg-[#f5f5f5] p-[25px]  lg:w-[400px] w-[300px] md:w-[300px]"
               >
                 <div className="h-[225px] rounded-2xl bg-[#f5f5f5]">
                   <img src={watch} alt="" />
@@ -165,8 +168,8 @@ const Events = ({ renderFirst, renderSecond }) => {
           className="h-fit
          bg-[#f5f5f5] w-[100%] m-auto mt-5 "
         >
-          <div className="w-[100%] m-auto p-6 relative">
-            <div className="text-[70px] absolute z-10 bg-[#f5f5f5] h-[240px] text-center flex justify-center items-center w-[400px] top-[36%] left-[38%] font-semibold">
+          <div className="w-[100%] m-auto p-6 relative flex flex-col gap-y-[22px]">
+            <div className="lg:text-[70px] md:text-[70px] text-[30px] absolute z-10 bg-[#f5f5f5]   lg:h-[240px]  md:h-[240px] h-[70px] text-center xsm:flex justify-center items-center lg:w-[400px] md:w-[400px] w-[150px] lg:top-[35%] hidden md:top-[35%] top-[38%] lg:left-[38%] md:left-[38%] left-[30%] font-semibold ">
               Gallery
             </div>
             <Infi />
