@@ -33,9 +33,13 @@
     .hide{
         display: none !important;
       }
-    
+    .p{
+      font-size: 0.7rem;
+
+    }
 
 }
+
 
 .contentT{
     display: flex;

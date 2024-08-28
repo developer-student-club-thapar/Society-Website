@@ -112,6 +112,8 @@ const Alumni = () => {
   return (
   <>
     <div  className= 'contentT' >
+
+      
       
       <div  class =' w-[80%] justify-center items-center flex flex-col'>
        
