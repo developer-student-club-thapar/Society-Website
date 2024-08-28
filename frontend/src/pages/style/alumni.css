@@ -72,7 +72,7 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
-    gap: 15px; 
+    gap: 0px; 
     padding-top: 5rem;
 }
 .but{
@@ -123,6 +123,8 @@ h2, p {
 }
   
 .Profile-image-wrapper {
+    background-color: #eeeeee;
+    border-radius: 10px;
     position: relative; 
     width: 100%; 
     height: auto;

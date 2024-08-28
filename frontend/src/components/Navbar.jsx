@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-//import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import logo from "../assets/logo.png";
 
 const Navbar = () => {
@@ -38,7 +38,7 @@ const Navbar = () => {
           <div
             className="cursor-pointer text-gray-600 font-bold text-sm"
             onClick={() => {
-              document.querySelector("#depart").scrollIntoView({ behavior: "smooth" });
+              document.querySelector("#departments").scrollIntoView({ behavior: "smooth" });
             }}
           >
             DEPARTMENTS
@@ -70,9 +70,7 @@ const Navbar = () => {
           <button
             className="bg-black text-white px-8 py-2 rounded-3xl hover:text-black hover:bg-white transition-all hover:border-2 hover:border-black"
             onClick={() => {
-              document
-                .querySelector("#form")
-                .scrollIntoView({ behavior: "smooth" });
+              document.querySelector("#form").scrollIntoView({ behavior: "smooth" });
             }}
           >
             FORM LINK
@@ -81,7 +79,7 @@ const Navbar = () => {
 
         <div className="md:hidden">
           <button onClick={toggleMenu}>
-            {/* {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />} */}
+            {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
           </button>
         </div>
       </div>
@@ -101,7 +99,7 @@ const Navbar = () => {
           <div
             className="cursor-pointer text-gray-600 font-bold text-sm"
             onClick={() => {
-              navigate("/departments");
+              document.querySelector("#departments").scrollIntoView({ behavior: "smooth" });
               toggleMenu();
             }}
           >
@@ -137,9 +135,7 @@ const Navbar = () => {
           <button
             className="bg-black text-white px-8 py-2 rounded-3xl hover:text-black hover:bg-white transition-all hover:border-2 hover:border-black"
             onClick={() => {
-              document
-                .querySelector("#form")
-                .scrollIntoView({ behavior: "smooth" });
+              document.querySelector("#form").scrollIntoView({ behavior: "smooth" });
               toggleMenu();
             }}
           >
