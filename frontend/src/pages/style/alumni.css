@@ -33,9 +33,13 @@
     .hide{
         display: none !important;
       }
-    
+    .p{
+      font-size: 0.7rem;
+
+    }
 
 }
+
 
 .contentT{
     display: flex;
@@ -45,6 +49,13 @@
     margin-bottom: 5rem;
     margin-top: 10rem;
 }
+
+
+.texteb{
+    font-size: 17px;
+    font-weight: 350;
+    padding-top: 70px;
+  }
 
 .h1{
     font-family: sans-serif;
