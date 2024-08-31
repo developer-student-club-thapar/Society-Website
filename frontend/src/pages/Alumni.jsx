@@ -10,7 +10,7 @@ const Alumni = () => {
       id: 1,
       name: 'Jay Parmani', 
       designation: 'Software Engineer @Apple',
-      imageUrl: '/src/img/alumni/jay.jpeg',
+      imageUrl: '/img/alumni/jay.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/jsparmani/'
     },
     ,
@@ -19,7 +19,7 @@ const Alumni = () => {
       id: 3,
       name: 'Ujjwal Singh',
       designation: 'Private Equity Analyst @Bain & Company',
-      imageUrl: '/src/img/alumni/ujjwal.jpeg',
+      imageUrl: '/img/alumni/ujjwal.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/thee-ujjwal/'
     },
     
@@ -27,21 +27,21 @@ const Alumni = () => {
       id: 4,
       name: 'Aarushi Abrol',
       designation: 'YTL @Airtel Digital',
-      imageUrl: '/src/img/alumni/aarushi.jpeg',
+      imageUrl: '/img/alumni/aarushi.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/aarushiabrol/'
     },
     {
       id: 5,
       name: 'Harsh Jain',
       designation: 'Ex- Digital Technical Specialist Intern @IBM',
-      imageUrl: '/src/img/alumni/harsh.jpeg',
+      imageUrl: '/img/alumni/harsh.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/harsh--jain/'
     },
     {
       id: 6,
       name: 'Shreeya Chatterji',
       designation: 'Summer Intern @JPMC',
-      imageUrl: '/src/img/alumni/Shreeya.jpeg',
+      imageUrl: '/img/alumni/Shreeya.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/shreeyachatterji/'
     },
     
@@ -49,21 +49,21 @@ const Alumni = () => {
       id: 8,
       name: 'Jayati Mishra',
       designation: 'SWE @JPMC',
-      imageUrl: '/src/img/alumni/jayati.jpeg',
+      imageUrl: '/img/alumni/jayati.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/jayati-mishra-b1084a1bb/'
     },
     {
       id: 9,
       name: 'Nikhil Bakshi',
       designation: 'SWE @JPMC',
-      imageUrl: '/src/img/alumni/nikhil.jpeg',
+      imageUrl: '/img/alumni/nikhil.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/nikhilbksi/'
     },
     {
       id: 10,
       name: 'Deepanshi Sharma',
       designation: 'SWE Intern @Salesforce',
-      imageUrl: '/src/img/alumni/deepanshi.jpeg',
+      imageUrl: '/img/alumni/deepanshi.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/deepanshi-sharma05/'
     },
     
@@ -72,20 +72,20 @@ const Alumni = () => {
       id: 12,
       name: 'Aniket Biswas',
       designation: 'SWE(Web) @Headout',
-      imageUrl: '/src/img/alumni/aniket.jpeg',
+      imageUrl: '/img/alumni/aniket.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/aniket-biswas-59394b191/'
     },
       {
         id: 2,
         name: 'Deepak Jain',
         designation: 'Former R&D Intern @Maruti Suzuki',
-        imageUrl: '/src/img/alumni/deepak.jpeg',
+        imageUrl: '/img/alumni/deepak.jpeg',
         linkedinUrl: 'https://www.linkedin.com/in/deepak-jain-18227b198/'
       },{
         id: 7,
         name: 'Sidharth Bahl',
         designation: 'SWE 1 @JPMC',
-        imageUrl: '/src/img/alumni/sb.jpeg',
+        imageUrl: '/img/alumni/sb.jpeg',
         linkedinUrl: 'https://www.linkedin.com/in/sidharthbahl/'
       }
     // },
@@ -93,7 +93,7 @@ const Alumni = () => {
     //   id: 11,
     //   name: 'Tushar Chopra',
     //   designation: 'Ex Software Engineer @subconscious.ai',
-    //   imageUrl: '/src/img/alumni/tushar.jpeg',
+    //   imageUrl: '/public/img/alumni/tushar.jpeg',
     //   linkedinUrl: 'https://www.linkedin.com/in/tushar-chopra-960532215/'
     // 
     ]

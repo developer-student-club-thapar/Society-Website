@@ -9,7 +9,7 @@ const Team = () => {
       id: 1,
       name: 'Ronit Parakh',
       designation: 'Co-Lead',
-      imageUrl: '/src/img/alumni/jay.jpeg',
+      imageUrl: '/img/alumni/jay.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/ronit-parakh/'
 
     },
@@ -17,7 +17,7 @@ const Team = () => {
       id: 2,
       name: 'Reyan Singh',
       designation: 'Co-Lead',
-      imageUrl: '/src/img/alumni/jay.jpeg',
+      imageUrl: '/img/alumni/jay.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/ronit-parakh/'
     },
 
@@ -25,7 +25,7 @@ const Team = () => {
       id: 3,
       name: 'Manan Sharma',
       designation: 'Co-Lead',
-      imageUrl: '/src/img/alumni/jay.jpeg',
+      imageUrl: '/img/alumni/jay.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/mash-sharma/'
     },
     
@@ -33,84 +33,84 @@ const Team = () => {
       id: 4,
       name: 'Priyanka Malik',
       designation: 'Design Mentor',
-      imageUrl: '/src/img/alumni/jay.jpeg',
+      imageUrl: '/img/alumni/jay.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/priyanka-malik-252a77265/'
     },
     {
       id: 5,
       name: 'Sakshi Singh',
       designation: 'UI/UX Mentor',
-      imageUrl: '/src/img/alumni/jay.jpeg',
+      imageUrl: '/img/alumni/jay.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/sakshi-singh-88683024a/'
     },
     {
       id: 6,
       name: 'Aarav Mahajan',
       designation: 'App Dev Mentor',
-      imageUrl: '/src/img/alumni/jay.jpeg',
+      imageUrl: '/img/alumni/jay.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/aarav-mahajan-5160a6263/'
     },
     {
       id: 7,
       name: 'Pushan Aggarwal',
       designation: 'CyberSecurity Mentor',
-      imageUrl: '/src/img/alumni/jay.jpeg',
+      imageUrl: '/img/alumni/jay.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/pushan-agrawal-93362919b/'
     },
     {
       id: 8,
       name: 'Sharath Chandra',
       designation: 'Web Dev Mentor',
-      imageUrl: '/src/img/alumni/jay.jpeg',
+      imageUrl: '/img/alumni/jay.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/csharath-chandra/'
     },
     {
       id: 9,
       name: 'Aryan Panja',
       designation: 'ML Mentor',
-      imageUrl: '/src/img/alumni/jay.jpeg',
+      imageUrl: '/img/alumni/jay.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/aryan-panja/'
     },
     {
       id: 10,
       name: 'Amandeep Singh',
       designation: 'ML Mentor',
-      imageUrl: '/src/img/alumni/jay.jpeg',
+      imageUrl: '/img/alumni/jay.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/amandeep-singh-69a68b26b/'
     },
     {
       id: 11,
       name: 'Nimish Duggal',
       designation: 'Finance Mentor',
-      imageUrl: '/src/img/alumni/jay.jpeg',
+      imageUrl: '/img/alumni/jay.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/nimish-duggal-8a93a625b/'
     },
     {
       id: 12,
       name: 'Dimpi Jain',
       designation: 'EM Mentor',
-      imageUrl: '/src/img/alumni/jay.jpeg',
+      imageUrl: '/img/alumni/jay.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/dimpi-jain-784246214/'
     },
     {
       id: 13,
       name: 'Samkit Jaina',
       designation: 'Logistics Mentor',
-      imageUrl: '/src/img/alumni/jay.jpeg',
+      imageUrl: '/img/alumni/jay.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/samkit-jaina-51b109258/'
     },
     {
       id: 14,
       name: 'Yuvraj Singh',
       designation: 'RIOT(Robotics and IOT) Mentor',
-      imageUrl: '/src/img/alumni/jay.jpeg',
+      imageUrl: '/img/alumni/jay.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/yuvraj-singh-3aa067263/'
     },
     {
       id: 15,
       name: 'Aamna Abdin',
       designation: 'Product Mentor',
-      imageUrl: '/src/img/alumni/jay.jpeg',
+      imageUrl: '/img/alumni/jay.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/aamnaabdin/'
     }];
 

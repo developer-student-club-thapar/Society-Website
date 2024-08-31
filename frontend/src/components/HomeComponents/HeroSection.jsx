@@ -1,6 +1,5 @@
 import React from 'react'
 import heroImage from '../../assets/Hero-Shapes.png'
-import "../../Css/animation.css"
 
 
 
@@ -18,5 +17,5 @@ const HeroSection = () => {
     </div>
   )
 }
-
+ 
 export default HeroSection

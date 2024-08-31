@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api =  axios.create({
-    baseURL: "http://localhost:4000/api/v1/user",
+    baseURL: "https://api-gdsc-main.vercel.app/api/v1/user",
 })
 
 export default api;
