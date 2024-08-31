@@ -28,7 +28,7 @@ const Navbar = () => {
 
         <div className="hidden md:flex gap-10 items-center">
           <div
-            className="cursor-pointer text-gray-600 font-bold text-sm"
+            className="cursor-pointer text-gray-600 font-bold text-sm hover:scale-110 transition-all duration-300"
             onClick={() => {
               navigate("/projects");
             }}
@@ -36,7 +36,7 @@ const Navbar = () => {
             PROJECTS
           </div>
           <div
-            className="cursor-pointer text-gray-600 font-bold text-sm"
+            className="cursor-pointer text-gray-600 font-bold text-sm hover:scale-110 transition-all duration-300"
             onClick={() => {
               document.querySelector("#departments").scrollIntoView({ behavior: "smooth" });
             }}
@@ -44,7 +44,7 @@ const Navbar = () => {
             DEPARTMENTS
           </div>
           <div
-            className="cursor-pointer text-gray-600 font-bold text-sm"
+            className="cursor-pointer text-gray-600 font-bold text-sm hover:scale-110 transition-all duration-300"
             onClick={() => {
               navigate("/events");
             }}
@@ -52,7 +52,7 @@ const Navbar = () => {
             EVENTS
           </div>
           <div
-            className="cursor-pointer text-gray-600 font-bold text-sm"
+            className="cursor-pointer text-gray-600 font-bold text-sm hover:scale-110 transition-all duration-300"
             onClick={() => {
               navigate("/alumni");
             }}
@@ -60,7 +60,7 @@ const Navbar = () => {
             ALUMNI
           </div>
           <div
-            className="cursor-pointer text-gray-600 font-bold text-sm"
+            className="cursor-pointer text-gray-600 font-bold text-sm hover:scale-110 transition-all duration-300"
             onClick={() => {
               navigate("/team");
             }}
