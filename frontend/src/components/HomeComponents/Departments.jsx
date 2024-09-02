@@ -53,15 +53,6 @@ const Departments = () => {
                     <img src={im} alt="" className='w-[30px] bg-gdsc-green rounded-full p-[30px]' />
                     <div className="lg:block hidden">
                         <div className="flex flex-col text-start ">
-                            <h1 className=' text-start text-gray-400'>Associate App Development</h1>
-                            <h2 className='text-gray-700 font-semibold'>Saksham Bhagat</h2>
-                        </div>
-                    </div>
-                </div>
-                <div className="flex bg-white px-2.5 lg:px-5 py-3 rounded-xl items-center gap-5">
-                    <img src={im} alt="" className='w-[30px] bg-gdsc-green rounded-full p-[30px]' />
-                    <div className="lg:block hidden">
-                        <div className="flex flex-col text-start ">
                             <h1 className=' text-start text-gray-400'>Cybersecurity</h1>
                             <h2 className='text-gray-700 font-semibold'>Pushan Aggarwal</h2>
                         </div>
@@ -83,15 +74,6 @@ const Departments = () => {
                         <div className="flex flex-col text-start ">
                             <h1 className=' text-start text-gray-400'>Robotics and IoT</h1>
                             <h2 className='text-gray-700 font-semibold'>Yuvraj Singh</h2>
-                        </div>
-                    </div>
-                </div>
-                <div className="flex bg-white px-2.5 lg:px-5 py-3 rounded-xl items-center gap-5">
-                    <img src={im} alt="" className='w-[30px] bg-gdsc-green rounded-full p-[30px]' />
-                    <div className="lg:block hidden">
-                        <div className="flex flex-col text-start ">
-                            <h1 className=' text-start text-gray-400'>Associate Robotics and IoT</h1>
-                            <h2 className='text-gray-700 font-semibold'>Tanmay Kumar</h2>
                         </div>
                     </div>
                 </div>

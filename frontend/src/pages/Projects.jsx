@@ -200,7 +200,7 @@ function ProejctCard({ onNextCard, color, datan, setdisplay, animationClass }) {
   return (
     <div
       id="box-card"
-      className={`flex w-full flex-col items-center justify-center gap-32 p-8 mt-10 mb-[40px] md:flex-row ${animationClass}`}
+      className={`flex w-full flex-col items-center justify-center gap-12 lg:gap-32 py-4 px-8  lg:mt-10  mb-[20px] md:flex-row ${animationClass}`}
     >
       <button
         className="border-b-[3px] border-b-black text-2xl font-semibold"

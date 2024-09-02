@@ -22,7 +22,7 @@ const Home = () => {
         <div className=" mt-28 h-[100vh]">
             <Departments />
         </div>
-        <div className="mt-10 h-[65vh] lg:h-[75vh]">
+        <div className="mt-[200px] h-[65vh] lg:h-[75vh]">
             <OurTeam/>
         </div>
         <div className=" mt-40 h-[100vh] form" id='form'>

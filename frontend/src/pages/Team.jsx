@@ -125,7 +125,7 @@ const Team = () => {
       const CoreMembers = [
         {
           id: 1,
-          name: 'Saksham Bhagat',
+          name: 'Sakshham Bhagat',
           designation: 'Associate App-dev',
           imageUrl: 'https://via.placeholder.com/150',
           linkedinUrl: 'https://www.linkedin.com/in/sakshhamthecoder'

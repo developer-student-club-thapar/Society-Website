@@ -4,7 +4,7 @@ import "../../Css/animation.css";
 
 const AboutUs = () => {
   return (
-    <div className='w-full flex justify-center'>
+    <div className='w-full flex justify-center' id='about'>
       <div className="w-[90%] md:w-[80%] bg-gray-100 justify-center rounded-3xl px-8 md:px-20 py-10 aboutUs">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-10 md:gap-36 items-center">
           <div className="md:col-span-3">
