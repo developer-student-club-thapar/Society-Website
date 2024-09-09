@@ -240,6 +240,7 @@
 }
 
 .profile-image-wrapper {
+  border-radius: 10px;
   background-color: #eeeeee;
   position: relative; 
   width: 100%; 
