@@ -112,8 +112,7 @@
   }
   .core-container{
     grid-template-columns: repeat(3, 1fr) !important;
-    padding: 5px; 
-  
+    padding: 15px;
   }
 
   .team-team {
@@ -196,12 +195,11 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr); 
   gap: 0px; 
-  padding-top: 5rem;
+  padding-top: 6rem;
 }
 
 .team-member {
   background-color: #ffffff; 
-  
   
   padding: 20px;
   padding-left: 20px;
