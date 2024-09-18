@@ -112,6 +112,8 @@ const Alumni = () => {
   return (
   <>
     <div  className= 'contentT' >
+
+      
       
       <div  class =' w-[80%] justify-center items-center flex flex-col'>
        
@@ -124,6 +126,10 @@ const Alumni = () => {
           <div className='but'>
         <button onClick={scrollToSection} className='team-button'>MEET THE ALUMNI </button>
         </div>
+        
+        
+
+     
           
         </div>
        

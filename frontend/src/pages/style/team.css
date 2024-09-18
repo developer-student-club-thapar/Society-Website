@@ -41,7 +41,7 @@
   font-weight: bold;
   font-family: googleRegular;
   font-size: 50px;
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 .para{
   font-family: sans-serif;
@@ -112,8 +112,7 @@
   }
   .core-container{
     grid-template-columns: repeat(3, 1fr) !important;
-    padding: 5px; 
-  
+    padding: 15px;
   }
 
   .team-team {
@@ -124,8 +123,8 @@
     display: none !important;
   }
   .h1{
-    font-size: 35px !important;
-    padding-top: 50px;
+    font-size: 30px !important;
+    padding-top: 35px;
   }
   .h2{
     font-size: 35px;
@@ -162,6 +161,9 @@
     font-size: 0.7rem;
     
   }
+  .content{
+    margin-top: 16rem;
+  }
   
   .but{
     padding:50px ;
@@ -193,12 +195,11 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr); 
   gap: 0px; 
-  padding-top: 5rem;
+  padding-top: 6rem;
 }
 
 .team-member {
   background-color: #ffffff; 
-  
   
   padding: 20px;
   padding-left: 20px;
@@ -237,8 +238,8 @@
 }
 
 .profile-image-wrapper {
-  background-color: #eeeeee;
   border-radius: 10px;
+  background-color: #eeeeee;
   position: relative; 
   width: 100%; 
   height: auto;
@@ -288,6 +289,7 @@
   color: #000000;
   margin-bottom: 10px;
   transition: color 0.3s ease;
+  padding-bottom: 30px;
 }
 
 
@@ -321,10 +323,10 @@
 
 .core-member {
 
-  background-color: #eeeeee;; 
+  background-color: #eeeeee;
 
   
-  
+  border: 0.5px solid black; 
 
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
