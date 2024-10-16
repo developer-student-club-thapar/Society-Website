@@ -5,7 +5,7 @@ import formimage from '../../assets/formImage.png'
 const Form = () => {
   return (
     <div className='bg-cover flex justify-center items-center w-full h-[100vh]'>
-        <img src={bg} alt="" className='h-[100vh]   absolute -z-50  formAnim1' />
+        <img src={bg} alt="" className='h-[100vh]   absolute -z-50  formAnim1 object-none' />
         <div className="bg-[#F5F5F5] rounded-3xl w-[80%] p-10 grid grid-cols-2 gap-10 formAnim">
             <div>
                 <h1 className=' text-2xl lg:text-6xl font-bold mb-4'>Sign up to our Newsletter</h1>
