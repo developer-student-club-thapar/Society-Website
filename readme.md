@@ -10,7 +10,7 @@
 <a href="https://facebook.com/dscthapar"><img src="https://github.com/aritraroy/social-icons/blob/master/facebook-icon.png?raw=true" width="60"></a>
 <a href="https://instagram.com/dsc.tiet"><img src="https://github.com/aritraroy/social-icons/blob/master/instagram-icon.png?raw=true" width="60"></a>
 
-## Website: [gdsctiet.com](https://gdsctiet.in)
+## Website: [gdsctiet.in](https://gdsctiet.in)
 
 
 This is the repo for the official Website of GDSC Thapar Institute of Engineering and Technology, Patiala , Punjab.
