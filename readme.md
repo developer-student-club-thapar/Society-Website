@@ -2,7 +2,7 @@
 
 <img height=200px src="./frontend/src/assets/logo.png">
 
-# GOOGLE DEVELOPER STUDENTS CLUB TIET
+# GOOGLE DEVELOPER STUDENT CLUBS TIET
 
 <a href="https://medium.com/developer-student-clubs-tiet"><img src="https://github.com/aritraroy/social-icons/blob/master/medium-icon.png?raw=true" width="60"></a>
 <a href="https://twitter.com/dsctiet"><img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="60"></a>
